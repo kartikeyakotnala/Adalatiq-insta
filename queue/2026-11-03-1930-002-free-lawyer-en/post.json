@@ -1,0 +1,52 @@
+{
+  "id": "002-free-lawyer",
+  "lang": "en",
+  "hook": "I can't afford a lawyer.",
+  "hook_q": "Can I get one for free?",
+  "slides": [
+    {
+      "title": "Yes, many people can.",
+      "body": "If you have to file or defend a case, the law gives free legal services to certain groups of people.",
+      "ref": "Legal Services Authorities Act 1987 · Sec 12"
+    },
+    {
+      "title": "Who qualifies?",
+      "list": [
+        "Every woman and every child",
+        "Members of Scheduled Castes or Scheduled Tribes",
+        "People with a disability or mental illness",
+        "Industrial workers",
+        "Anyone in custody"
+      ],
+      "ref": "Sec 12(a), (c), (d), (f), (g)"
+    },
+    {
+      "title": "Also covered.",
+      "list": [
+        "Victims of human trafficking or begar (forced labour)",
+        "Victims of a mass disaster, ethnic violence, caste atrocity, flood, drought, earthquake or industrial disaster",
+        "People whose yearly income is below the limit set by their State"
+      ],
+      "ref": "Sec 12(b), (e), (h)"
+    },
+    {
+      "title": "What \"free\" covers.",
+      "body": "A lawyer paid by the State, your court fee, and other case expenses. The Legal Services Authority first checks that you have a genuine case.",
+      "ref": "NALSA · nalsa.gov.in"
+    },
+    {
+      "title": "How to ask for it.",
+      "list": [
+        "Call 15100, NALSA's toll-free legal aid helpline",
+        "Apply online on NALSA's legal aid portal",
+        "Visit the District Legal Services Authority at your district court"
+      ],
+      "ref": "NALSA · nalsa.gov.in"
+    }
+  ],
+  "sources": [
+    "Legal Services Authorities Act, 1987 – Section 12",
+    "National Legal Services Authority (nalsa.gov.in)"
+  ],
+  "caption": "Can't afford a lawyer? You may be entitled to one for free. 👇\n\nUnder Section 12 of the Legal Services Authorities Act, 1987, these people get free legal services:\n• Every woman and child\n• SC/ST members\n• People with a disability or mental illness\n• Industrial workers\n• Anyone in custody\n• Victims of trafficking, disasters, ethnic violence or caste atrocities\n• People with income below their State's limit\n\nIt covers a lawyer, court fees and case expenses.\n📞 Call NALSA's free helpline: 15100\n\nSources: Legal Services Authorities Act, 1987 (Sec 12); nalsa.gov.in\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#FreeLegalAid #NALSA #KnowYourRights #LegalAid #IndianLaw #LegalAwareness #AdalatIQ"
+}

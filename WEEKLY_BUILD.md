@@ -22,7 +22,7 @@ The output is a pull request. **Nothing is posted until the owner merges it.**
 
 ### 1. Set up
 ```
-git clone https://github.com/kartikeyakotnala/Adalatiq-insta.git && cd Adalatiq-insta
+git clone https://github.com/kartikeyakotnala/Adalatiq-insta.git && cd Adalatiq-insta   # if access is refused, attach the repo first (add_repo, push access)
 pip install playwright --break-system-packages   # only if `import playwright` fails
 git checkout -b week-<Monday's date YYYY-MM-DD>
 ```
@@ -88,7 +88,7 @@ Look at every rendered slide (build a contact sheet and view it). Fix overflow, 
 and re-render.
 
 ### 7. Open the pull request
-Tick the used topics in `topics.md` with their ids and languages. Commit and push the branch, then open a PR titled
+Tick the used topics in `topics.md` with their ids and languages. Commit and push the branch, then open a PR (use the REST API: `gh api repos/kartikeyakotnala/Adalatiq-insta/pulls -f title=… -f head=<branch> -f base=main -F body=@pr.md`, since `gh pr create` is blocked) titled
 `Instagram posts: week of <Monday's date>`. In the description list each post (date, time, language, question),
 its sources, and the fact-check result. Embed the first slide of each post using its raw URL so the owner can review
 on their phone, e.g. `![](https://raw.githubusercontent.com/kartikeyakotnala/Adalatiq-insta/<branch>/queue/<folder>/slide-01.jpg)`.

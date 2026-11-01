@@ -1,6 +1,7 @@
 # Weekly build playbook
 
-Claude follows this every Sunday to prepare next week's 14 Instagram carousels for AdalatIQ.
+Claude follows this every Sunday to prepare next week's 28 Instagram carousels for AdalatIQ:
+14 questions, each published once in English and once in Hindi (4 posts a day).
 The output is a pull request. **Nothing is posted until the owner merges it.**
 
 ## The non-negotiables
@@ -28,10 +29,12 @@ git checkout -b week-<Monday's date YYYY-MM-DD>
 ```
 Read `topics.md` and list what's already in `queue/` and `published/` so nothing repeats.
 
-### 2. Pick 14 topics and languages
+### 2. Pick 14 topics
 Take the first 14 unticked topics in `topics.md` (skip any that clearly need State-specific numbers you can't verify
-for all States). Language mix per week: **4 English, 2 each Hindi (hi), Marathi (mr), Tamil (ta), Telugu (te), Kannada (kn)**.
-Give each a 3-digit post id continuing from the highest id used so far.
+for all States). Each topic becomes **two posts: English (`en`) and Hindi (`hi`)**, sharing one 3-digit id that continues
+from the highest id used so far (e.g. `015-…-en` and `015-…-hi`).
+If fewer than 30 unticked topics remain after this week, add 20 new common, timeless legal questions to `topics.md`
+(no duplicates, no news-driven topics). The renderer also supports `mr`, `ta`, `te` and `kn` if languages are added later.
 
 ### 3. Research (one topic at a time)
 For each topic: find the governing Act/section or official scheme on an official site, read the actual text,
@@ -75,12 +78,12 @@ Source: <Act, Section>
 ### 5. Independent fact-check (required)
 Spawn a separate agent that has **not** seen your drafting. Give it only the `post.json` files and the list of
 official source URLs. Ask it to open each source and mark every claim on every slide and in every caption as
-VERIFIED (quote the matching official text), WRONG, or UNSUPPORTED. For non-English posts it must also check that the
-meaning matches the law. Fix or cut anything not VERIFIED, then re-check those claims. Drop a post that still fails.
+VERIFIED (quote the matching official text), WRONG, or UNSUPPORTED. For the Hindi posts it must also check that the
+meaning matches the English version and the law. Fix or cut anything not VERIFIED, then re-check those claims. Drop a post that still fails.
 
 ### 6. Schedule and render
-Two posts a day, Monday to Sunday of the coming week, at 0930 and 1930 IST. Alternate languages so the same
-language isn't posted twice in a row. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
+Four posts a day, Monday to Sunday of the coming week, at these IST times:
+`0930` topic A English · `1330` topic A Hindi · `1830` topic B English · `2130` topic B Hindi. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
 ```
 python3 scripts/render.py queue/<each new folder>
 ```
@@ -92,6 +95,6 @@ Tick the used topics in `topics.md` with their ids and languages. Commit and pus
 `Instagram posts: week of <Monday's date>`. In the description list each post (date, time, language, question),
 its sources, and the fact-check result. Embed the first slide of each post using its raw URL so the owner can review
 on their phone, e.g. `![](https://raw.githubusercontent.com/kartikeyakotnala/Adalatiq-insta/<branch>/queue/<folder>/slide-01.jpg)`.
-If fewer than 14 posts passed, say how many and why.
+If fewer than 28 posts passed, say how many and why. If one language version of a topic fails, drop both.
 
 Merging the PR approves the week. The `Publish to Instagram` workflow then posts each one at its time.

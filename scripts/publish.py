@@ -50,8 +50,13 @@ def find_account():
         if ig:
             return ig["id"], ig.get("username")
     names = ", ".join(p.get("name", "?") for p in pages) or "none"
-    sys.exit("No Instagram account found. Pages this token can see: " + names +
-             ". Check the Page is linked to Instagram and assigned to the system user.")
+    perms = api("GET", "me/permissions").get("data", [])
+    granted = ", ".join(p["permission"] for p in perms if p.get("status") == "granted") or "none"
+    me = api("GET", "me", fields="id,name")
+    sys.exit(f"No Instagram account found.\n  Token belongs to: {me.get('name')}\n"
+             f"  Permissions granted: {granted}\n  Pages this token can see: {names}\n"
+             "Fix: assign the Facebook Page and the Instagram account to the system user, "
+             "or set IG_USER_ID.")
 
 
 def due_folder(now):

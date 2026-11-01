@@ -30,6 +30,7 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           MODE: ${{ github.event.inputs.mode || 'publish' }}
+          IG_USER_ID: "17841415534433698"   # @adalatiq (not secret)
         run: python3 scripts/publish.py
 
       - name: Move published post out of the queue

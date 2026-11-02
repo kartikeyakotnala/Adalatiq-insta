@@ -72,6 +72,28 @@ def due_folder(now):
     return None
 
 
+def topic_of(folder):
+    """queue/2026-11-09-0930-015-landlord-deposit-en -> 015-landlord-deposit"""
+    return folder.name[16:].rsplit("-", 1)[0]
+
+
+def pick_batch(count):
+    """Next `count` posts in queue order, always including every language of a question together."""
+    queued = sorted(p for p in QUEUE.iterdir() if p.is_dir())
+    topics, chosen = [], []
+    for f in queued:
+        t = topic_of(f)
+        if t in topics:
+            continue
+        if len(chosen) >= count:
+            break
+        topics.append(t)
+        group = [g for g in queued if topic_of(g) == t]
+        group.sort(key=lambda g: (g.name.rsplit("-", 1)[1] != "en", g.name))   # English first, then Hindi
+        chosen += group
+    return chosen
+
+
 def wait_ready(container_id):
     for _ in range(30):
         status = api("GET", container_id, fields="status_code").get("status_code")
@@ -122,7 +144,7 @@ def main():
         return
     if mode == "batch":
         count = int(os.environ.get("COUNT") or 4)
-        folders = sorted(p for p in QUEUE.iterdir() if p.is_dir())[:count]
+        folders = pick_batch(count)
         if not folders:
             print("The queue is empty. Nothing to post.")
             return

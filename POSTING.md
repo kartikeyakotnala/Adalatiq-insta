@@ -4,7 +4,8 @@ Posting is on request. Nothing posts on a timer.
 
 **For Claude (when the owner asks to post):**
 1. Attach the repo `kartikeyakotnala/Adalatiq-insta` if needed (add_repo).
-2. Start the job (default 4 posts, the next ones in `queue/` by folder name):
+2. Start the job (default 4 posts, the next ones in `queue/` by folder name). Batches always post whole questions:
+   English and Hindi of the same question go together, so an odd count is rounded up.
    ```
    gh api -X POST repos/kartikeyakotnala/Adalatiq-insta/actions/workflows/publish.yml/dispatches \
      -f ref=main -f 'inputs[mode]=batch' -f 'inputs[count]=4'

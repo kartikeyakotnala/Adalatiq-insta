@@ -10,7 +10,7 @@ Only one post is published per run.
 Needs env: IG_TOKEN (GitHub secret), GITHUB_REPOSITORY and GITHUB_SHA (set by Actions).
 Uses only the Python standard library.
 """
-import json, os, shutil, sys, time, urllib.error, urllib.parse, urllib.request
+import json, os, shutil, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -83,7 +83,8 @@ def wait_ready(container_id):
 
 
 def publish(ig_id, folder):
-    repo, sha = os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_SHA"]
+    repo = os.environ["GITHUB_REPOSITORY"]
+    sha = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
     slides = sorted(folder.glob("slide-*.jpg"))
     if not 2 <= len(slides) <= 10:
         sys.exit(f"{folder.name} has {len(slides)} slides; a carousel needs 2-10")

@@ -1,7 +1,8 @@
 """Publish the next due AdalatIQ carousel to Instagram (run by GitHub Actions).
 
 MODE=check    -> verify the token reaches the Instagram account; posts nothing.
-MODE=publish  -> publish the earliest due folder in queue/ and move it to published/.
+MODE=batch    -> publish the next COUNT folders in queue/ (in name order) right now.
+MODE=publish  -> publish the earliest folder whose time has passed (one post).
 
 A queue folder is named  YYYY-MM-DD-HHMM-<post-id>  (time in IST) and holds
 slide-01.jpg ... slide-NN.jpg and caption.txt. A folder is "due" once its time has passed.
@@ -118,6 +119,17 @@ def main():
               f"(limit {limit.get('config', {}).get('quota_total')}).")
         queued = sorted(p.name for p in QUEUE.iterdir() if p.is_dir())
         print(f"Queued posts: {len(queued)}" + ("".join(f"\n  - {q}" for q in queued)))
+        return
+    if mode == "batch":
+        count = int(os.environ.get("COUNT") or 4)
+        folders = sorted(p for p in QUEUE.iterdir() if p.is_dir())[:count]
+        if not folders:
+            print("The queue is empty. Nothing to post.")
+            return
+        for f in folders:
+            publish(ig_id, f)
+        left = len([p for p in QUEUE.iterdir() if p.is_dir()])
+        print(f"Done: posted {len(folders)}. Still in queue: {left}.")
         return
     folder = due_folder(datetime.now(IST))
     if not folder:

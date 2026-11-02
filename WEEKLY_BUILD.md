@@ -2,8 +2,8 @@
 
 Claude follows this every Sunday to prepare next week's 28 Instagram carousels for AdalatIQ:
 14 questions, each published once in English and once in Hindi (4 posts a day).
-The output is committed straight to `main` and **posts automatically** at its scheduled time.
-The owner reviews after the fact and removes anything wrong, so the fact-check below is the only gate: be strict.
+The output is committed straight to `main` and waits in `queue/`. The owner posts it on request, usually 4 at a time
+(see POSTING.md), and removes anything wrong after the fact, so the fact-check below is the only gate: be strict.
 
 ## The non-negotiables
 
@@ -82,8 +82,8 @@ VERIFIED (quote the matching official text), WRONG, or UNSUPPORTED. For the Hind
 meaning matches the English version and the law. Fix or cut anything not VERIFIED, then re-check those claims. Drop a post that still fails.
 
 ### 6. Schedule and render
-Four posts a day, Monday to Sunday of the coming week, at these IST times:
-`0930` topic A English · `1330` topic A Hindi · `1830` topic B English · `2130` topic B Hindi. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
+Four posts per day of the coming week (Monday to Sunday). The folder name sets the posting order, so name them
+`0930` topic A English · `1330` topic A Hindi · `1830` topic B English · `2130` topic B Hindi for each date. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
 ```
 python3 scripts/render.py queue/<each new folder>
 ```
@@ -92,12 +92,13 @@ and re-render.
 
 ### 7. Commit, push and report
 Tick the used topics in `topics.md` with their ids and languages. Commit to `main` with the message
-`Instagram posts: week of <Monday's date>` and push. The `Publish to Instagram` workflow posts each one at its time.
+`Instagram posts: week of <Monday's date>` and push. Posts go out when the owner asks (see POSTING.md).
 
 Then send the owner a short report:
-- how many posts are queued, with each question and its time;
+- how many posts are queued, with each question, in order;
 - anything dropped and why;
 - anything worth a closer look (e.g. Hindi wording, State-dependent rules);
-- how to stop a post before it goes out: delete its folder from `queue/` on GitHub
+- that they can post the day's 4 by asking Claude in any chat ("post today's AdalatIQ posts"), and can skip a post
+  by deleting its folder from `queue/` on GitHub
   (https://github.com/kartikeyakotnala/Adalatiq-insta/tree/main/queue).
 Also write the fact-check results to `reports/week-<Monday's date>.md` in the same commit, so there is a record.

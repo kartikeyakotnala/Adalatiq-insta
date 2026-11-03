@@ -97,6 +97,7 @@ for (const el of document.querySelectorAll('.fit, .cta')) {
 """
 
 e = html.escape
+REQUIRED_TAGS = ["#UPSC", "#Constitution", "#Exam", "#Job", "#AdalatIQ"]
 
 
 def validate(spec):
@@ -113,6 +114,9 @@ def validate(spec):
             raise ValueError(f"slide '{s.get('title')}' has no legal reference")
     if "adalatiq.com" not in spec["caption"]:
         raise ValueError("caption must link to adalatiq.com")
+    missing = [t for t in REQUIRED_TAGS if t.lower() not in spec["caption"].lower()]
+    if missing:
+        raise ValueError("caption is missing required hashtags: " + " ".join(missing))
     if len(spec["caption"]) > 2200:
         raise ValueError("caption longer than Instagram's 2,200 characters")
 

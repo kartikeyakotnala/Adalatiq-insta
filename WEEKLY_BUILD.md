@@ -18,7 +18,8 @@ The output is committed straight to `main` and waits in `queue/`. The owner post
 4. **State-dependent rules** (income limits, rent laws, minimum wage, stamp duty…): say "depends on your State"
    rather than quoting one State's number as if it applied everywhere.
 5. **Every answer slide carries a reference** (Act + section, or the official body). The last slide lists sources.
-6. **Every caption** ends with the disclaimer and the link — see the template below.
+6. **Every caption** ends with the disclaimer, the link, and the fixed hashtags `#UPSC #Constitution #Exam #Job #AdalatIQ`
+   (in both languages) after 2–3 topic hashtags — see the template below. The renderer refuses a caption without them.
 
 ## Steps
 
@@ -72,7 +73,7 @@ Source: <Act, Section>
 
 <Stuck with a legal problem? Ask AdalatIQ free → adalatiq.com>
 
-<5–7 hashtags, ending #AdalatIQ>
+<2–3 topic hashtags> #UPSC #Constitution #Exam #Job #AdalatIQ
 ```
 
 ### 5. Independent fact-check (required)

@@ -7,7 +7,7 @@ Usage:
 Each folder gets slide-01.jpg ... slide-NN.jpg and caption.txt.
 Instagram's API accepts JPEG only and at most 10 slides per carousel.
 """
-import html, json, shutil, sys, tempfile
+import html, json, re, shutil, sys, tempfile
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -114,6 +114,9 @@ def validate(spec):
             raise ValueError(f"slide '{s.get('title')}' has no legal reference")
     if "adalatiq.com" not in spec["caption"]:
         raise ValueError("caption must link to adalatiq.com")
+    non_english = [t for t in re.findall(r"#\S+", spec["caption"]) if not t[1:].isascii()]
+    if non_english:
+        raise ValueError("hashtags must be in English only: " + " ".join(non_english))
     missing = [t for t in REQUIRED_TAGS if t.lower() not in spec["caption"].lower()]
     if missing:
         raise ValueError("caption is missing required hashtags: " + " ".join(missing))

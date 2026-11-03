@@ -75,6 +75,9 @@ Source: <Act, Section>
 
 <2–3 topic hashtags> #UPSC #Constitution #Exam #Job #AdalatIQ
 ```
+Hashtags are always in English (Latin letters), even in Hindi posts: no Devanagari hashtags.
+```
+```
 
 ### 5. Independent fact-check (required)
 Spawn a separate agent that has **not** seen your drafting. Give it only the `post.json` files and the list of

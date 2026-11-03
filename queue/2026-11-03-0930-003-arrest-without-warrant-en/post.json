@@ -1,0 +1,53 @@
+{
+  "id": "003-arrest-without-warrant",
+  "lang": "en",
+  "hook": "The police want to arrest me without a warrant.",
+  "hook_q": "Can they do that?",
+  "slides": [
+    {
+      "title": "Yes, in certain cases.",
+      "body": "A police officer can arrest without a warrant or a Magistrate's order in cases the law lists, such as when someone commits a cognizable offence in front of them.",
+      "ref": "BNSS 2023 · Sec 35(1)"
+    },
+    {
+      "title": "Accused, not caught in the act? Arrest must be necessary.",
+      "body": "If you're accused of a cognizable offence punishable with up to 7 years, police can arrest only if they have reason to believe you did it and arrest is necessary. Reasons must be recorded in writing.",
+      "ref": "BNSS 2023 · Sec 35(1)(b)"
+    },
+    {
+      "title": "\"Necessary\" means, for example:",
+      "list": [
+        "To stop a further offence",
+        "For proper investigation",
+        "To stop evidence from disappearing",
+        "To stop threats or pressure on witnesses",
+        "When your presence in court can't otherwise be ensured"
+      ],
+      "ref": "BNSS 2023 · Sec 35(1)(b)(ii)"
+    },
+    {
+      "title": "Otherwise, you get a notice to appear.",
+      "body": "If arrest isn't required, police must give you a notice to appear before them. If you comply, you shall not be arrested for that offence unless police record reasons why you should be.",
+      "ref": "BNSS 2023 · Sec 35(3), 35(5)"
+    },
+    {
+      "title": "Ignore the notice, and you can be arrested.",
+      "body": "If you don't comply with the notice, or refuse to identify yourself, police may arrest you for the offence in the notice.",
+      "ref": "BNSS 2023 · Sec 35(6)"
+    },
+    {
+      "title": "Over 60 or infirm? Extra protection.",
+      "body": "If you are infirm or above 60, and the offence is punishable with less than 3 years, police need prior permission from an officer of DSP rank or above to arrest you.",
+      "ref": "BNSS 2023 · Sec 35(7)"
+    },
+    {
+      "title": "If arrested, you must be told why.",
+      "body": "Police must tell you the full grounds of arrest at once, inform a relative, friend or person you name, and, unless the offence is non-bailable, tell you that you can get bail.",
+      "ref": "BNSS 2023 · Sec 47(1), 47(2), 48(1)"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 35, 47, 48 (indiacode.nic.in)"
+  ],
+  "caption": "Can the police arrest you without a warrant? Here's what the law says. 👇\n\n1️⃣ Yes, in cases the law lists, like a cognizable offence committed in front of them\n2️⃣ Accused (not caught in the act) of a cognizable offence with up to 7 years' jail? Arrest must be necessary, with reasons in writing\n3️⃣ If it isn't, you get a notice to appear. Comply, and you shall not be arrested unless police record why\n4️⃣ Infirm or over 60, offence under 3 years? Police need prior permission from a DSP or above\n5️⃣ If arrested, you must be told the grounds, and someone you name must be informed\n\nSource: Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 35, 47, 48\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#Arrest #KnowYourRights #BNSS #Police #IndianLaw #LegalAwareness #AdalatIQ"
+}

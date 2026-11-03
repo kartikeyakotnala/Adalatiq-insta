@@ -8,8 +8,8 @@ A topic can be published in more than one language over time — tick it on firs
 language codes, e.g. `- [x] Question — 003 (en, ta)`.
 
 ## Police and criminal
-- [x] Police refused to register my FIR. What can I do? — 001 (en)
-- [ ] Can the police arrest me without a warrant?
+- [x] Police refused to register my FIR. What can I do? — 001 (en, hi)
+- [x] Can the police arrest me without a warrant? — 003 (en, hi)
 - [ ] What are my rights if I am arrested?
 - [ ] Can a woman be arrested at night?
 - [ ] How long can police keep me before taking me to a magistrate?

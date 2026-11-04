@@ -1,0 +1,43 @@
+{
+  "id": "005-above-mrp",
+  "lang": "en",
+  "hook": "The shopkeeper charged me more than the MRP.",
+  "hook_q": "Is that allowed?",
+  "slides": [
+    {
+      "title": "No. MRP is the maximum.",
+      "body": "The retail sale price printed on a packaged product is the maximum price at which it may be sold to you.",
+      "ref": "Packaged Commodities Rules 2011 · Rule 2"
+    },
+    {
+      "title": "Taxes are already included.",
+      "body": "The printed price is inclusive of all taxes, so a seller can't add GST or any other tax on top of it.",
+      "ref": "Packaged Commodities Rules 2011 · PIB, Nov 2021"
+    },
+    {
+      "title": "Selling above MRP is not allowed.",
+      "body": "No retailer, wholesaler, manufacturer or anyone else may sell a packaged product for more than its retail sale price.",
+      "ref": "Packaged Commodities Rules 2011 · Rule 18"
+    },
+    {
+      "title": "Every retail package must show it.",
+      "body": "Pre-packed products for retail sale must declare the MRP in rupees, inclusive of all taxes. A few packs are exempt, like those over 25 kg or 25 litres, or goods for industrial buyers.",
+      "ref": "Packaged Commodities Rules 2011 · Rules 3, 6 · PIB, Nov 2021"
+    },
+    {
+      "title": "How to complain:",
+      "list": [
+        "Call the National Consumer Helpline: 1915 or 1800-11-4000 (8 AM to 8 PM)",
+        "WhatsApp or SMS: 8800001915",
+        "File online at consumerhelpline.gov.in or on the NCH app"
+      ],
+      "ref": "Dept of Consumer Affairs · consumerhelpline.gov.in"
+    }
+  ],
+  "sources": [
+    "Legal Metrology (Packaged Commodities) Rules, 2011 – Rules 2, 3, 6, 18 (as amended)",
+    "PIB, Department of Consumer Affairs, Nov 2021: MRP inclusive of all taxes",
+    "National Consumer Helpline (consumerhelpline.gov.in)"
+  ],
+  "caption": "Charged more than the MRP? Here's what the law says. 👇\n\n1️⃣ The MRP is the maximum price a packaged product can be sold for\n2️⃣ It already includes all taxes, so no GST can be added on top\n3️⃣ No seller may charge more than the printed retail sale price\n4️⃣ Complain to the National Consumer Helpline: call 1915, or WhatsApp/SMS 8800001915\n\nSource: Legal Metrology (Packaged Commodities) Rules, 2011; PIB (Nov 2021); consumerhelpline.gov.in\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#MRP #ConsumerRights #JagoGrahakJago #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

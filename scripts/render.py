@@ -12,6 +12,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "mascot"))
+import nyaya  # noqa: E402  (the AdalatIQ mascot)
 FONTS = (ROOT / "fonts").as_uri()
 
 UI = {
@@ -82,6 +84,12 @@ li:before{content:"";position:absolute;left:4px;top:36px;width:18px;height:18px;
 .follow{display:flex;align-items:center;gap:22px;margin:0 0 30px}
 .follow b{display:block;font-weight:800;font-size:44px;color:#fff;line-height:1.2}
 .follow span{display:block;font-weight:500;font-size:28px;color:#bdb4aa;margin-top:4px}
+.nyaya{position:absolute;right:-30px;bottom:0;width:400px;height:514px;transform:scaleX(-1)}
+.nyaya svg{width:100%;height:100%}
+.hookpage .fit{justify-content:flex-start;padding-top:110px;padding-bottom:300px}
+.hookpage .hook,.hookpage .hookq{max-width:860px}
+.end .nyaya{width:330px;height:424px;right:-24px;filter:drop-shadow(0 0 2px #FBF7F2) drop-shadow(0 0 2px #FBF7F2)}
+.end .follow,.end .cta{max-width:650px}
 .cta{background:var(--coral);color:#fff;border-radius:28px;padding:44px 48px}
 .cta p{font-weight:500;font-size:34px;margin-bottom:8px;opacity:.92}
 .cta strong{display:block;font-weight:800;font-size:56px;letter-spacing:-1px;line-height:1.2}
@@ -148,7 +156,8 @@ def build(spec):
         top(1, n) +
         f"<div class='fit'><div class='q'>Q.</div><div class='hook'>{e(spec['hook'])}</div>"
         f"<div class='hookq'>{e(spec['hook_q'])}</div></div>"
-        f"<div class='swipe'>{e(ui['swipe'])} <span></span></div>", lang)]
+        f"<div class='swipe'>{e(ui['swipe'])} <span></span></div>"
+        f"<div class='nyaya'>{nyaya.nyaya('think')}</div>", lang, "hookpage")]
     for k, s in enumerate(slides, start=2):
         content = f"<div class='num'>{k-1:02d}</div><div class='title'>{e(s['title'])}</div>"
         if "body" in s:
@@ -161,7 +170,8 @@ def build(spec):
         top(n, n, dark=True) +
         f"<div class='fit'><h3>{e(ui['sources'])}</h3>{srcs}<div class='disc'>{e(ui['disclaimer'])}</div></div>"
         f"<div class='follow'>{HEART}<div><b>{e(ui['follow'])}</b><span>{e(ui['follow2'])}</span></div></div>"
-        f"<div class='cta'><p>{e(ui['cta'])}</p><strong>{e(ui['cta2'])}</strong><em>adalatiq.com →</em></div>",
+        f"<div class='cta'><p>{e(ui['cta'])}</p><strong>{e(ui['cta2'])}</strong><em>adalatiq.com →</em></div>"
+        f"<div class='nyaya'>{nyaya.nyaya('wave')}</div>",
         lang, "end"))
     return pages
 

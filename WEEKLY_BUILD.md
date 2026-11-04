@@ -92,7 +92,9 @@ Four posts per day of the coming week (Monday to Sunday). The folder name sets t
 `0930` topic A English · `1330` topic A Hindi · `1830` topic B English · `2130` topic B Hindi for each date. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
 ```
 python3 scripts/render.py queue/<each new folder>
+python3 scripts/animate_reel.py queue/<each new folder>     # animated Reel with Nyaya + original music (~1 min each)
 ```
+The carousel slides include the Nyaya mascot automatically. The posting job publishes the carousel, then the Reel.
 Look at every rendered slide (build a contact sheet and view it). Fix overflow, cut-off words or broken script,
 and re-render.
 

@@ -22,7 +22,11 @@ IST = timezone(timedelta(hours=5, minutes=30))
 TOKEN = os.environ.get("IG_TOKEN", "").strip()
 
 
-def api(method, path, **params):
+class ApiError(RuntimeError):
+    pass
+
+
+def api(method, path, soft=False, **params):
     params["access_token"] = TOKEN
     data = urllib.parse.urlencode(params).encode()
     if method == "GET":
@@ -37,8 +41,11 @@ def api(method, path, **params):
             msg = json.load(err).get("error", {})
         except Exception:
             msg = {"message": f"HTTP {err.code}"}
-        sys.exit(f"Instagram API error on {path.split('?')[0]}: {msg.get('message')} "
-                 f"(code {msg.get('code')}, subcode {msg.get('error_subcode')})")
+        text = (f"Instagram API error on {path.split('?')[0]}: {msg.get('message')} "
+                f"(code {msg.get('code')}, subcode {msg.get('error_subcode')})")
+        if soft:
+            raise ApiError(text)
+        sys.exit(text)
 
 
 def find_account():
@@ -94,15 +101,30 @@ def pick_batch(count):
     return chosen
 
 
-def wait_ready(container_id):
-    for _ in range(30):
-        status = api("GET", container_id, fields="status_code").get("status_code")
+def wait_ready(container_id, tries=30, soft=False):
+    for _ in range(tries):
+        status = api("GET", container_id, soft=soft, fields="status_code").get("status_code")
         if status == "FINISHED":
             return
         if status in ("ERROR", "EXPIRED"):
-            sys.exit(f"Instagram could not process media {container_id}: {status}")
+            msg = f"Instagram could not process media {container_id}: {status}"
+            if soft:
+                raise ApiError(msg)
+            sys.exit(msg)
         time.sleep(5)
-    sys.exit(f"Timed out waiting for media {container_id}")
+    msg = f"Timed out waiting for media {container_id}"
+    if soft:
+        raise ApiError(msg)
+    sys.exit(msg)
+
+
+def publish_reel(ig_id, base, caption):
+    """Post reel.mp4 as a Reel (also shown in the feed). Returns (media_id, permalink); raises ApiError on failure."""
+    c = api("POST", f"{ig_id}/media", soft=True, media_type="REELS", video_url=f"{base}/reel.mp4",
+            caption=caption, share_to_feed="true")["id"]
+    wait_ready(c, tries=72, soft=True)          # videos take longer to process (up to ~6 min)
+    media_id = api("POST", f"{ig_id}/media_publish", soft=True, creation_id=c)["id"]
+    return media_id, api("GET", media_id, soft=True, fields="permalink").get("permalink")
 
 
 def publish(ig_id, folder):
@@ -122,11 +144,20 @@ def publish(ig_id, folder):
     wait_ready(carousel)
     media_id = api("POST", f"{ig_id}/media_publish", creation_id=carousel)["id"]
     link = api("GET", media_id, fields="permalink").get("permalink")
+    print(f"Published {folder.name}: {link}")
+    result = {"media_id": media_id, "permalink": link, "published_at": datetime.now(IST).isoformat()}
+    if (folder / "reel.mp4").exists():
+        try:
+            reel_id, reel_link = publish_reel(ig_id, base, caption)
+            result.update(reel_id=reel_id, reel_permalink=reel_link)
+            print(f"Published reel {folder.name}: {reel_link}")
+        except ApiError as err:            # the carousel is already live; don't fail the whole run
+            result["reel_error"] = str(err)
+            print(f"Reel not posted for {folder.name}: {err}")
     target = DONE / folder.name
     shutil.move(str(folder), str(target))
-    (target / "result.json").write_text(json.dumps(
-        {"media_id": media_id, "permalink": link, "published_at": datetime.now(IST).isoformat()}, indent=2))
-    print(f"Published {folder.name}: {link}")
+    (target / "result.json").write_text(json.dumps(result, indent=2))
+    (target / "reel.mp4").unlink(missing_ok=True)   # keep the repository small; the Reel lives on Instagram
 
 
 def main():

@@ -146,23 +146,22 @@ ANIM_JS = r"""
 """
 
 
-def audio(tmp, scenes, total, music):
+def audio(tmp, scenes, total, music, seed=3):
+    """Background music (a supplied track, or an original one composed here) + soft pops at scene changes."""
     out = tmp / "audio.m4a"
-    if music:
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-i", str(music), "-t", f"{total}",
-                        "-af", f"afade=t=in:d=1,afade=t=out:st={total-2}:d=2", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", str(out)], check=True)
-        return out
-    pad = ("0.05*sin(2*PI*130.81*t)+0.035*sin(2*PI*196.00*t)+0.03*sin(2*PI*261.63*t)"
-           "+0.025*sin(2*PI*329.63*t)*(0.6+0.4*sin(2*PI*0.15*t))")
-    pop = "0.35*sin(2*PI*(700+500*exp(-30*t))*t)*exp(-22*t)"
-    inputs = ["-f", "lavfi", "-t", f"{total}", "-i", f"aevalsrc={pad}:s=48000"]
+    if not music:
+        music = tmp / "music.wav"
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "compose_music.py"), str(music),
+                        "--seconds", f"{total}", "--seed", str(seed)], check=True, capture_output=True)
+    pop = "0.25*sin(2*PI*(700+500*exp(-30*t))*t)*exp(-22*t)"
+    inputs = ["-stream_loop", "-1", "-i", str(music)]
     delays = [int(s * 1000) + 60 for _, s, _ in scenes]
     for _ in delays:
         inputs += ["-f", "lavfi", "-t", "0.3", "-i", f"aevalsrc={pop}:s=48000"]
-    chains = [f"[{k+1}:a]adelay={d}|{d}[p{k}]" for k, d in enumerate(delays)]
-    mix = "[0:a]" + "".join(f"[p{k}]" for k in range(len(delays)))
-    chains.append(f"{mix}amix=inputs={len(delays)+1}:normalize=0,afade=t=in:d=1,afade=t=out:st={total-2}:d=2,"
-                  f"aformat=channel_layouts=stereo[a]")
+    chains = [f"[0:a]atrim=0:{total},volume=-4dB[m]"] + [f"[{k+1}:a]adelay={d}|{d}[p{k}]" for k, d in enumerate(delays)]
+    mix = "[m]" + "".join(f"[p{k}]" for k in range(len(delays)))
+    chains.append(f"{mix}amix=inputs={len(delays)+1}:normalize=0,afade=t=in:d=0.5,afade=t=out:st={total-2}:d=2,"
+                  f"aformat=channel_layouts=stereo,aresample=48000[a]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(chains), "-map", "[a]",
                     "-t", f"{total}", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", str(out)], check=True)
     return out
@@ -189,7 +188,8 @@ def build(folder, music=None):
             pg.evaluate(f"draw({i / FPS})")
             pg.screenshot(path=str(frames / f"{i:05d}.jpg"), type="jpeg", quality=88)
         b.close()
-    a = audio(tmp, scenes, total, music)
+    seed = sum(map(ord, spec['id'])) % 97   # each topic gets its own variation of the track
+    a = audio(tmp, scenes, total, music, seed)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", str(frames / "%05d.jpg"), "-i", str(a),
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-profile:v", "high",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", str(folder / "reel.mp4")], check=True)

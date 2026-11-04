@@ -8,7 +8,7 @@ She points to image-right; mirror with transform="scale(-1,1)" when placed on th
 """
 from pathlib import Path
 
-SKIN, SKIN_SHADE, SKIN_DARK = "#F3CBAA", "#DFAA84", "#B9805C"
+SKIN, SKIN_SHADE, SKIN_DARK = "#E2AE88", "#CB926B", "#A56B48"
 HAIR, HAIR_HI = "#1C1717", "#463838"
 INK, INK2, SKIRT = "#161616", "#272222", "#1E1B1B"
 CORAL, CORAL_DARK = "#E8523A", "#C43E29"
@@ -39,7 +39,7 @@ def hand_open(x, y):
 
 def head(expr):
     # face shape, ears, neck
-    out = (f'<rect x="280" y="340" width="40" height="100" rx="18" fill="{SKIN_SHADE}"/>'
+    out = (f'<rect x="279" y="340" width="42" height="72" rx="18" fill="{SKIN_SHADE}"/>'
            f'<ellipse cx="202" cy="258" rx="15" ry="22" fill="{SKIN}"/><ellipse cx="398" cy="258" rx="15" ry="22" fill="{SKIN}"/>'
            f'<path d="M208 238 Q204 138 300 136 Q396 138 392 238 Q390 296 364 330 L318 370 Q300 382 282 370 L236 330 Q210 296 208 238Z" fill="{SKIN}"/>')
 
@@ -115,7 +115,7 @@ def arms(pose):
     if pose == "wave":
         return hip_l + limb([(404, 478), (512, 520), (552, 396)]) + hand_open(556, 382)
     if pose == "think":
-        return hip_l + limb([(404, 480), (436, 600), (338, 392)]) + hand_fist(330, 372, 23)
+        return hip_l + limb([(404, 480), (436, 600), (338, 416)]) + hand_fist(330, 396, 23)
     # confident: both hands on hips
     return hip_l + limb([(404, 478), (468, 584), (392, 632)]) + hand_fist(386, 630, 20)
 
@@ -125,7 +125,8 @@ POSES = {"point": "confident", "wave": "wink", "think": "think", "confident": "c
 
 def nyaya(pose="point"):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900">'
-            f'{HAIR_BACK}{body()}{head(POSES[pose])}{HAIR_FRONT}{HAIR_LOCK}{arms(pose)}</svg>')
+            f'<g transform="translate(0,24)">{HAIR_BACK}</g>{body()}'
+            f'<g transform="translate(0,24)">{head(POSES[pose])}{HAIR_FRONT}{HAIR_LOCK}</g>{arms(pose)}</svg>')
 
 
 if __name__ == "__main__":

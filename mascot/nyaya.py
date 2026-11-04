@@ -65,7 +65,7 @@ def head(expr):
                  f'<path d="M278 312 Q290 304 302 309 Q314 302 326 310 Q302 318 278 312Z" fill="{LIP}"/>'),
         "think": f'<path d="M288 322 Q302 316 316 323" stroke="{LIP}" stroke-width="7" fill="none" stroke-linecap="round"/>',
     }[expr]
-    out += (eye(262) + eye(338, wink=(expr == "wink")) +
+    out += ('<g class="eyes">' + eye(262) + eye(338, wink=(expr == "wink")) + '</g>' +
             "".join(f'<path d="{b}" stroke="{HAIR}" stroke-width="8" fill="none" stroke-linecap="round"/>' for b in brows) +
             f'<path d="M302 258 L296 290 Q300 296 309 291" stroke="{SKIN_DARK}" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'
             f'<ellipse cx="244" cy="290" rx="16" ry="10" fill="{CORAL}" opacity=".14"/><ellipse cx="356" cy="290" rx="16" ry="10" fill="{CORAL}" opacity=".14"/>'
@@ -110,14 +110,15 @@ def body():
 
 def arms(pose):
     hip_l = limb([(196, 478), (132, 584), (208, 632)]) + hand_fist(214, 630, 20)       # her right hand on hip
+    g = lambda inner: f'<g class="arm">{inner}</g>'
     if pose == "point":
-        return hip_l + limb([(404, 478), (500, 486), (574, 452)]) + hand_point(590, 446)
+        return hip_l + g(limb([(404, 478), (500, 486), (574, 452)]) + hand_point(590, 446))
     if pose == "wave":
-        return hip_l + limb([(404, 478), (512, 520), (552, 396)]) + hand_open(556, 382)
+        return hip_l + g(limb([(404, 478), (512, 520), (552, 396)]) + hand_open(556, 382))
     if pose == "think":
-        return hip_l + limb([(404, 480), (436, 600), (338, 416)]) + hand_fist(330, 396, 23)
+        return hip_l + g(limb([(404, 480), (436, 600), (338, 416)]) + hand_fist(330, 396, 23))
     # confident: both hands on hips
-    return hip_l + limb([(404, 478), (468, 584), (392, 632)]) + hand_fist(386, 630, 20)
+    return hip_l + g(limb([(404, 478), (468, 584), (392, 632)]) + hand_fist(386, 630, 20))
 
 
 POSES = {"point": "confident", "wave": "wink", "think": "think", "confident": "confident"}

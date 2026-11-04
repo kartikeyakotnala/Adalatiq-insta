@@ -71,6 +71,8 @@ Source: <Act, Section>
 
 <disclaimer: AI-assisted, for general awareness only, not legal advice, speak to a lawyer>
 
+<Like & follow @adalatiq for daily legal facts and know-your-rights tips (in the post's language)>
+
 <Stuck with a legal problem? Ask AdalatIQ free → adalatiq.com>
 
 <2–3 topic hashtags> #UPSC #Constitution #Exam #Job #AdalatIQ

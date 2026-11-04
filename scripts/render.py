@@ -15,22 +15,22 @@ ROOT = Path(__file__).resolve().parent.parent
 FONTS = (ROOT / "fonts").as_uri()
 
 UI = {
-    "en": {"swipe": "Swipe for the answer", "sources": "Sources",
+    "en": {"follow": "Like & follow @adalatiq", "follow2": "for daily legal facts and know-your-rights tips", "swipe": "Swipe for the answer", "sources": "Sources",
            "disclaimer": "AI-assisted, for general awareness only. This is not legal advice. For your situation, speak to a lawyer.",
            "cta": "Stuck with a legal problem?", "cta2": "Ask AdalatIQ free", "font": "Inter"},
-    "hi": {"swipe": "जवाब के लिए स्वाइप करें", "sources": "स्रोत",
+    "hi": {"follow": "लाइक करें और @adalatiq को फ़ॉलो करें", "follow2": "रोज़ क़ानूनी जानकारी और अपने अधिकार जानने के लिए", "swipe": "जवाब के लिए स्वाइप करें", "sources": "स्रोत",
            "disclaimer": "यह पोस्ट AI की मदद से बनी है और सिर्फ़ जागरूकता के लिए है। यह क़ानूनी सलाह नहीं है। अपने मामले के लिए किसी वकील से बात करें।",
            "cta": "क़ानूनी परेशानी है?", "cta2": "AdalatIQ से मुफ़्त पूछें", "font": "NotoDeva"},
-    "mr": {"swipe": "उत्तरासाठी स्वाइप करा", "sources": "स्रोत",
+    "mr": {"follow": "लाइक करा आणि @adalatiq ला फॉलो करा", "follow2": "रोज कायदेशीर माहिती आणि तुमचे हक्क जाणून घेण्यासाठी", "swipe": "उत्तरासाठी स्वाइप करा", "sources": "स्रोत",
            "disclaimer": "ही पोस्ट AI च्या मदतीने तयार केली आहे आणि फक्त सर्वसाधारण जागरूकतेसाठी आहे. हा कायदेशीर सल्ला नाही. तुमच्या परिस्थितीसाठी वकिलाशी बोला.",
            "cta": "कायदेशीर अडचण आहे?", "cta2": "AdalatIQ ला मोफत विचारा", "font": "NotoDeva"},
-    "ta": {"swipe": "பதிலுக்கு ஸ்வைப் செய்யவும்", "sources": "ஆதாரங்கள்",
+    "ta": {"follow": "லைக் செய்து @adalatiq-ஐ ஃபாலோ செய்யுங்கள்", "follow2": "தினசரி சட்டத் தகவல்களுக்கும் உங்கள் உரிமைகளை அறியவும்", "swipe": "பதிலுக்கு ஸ்வைப் செய்யவும்", "sources": "ஆதாரங்கள்",
            "disclaimer": "இந்தப் பதிவு AI உதவியுடன் உருவாக்கப்பட்டது, பொது விழிப்புணர்வுக்காக மட்டுமே. இது சட்ட ஆலோசனை அல்ல. உங்கள் சூழ்நிலைக்கு ஒரு வழக்கறிஞரை அணுகவும்.",
            "cta": "சட்டப் பிரச்சனையா?", "cta2": "AdalatIQ-இடம் இலவசமாகக் கேளுங்கள்", "font": "NotoTamil"},
-    "te": {"swipe": "సమాధానం కోసం స్వైప్ చేయండి", "sources": "మూలాలు",
+    "te": {"follow": "లైక్ చేసి @adalatiqని ఫాలో అవ్వండి", "follow2": "రోజువారీ న్యాయ సమాచారం, మీ హక్కుల గురించి తెలుసుకోవడానికి", "swipe": "సమాధానం కోసం స్వైప్ చేయండి", "sources": "మూలాలు",
            "disclaimer": "ఈ పోస్ట్ AI సహాయంతో రూపొందించబడింది, సాధారణ అవగాహన కోసం మాత్రమే. ఇది న్యాయ సలహా కాదు. మీ పరిస్థితి కోసం న్యాయవాదిని సంప్రదించండి.",
            "cta": "న్యాయపరమైన సమస్య ఉందా?", "cta2": "AdalatIQని ఉచితంగా అడగండి", "font": "NotoTelugu"},
-    "kn": {"swipe": "ಉತ್ತರಕ್ಕಾಗಿ ಸ್ವೈಪ್ ಮಾಡಿ", "sources": "ಮೂಲಗಳು",
+    "kn": {"follow": "ಲೈಕ್ ಮಾಡಿ, @adalatiq ಅನ್ನು ಫಾಲೋ ಮಾಡಿ", "follow2": "ದಿನನಿತ್ಯದ ಕಾನೂನು ಮಾಹಿತಿ ಮತ್ತು ನಿಮ್ಮ ಹಕ್ಕುಗಳನ್ನು ತಿಳಿಯಲು", "swipe": "ಉತ್ತರಕ್ಕಾಗಿ ಸ್ವೈಪ್ ಮಾಡಿ", "sources": "ಮೂಲಗಳು",
            "disclaimer": "ಈ ಪೋಸ್ಟ್ AI ನೆರವಿನಿಂದ ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ, ಸಾಮಾನ್ಯ ಅರಿವಿಗಾಗಿ ಮಾತ್ರ. ಇದು ಕಾನೂನು ಸಲಹೆಯಲ್ಲ. ನಿಮ್ಮ ಪರಿಸ್ಥಿತಿಗಾಗಿ ವಕೀಲರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
            "cta": "ಕಾನೂನು ಸಮಸ್ಯೆಯೇ?", "cta2": "AdalatIQ ಅನ್ನು ಉಚಿತವಾಗಿ ಕೇಳಿ", "font": "NotoKannada"},
 }
@@ -79,6 +79,9 @@ li:before{content:"";position:absolute;left:4px;top:36px;width:18px;height:18px;
 .end h3{font-weight:700;font-size:30px;letter-spacing:2px;text-transform:uppercase;color:var(--coral);margin-bottom:22px}
 .end .src{font-weight:500;font-size:34px;line-height:1.4;margin-bottom:12px}
 .end .disc{font-weight:500;font-size:30px;line-height:1.5;color:#bdb4aa;border-top:2px solid #333;padding-top:40px;margin-top:40px}
+.follow{display:flex;align-items:center;gap:22px;margin:0 0 30px}
+.follow b{display:block;font-weight:800;font-size:44px;color:#fff;line-height:1.2}
+.follow span{display:block;font-weight:500;font-size:28px;color:#bdb4aa;margin-top:4px}
 .cta{background:var(--coral);color:#fff;border-radius:28px;padding:44px 48px}
 .cta p{font-weight:500;font-size:34px;margin-bottom:8px;opacity:.92}
 .cta strong{display:block;font-weight:800;font-size:56px;letter-spacing:-1px;line-height:1.2}
@@ -97,6 +100,8 @@ for (const el of document.querySelectorAll('.fit, .cta')) {
 """
 
 e = html.escape
+HEART = ('<svg viewBox="0 0 24 24" width="56" height="56" aria-hidden="true"><path fill="#E8523A" '
+         'd="M12 21s-7.5-4.6-10-9.3C.4 8.4 2.3 4.5 6 4.5c2.1 0 3.4 1.1 4 2.3.6-1.2 1.9-2.3 4-2.3 3.7 0 5.6 3.9 4 7.2C19.5 16.4 12 21 12 21z"/></svg>')
 REQUIRED_TAGS = ["#UPSC", "#Constitution", "#Exam", "#Job", "#AdalatIQ"]
 
 
@@ -117,6 +122,8 @@ def validate(spec):
     non_english = [t for t in re.findall(r"#\S+", spec["caption"]) if not t[1:].isascii()]
     if non_english:
         raise ValueError("hashtags must be in English only: " + " ".join(non_english))
+    if "@adalatiq" not in spec["caption"].lower():
+        raise ValueError("caption must invite readers to follow @adalatiq")
     missing = [t for t in REQUIRED_TAGS if t.lower() not in spec["caption"].lower()]
     if missing:
         raise ValueError("caption is missing required hashtags: " + " ".join(missing))
@@ -153,6 +160,7 @@ def build(spec):
     pages.append(page(
         top(n, n, dark=True) +
         f"<div class='fit'><h3>{e(ui['sources'])}</h3>{srcs}<div class='disc'>{e(ui['disclaimer'])}</div></div>"
+        f"<div class='follow'>{HEART}<div><b>{e(ui['follow'])}</b><span>{e(ui['follow2'])}</span></div></div>"
         f"<div class='cta'><p>{e(ui['cta'])}</p><strong>{e(ui['cta2'])}</strong><em>adalatiq.com →</em></div>",
         lang, "end"))
     return pages

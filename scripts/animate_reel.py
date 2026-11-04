@@ -18,7 +18,7 @@ import nyaya          # noqa: E402
 import render         # noqa: E402  (fonts, UI strings)
 
 FPS = 30
-HOOK, SCENE, END = 4.0, 4.4, 5.0
+HOOK, SCENE, END = 4.0, 4.4, 5.5
 
 
 def timeline(spec):
@@ -44,6 +44,7 @@ def page_html(spec):
     srcs = "".join(f"<div class='src'>{e(x)}</div>" for x in spec["sources"])
     scenes.append(f'<section id="end" class="sc"><h3>{e(ui["sources"])}</h3>{srcs}'
                   f'<div class="disc">{e(ui["disclaimer"])}</div>'
+                  f'<div class="follow">{render.HEART}<div><b>{e(ui["follow"])}</b><span>{e(ui["follow2"])}</span></div></div>'
                   f'<div class="cta"><p>{e(ui["cta"])}</p><strong>{e(ui["cta2"])}</strong><em>adalatiq.com →</em></div></section>')
     poses = "".join(f'<div class="pose" id="p-{p}">{nyaya.nyaya(p)}</div>' for p in ("think", "point", "confident", "wave"))
     css = render.FACES + f"""
@@ -71,7 +72,11 @@ li:before{{content:"";position:absolute;left:4px;top:36px;width:20px;height:20px
 #end h3{{font-weight:700;font-size:34px;letter-spacing:3px;text-transform:uppercase;color:var(--coral);margin-bottom:24px}}
 #end .src{{font-weight:500;font-size:40px;line-height:1.4;margin-bottom:14px}}
 #end .disc{{font-weight:500;font-size:34px;line-height:1.5;color:#bdb4aa;border-top:2px solid #333;padding-top:36px;margin-top:36px;max-width:620px}}
-.cta{{position:absolute;left:0;top:760px;width:560px;background:var(--coral);color:#fff;border-radius:32px;padding:44px 48px}}
+.follow{{display:flex;align-items:center;gap:22px;margin-top:46px;max-width:600px}}
+.follow svg{{width:76px;height:76px;flex:none}}
+.follow b{{display:block;font-weight:800;font-size:50px;color:#fff;line-height:1.2}}
+.follow span{{display:block;font-weight:500;font-size:32px;color:#bdb4aa;margin-top:6px}}
+.cta{{position:relative;margin-top:44px;width:500px;background:var(--coral);color:#fff;border-radius:32px;padding:44px 48px}}
 .cta p{{font-weight:500;font-size:36px;margin-bottom:8px}} .cta strong{{display:block;font-weight:800;font-size:58px;line-height:1.15}}
 .cta em{{font-style:normal;font-family:Inter;font-weight:800;font-size:42px;display:block;margin-top:14px}}
 #nyaya{{position:absolute;right:-70px;bottom:-70px;width:660px;height:850px}}
@@ -113,9 +118,13 @@ ANIM_JS = r"""
       el.querySelectorAll('li').forEach((li, k) => { const p = ease((lt - 0.8 - k * 0.22) / 0.4); li.style.opacity = p; li.style.transform = `translateX(${(1 - p) * 60}px)`; });
       const ref = el.querySelector('.ref'); if (ref) { const p = back((lt - 1.4) / 0.4); ref.style.opacity = clamp((lt - 1.4) / 0.2); ref.style.transform = `scale(${0.6 + 0.4 * p})`; }
       if (id === 'end') {
+        const fol = el.querySelector('.follow'); const fp = back((lt - 1.1) / 0.5);
+        fol.style.opacity = clamp((lt - 1.1) / 0.2); fol.style.transform = `translateX(${(1 - fp) * -80}px)`;
+        const heart = fol.querySelector('svg'); const beat = lt > 1.6 ? 1 + 0.14 * Math.max(0, Math.sin((lt - 1.6) * Math.PI * 2.4)) : 1;
+        heart.style.transform = `scale(${beat})`;
         el.querySelectorAll('h3,.src,.disc').forEach((x, k) => { const p = ease((lt - 0.6 - k * 0.15) / 0.4); x.style.opacity = p; });
-        const cta = el.querySelector('.cta'); const p = back((lt - 1.4) / 0.5);
-        cta.style.opacity = clamp((lt - 1.4) / 0.2); cta.style.transform = `translateY(${(1 - p) * 120}px)`;
+        const cta = el.querySelector('.cta'); const p = back((lt - 1.7) / 0.5);
+        cta.style.opacity = clamp((lt - 1.7) / 0.2); cta.style.transform = `translateY(${(1 - p) * 120}px)`;
       }
     }
     // dark background wipe for the closing scene

@@ -8,7 +8,7 @@ She points to image-right; mirror with transform="scale(-1,1)" when placed on th
 """
 from pathlib import Path
 
-SKIN, SKIN_SHADE, SKIN_DARK = "#C98F6B", "#B07450", "#8F5638"
+SKIN, SKIN_SHADE, SKIN_DARK = "#F3CBAA", "#DFAA84", "#B9805C"
 HAIR, HAIR_HI = "#1C1717", "#463838"
 INK, INK2, SKIRT = "#161616", "#272222", "#1E1B1B"
 CORAL, CORAL_DARK = "#E8523A", "#C43E29"
@@ -39,24 +39,24 @@ def hand_open(x, y):
 
 def head(expr):
     # face shape, ears, neck
-    out = (f'<rect x="278" y="330" width="44" height="110" rx="20" fill="{SKIN_SHADE}"/>'
+    out = (f'<rect x="280" y="340" width="40" height="100" rx="18" fill="{SKIN_SHADE}"/>'
            f'<ellipse cx="202" cy="258" rx="15" ry="22" fill="{SKIN}"/><ellipse cx="398" cy="258" rx="15" ry="22" fill="{SKIN}"/>'
-           f'<path d="M204 246 Q202 140 300 138 Q398 140 396 246 Q394 324 346 356 Q300 380 254 356 Q206 324 204 246Z" fill="{SKIN}"/>')
+           f'<path d="M208 238 Q204 138 300 136 Q396 138 392 238 Q390 296 364 330 L318 370 Q300 382 282 370 L236 330 Q210 296 208 238Z" fill="{SKIN}"/>')
 
     def eye(cx, wink=False):
         side = 1 if cx > 300 else -1
         if wink:
             return f'<path d="M{cx-16} 262 Q{cx} 250 {cx+16} 262" stroke="{INK}" stroke-width="6" fill="none" stroke-linecap="round"/>'
-        return (f'<path d="M{cx-17} 258 Q{cx} 244 {cx+17} 256 Q{cx} 272 {cx-17} 258Z" fill="#fff"/>'
+        return (f'<path d="M{cx-19} 259 Q{cx-2} 243 {cx+18} 254 Q{cx+4} 270 {cx-19} 259Z" fill="#fff"/>'
                 f'<circle cx="{cx+side}" cy="258" r="9.5" fill="#4A2A1A"/><circle cx="{cx+side}" cy="258" r="5" fill="{INK}"/>'
                 f'<circle cx="{cx+side+3}" cy="254" r="2.8" fill="#fff"/>'
                 f'<path d="M{cx-18} 257 Q{cx} 241 {cx+18} 255" stroke="{INK}" stroke-width="5" fill="none" stroke-linecap="round"/>'
                 f'<path d="M{cx+side*17} 255 L{cx+side*29} 246" stroke="{INK}" stroke-width="4.5" stroke-linecap="round"/>')
 
     brows = {
-        "confident": ("M236 228 Q258 214 282 222", "M318 220 Q342 208 364 222"),   # one brow arched higher
-        "wink": ("M236 228 Q258 216 282 224", "M318 218 Q342 206 364 220"),
-        "think": ("M236 224 Q258 214 282 220", "M318 230 Q342 224 364 230"),
+        "confident": ("M236 230 L264 214 L284 220", "M316 218 L338 206 L364 222"),   # one brow arched higher
+        "wink": ("M236 230 L264 216 L284 222", "M316 216 L338 204 L364 220"),
+        "think": ("M236 226 L264 214 L284 218", "M316 228 L338 222 L364 230"),
     }[expr]
     mouth = {
         "confident": (f'<path d="M280 316 Q306 336 326 310 Q306 324 280 316Z" fill="{LIP2}"/>'
@@ -67,8 +67,8 @@ def head(expr):
     }[expr]
     out += (eye(262) + eye(338, wink=(expr == "wink")) +
             "".join(f'<path d="{b}" stroke="{HAIR}" stroke-width="8" fill="none" stroke-linecap="round"/>' for b in brows) +
-            f'<path d="M300 266 Q293 290 307 293" stroke="{SKIN_DARK}" stroke-width="4" fill="none" stroke-linecap="round"/>'
-            f'<circle cx="240" cy="296" r="15" fill="{CORAL}" opacity=".18"/><circle cx="360" cy="296" r="15" fill="{CORAL}" opacity=".18"/>'
+            f'<path d="M302 258 L296 290 Q300 296 309 291" stroke="{SKIN_DARK}" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'
+            f'<ellipse cx="244" cy="290" rx="16" ry="10" fill="{CORAL}" opacity=".14"/><ellipse cx="356" cy="290" rx="16" ry="10" fill="{CORAL}" opacity=".14"/>'
             + mouth)
     # coral drop earrings
     out += "".join(f'<circle cx="{x}" cy="284" r="5" fill="{CORAL}"/><path d="M{x-8} 292 Q{x} 312 {x+8} 292Z" fill="{CORAL}"/>' for x in (202, 398))

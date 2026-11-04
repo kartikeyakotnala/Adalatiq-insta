@@ -1,0 +1,52 @@
+{
+  "id": "004-rti-application",
+  "lang": "en",
+  "hook": "I need information from a government office.",
+  "hook_q": "How do I file an RTI?",
+  "slides": [
+    {
+      "title": "Every citizen has this right.",
+      "body": "Under the RTI Act, all citizens have the right to information, subject to the Act's provisions.",
+      "ref": "RTI Act 2005 · Sec 3"
+    },
+    {
+      "title": "Write your request.",
+      "body": "Apply to the Public Information Officer in writing or electronically, in English, Hindi or the area's official language. You don't have to give a reason.",
+      "ref": "RTI Act 2005 · Sec 6(1), 6(2)"
+    },
+    {
+      "title": "Pay ₹10 for central government offices.",
+      "body": "Pay by cash, demand draft, banker's cheque, postal order, or online where available. States set their own fees. Below the poverty line? No fee, with your BPL certificate.",
+      "ref": "RTI Rules 2012 · Rules 3, 5, 6"
+    },
+    {
+      "title": "Central offices: apply online.",
+      "body": "For many Government of India offices, you can file the application and pay the fee online at rtionline.gov.in.",
+      "ref": "Govt of India · rtionline.gov.in"
+    },
+    {
+      "title": "Reply within 30 days.",
+      "body": "The officer must reply within 30 days. If the information concerns someone's life or liberty, within 48 hours.",
+      "ref": "RTI Act 2005 · Sec 7(1)"
+    },
+    {
+      "title": "Late reply? It's free.",
+      "body": "If the office misses the time limit, the information must be given to you free of charge.",
+      "ref": "RTI Act 2005 · Sec 7(6)"
+    },
+    {
+      "title": "Not satisfied? Appeal.",
+      "list": [
+        "First appeal: within 30 days, to an officer senior to the PIO",
+        "Second appeal: within 90 days, to the Central or State Information Commission"
+      ],
+      "ref": "RTI Act 2005 · Sec 19(1), 19(3)"
+    }
+  ],
+  "sources": [
+    "Right to Information Act, 2005 – Sections 3, 6, 7, 19",
+    "Right to Information Rules, 2012 (DoPT) – Rules 3, 5, 6",
+    "RTI Online portal (rtionline.gov.in, PIB)"
+  ],
+  "caption": "Need information from a government office? Use your Right to Information. 👇\n\n1️⃣ Every citizen has the right to information under the RTI Act\n2️⃣ Apply in writing or online, in English, Hindi or the local official language. No reason needed\n3️⃣ Fee: ₹10 for central government offices (states set their own). No fee for BPL applicants (with a BPL certificate)\n4️⃣ Reply due in 30 days, or 48 hours if life or liberty is involved\n5️⃣ Late reply? The information is free\n6️⃣ First appeal within 30 days, second appeal to the Information Commission within 90 days\n\nSource: Right to Information Act, 2005 (Sec 3, 6, 7, 19); RTI Rules, 2012\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#RTI #RightToInformation #GoodGovernance #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

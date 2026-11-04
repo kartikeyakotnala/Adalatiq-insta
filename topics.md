@@ -81,7 +81,7 @@ language codes, e.g. `- [x] Question — 003 (en, ta)`.
 - [ ] Someone used my Aadhaar or PAN fraudulently. What can I do?
 
 ## Government and documents
-- [ ] How do I file an RTI application?
+- [x] How do I file an RTI application? — 004 (en)
 - [ ] My RTI was not answered in 30 days. What next?
 - [ ] How do I get a birth or death certificate if it was never registered?
 - [ ] How do I complain about a government official asking for a bribe?

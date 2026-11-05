@@ -1,0 +1,48 @@
+{
+  "id": "006-cheque-bounce",
+  "lang": "en",
+  "hook": "A cheque someone gave me bounced.",
+  "hook_q": "What can I do?",
+  "slides": [
+    {
+      "title": "It can be a criminal offence.",
+      "body": "If a cheque given to pay a legally enforceable debt bounces because the account doesn't have enough money (or it exceeds the limit arranged with the bank), the issuer can be punished.",
+      "ref": "NI Act 1881 · Sec 138"
+    },
+    {
+      "title": "Step 1: Present it in time.",
+      "body": "The cheque must be presented within its validity period. Cheques are valid for 3 months from the date on them.",
+      "ref": "NI Act Sec 138, proviso (a) · RBI, Nov 2011"
+    },
+    {
+      "title": "Step 2: Send a written notice within 30 days.",
+      "body": "Once your bank tells you the cheque bounced, send the issuer a written demand for the money within 30 days.",
+      "ref": "NI Act 1881 · Sec 138, proviso (b)"
+    },
+    {
+      "title": "Step 3: Give them 15 days to pay.",
+      "body": "If the issuer doesn't pay within 15 days of receiving your notice, you can file a complaint.",
+      "ref": "NI Act 1881 · Sec 138, proviso (c)"
+    },
+    {
+      "title": "Step 4: File within one month.",
+      "body": "File the complaint in court within one month after those 15 days end. The court can allow a delay if you show sufficient cause.",
+      "ref": "NI Act 1881 · Sec 142(1)(b)"
+    },
+    {
+      "title": "What the issuer can face.",
+      "body": "Jail of up to 2 years, a fine of up to twice the cheque amount, or both. During the case, the court may also order the issuer to pay interim compensation of up to 20% of the cheque amount.",
+      "ref": "NI Act 1881 · Sec 138, 143A"
+    },
+    {
+      "title": "Where to file.",
+      "body": "If you deposited the cheque through your bank account, file in the court for the area where your bank branch is.",
+      "ref": "NI Act 1881 · Sec 142(2)(a)"
+    }
+  ],
+  "sources": [
+    "Negotiable Instruments Act, 1881 – Sections 138, 142, 143A",
+    "RBI notification, 4 Nov 2011: cheques valid for 3 months"
+  ],
+  "caption": "Someone's cheque bounced on you? Here's what the law says. 👇\n\n1️⃣ A cheque bouncing for lack of funds can be a criminal offence\n2️⃣ Present it within its validity: 3 months from its date\n3️⃣ Send a written notice within 30 days of the bank telling you\n4️⃣ No payment within 15 days? File a complaint within the next month\n5️⃣ Penalty: up to 2 years' jail and/or a fine up to twice the cheque amount\n\nSource: Negotiable Instruments Act, 1881 (Sec 138, 142, 143A); RBI notification (Nov 2011)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#ChequeBounce #Section138 #Banking #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

@@ -76,7 +76,7 @@ language codes, e.g. `- [x] Question — 003 (en, ta)`.
 - [ ] What is the minimum wage and who sets it?
 - [ ] What maternity benefits do working women get?
 - [ ] How do I complain about sexual harassment at work?
-- [ ] A cheque given to me bounced. What can I do?
+- [x] A cheque given to me bounced. What can I do? — 006 (en)
 - [ ] Recovery agents are harassing me. Is that legal?
 - [ ] Someone used my Aadhaar or PAN fraudulently. What can I do?
 

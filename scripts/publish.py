@@ -146,7 +146,7 @@ def publish(ig_id, folder):
     link = api("GET", media_id, fields="permalink").get("permalink")
     print(f"Published {folder.name}: {link}")
     result = {"media_id": media_id, "permalink": link, "published_at": datetime.now(IST).isoformat()}
-    if (folder / "reel.mp4").exists():
+    if (folder / "reel.mp4").exists() and os.environ.get("POST_REELS", "false").lower() == "true":
         try:
             reel_id, reel_link = publish_reel(ig_id, base, caption)
             result.update(reel_id=reel_id, reel_permalink=reel_link)

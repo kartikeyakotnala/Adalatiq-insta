@@ -34,6 +34,7 @@ jobs:
           MODE: ${{ github.event.inputs.mode }}
           COUNT: ${{ github.event.inputs.count }}
           IG_USER_ID: "17841415534433698"   # @adalatiq (not secret)
+          POST_REELS: "false"   # paused until the background music is approved; set to "true" to resume
         run: python3 scripts/publish.py
 
       - name: Move published post out of the queue

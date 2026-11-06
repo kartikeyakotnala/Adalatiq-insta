@@ -10,7 +10,7 @@ on:
         default: batch
       count:
         description: "How many carousels to post (batch mode)"
-        default: "4"
+        default: "2"
 
 permissions:
   contents: write

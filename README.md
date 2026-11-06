@@ -3,11 +3,11 @@
 Automated legal-awareness carousels for AdalatIQ's Instagram.
 
 **How it works**
-1. Every Sunday, Claude researches 14 common legal questions (each posted in English and Hindi) from government sources only, has every claim
+1. Every Sunday, Claude researches 14 common legal questions (posted in English) from government sources only, has every claim
    fact-checked independently, and renders the slides. Fact-check reports are kept in `reports/`.
 2. The week's posts are committed to `queue/` and you get a summary.
 3. Posts go out when you ask: tell Claude "post today's AdalatIQ posts" in any chat, or run it yourself
-   (Actions → Publish to Instagram → Run workflow → batch, 4). See POSTING.md.
+   (Actions → Publish to Instagram → Run workflow → batch, 2). See POSTING.md.
    Each posted carousel moves from `queue/` to `published/` with a link to the live post.
 
 **Folders**

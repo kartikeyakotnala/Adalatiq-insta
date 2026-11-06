@@ -1,7 +1,7 @@
 # Weekly build playbook
 
-Claude follows this every Sunday to prepare next week's 28 Instagram carousels for AdalatIQ:
-14 questions, each published once in English and once in Hindi (4 posts a day).
+Claude follows this every Sunday to prepare next week's 14 Instagram carousels for AdalatIQ:
+14 questions, **English only** (2 posts a day).
 The output is committed straight to `main` and waits in `queue/`. The owner posts it on request, usually 4 at a time
 (see POSTING.md), and removes anything wrong after the fact, so the fact-check below is the only gate: be strict.
 
@@ -32,10 +32,10 @@ Read `topics.md` and list what's already in `queue/` and `published/` so nothing
 
 ### 2. Pick 14 topics
 Take the first 14 unticked topics in `topics.md` (skip any that clearly need State-specific numbers you can't verify
-for all States). Each topic becomes **two posts: English (`en`) and Hindi (`hi`)**, sharing one 3-digit id that continues
-from the highest id used so far (e.g. `015-…-en` and `015-…-hi`).
+for all States). Each topic becomes **one English post** (`lang: "en"`) with a 3-digit id continuing from the highest id
+used so far (e.g. `015-landlord-deposit-en`). **Posts are English only** — do not make Hindi or other language versions.
 If fewer than 30 unticked topics remain after this week, add 20 new common, timeless legal questions to `topics.md`
-(no duplicates, no news-driven topics). The renderer also supports `mr`, `ta`, `te` and `kn` if languages are added later.
+(no duplicates, no news-driven topics). The renderer still supports other languages if that ever changes.
 
 ### 3. Research (one topic at a time)
 For each topic: find the governing Act/section or official scheme on an official site, read the actual text,
@@ -84,19 +84,18 @@ Source: <Act, Section>
 
 <2–3 topic hashtags> #UPSC #Constitution #Exam #Job #AdalatIQ
 ```
-Hashtags are always in English (Latin letters), even in Hindi posts: no Devanagari hashtags.
+Hashtags are always in English (Latin letters).
 ```
 ```
 
 ### 5. Independent fact-check (required)
 Spawn a separate agent that has **not** seen your drafting. Give it only the `post.json` files and the list of
 official source URLs. Ask it to open each source and mark every claim on every slide and in every caption as
-VERIFIED (quote the matching official text), WRONG, or UNSUPPORTED. For the Hindi posts it must also check that the
-meaning matches the English version and the law. Fix or cut anything not VERIFIED, then re-check those claims. Drop a post that still fails.
+VERIFIED (quote the matching official text), WRONG, or UNSUPPORTED.  Fix or cut anything not VERIFIED, then re-check those claims. Drop a post that still fails.
 
 ### 6. Schedule and render
-Four posts per day of the coming week (Monday to Sunday). The folder name sets the posting order, so name them
-`0930` topic A English · `1330` topic A Hindi · `1830` topic B English · `2130` topic B Hindi for each date. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
+Two posts per day of the coming week (Monday to Sunday). The folder name sets the posting order, so name them
+`0930` (first topic) and `1830` (second topic) for each date. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
 ```
 python3 scripts/render_explainer.py queue/<each new folder>   # default style: explainer (paper, serif, highlighter)
 # Reels are PAUSED (owner wants to approve the music first). Do not run animate_reel.py until POST_REELS is
@@ -114,7 +113,7 @@ Tick the used topics in `topics.md` with their ids and languages. Commit to `mai
 Then send the owner a short report:
 - how many posts are queued, with each question, in order;
 - anything dropped and why;
-- anything worth a closer look (e.g. Hindi wording, State-dependent rules);
+- anything worth a closer look (e.g. State-dependent rules);
 - that they can post the day's 4 by asking Claude in any chat ("post today's AdalatIQ posts"), and can skip a post
   by deleting its folder from `queue/` on GitHub
   (https://github.com/kartikeyakotnala/Adalatiq-insta/tree/main/queue).

@@ -1,5 +1,8 @@
 # Posting to Instagram
 
+For a one-off post made in a chat: research and fact-check it as in WEEKLY_BUILD.md, render it with
+`scripts/render_explainer.py` (the default style), then post it as below.
+
 Posting is on request. Nothing posts on a timer.
 
 **For Claude (when the owner asks to post):**

@@ -20,6 +20,8 @@ FONTS = render.FONTS
 E = html.escape
 SERIF = {"en": "Fraunces", "hi": "NotoSerifDeva", "mr": "NotoSerifDeva"}
 KICKER = {"en": "EXPLAINED", "hi": "आसान भाषा में", "mr": "सोप्या भाषेत"}
+LAW = {"en": "THE LAW", "hi": "क़ानून", "mr": "कायदा"}
+TAGLINE = {"en": "Legal Made Simple", "hi": "क़ानून, आसान भाषा में", "mr": "कायदा, सोप्या भाषेत"}
 BREAK = {"en": "let's break it down →", "hi": "चलिए समझते हैं →", "mr": "चला समजून घेऊ →"}
 
 EXTRA_FACES = "".join(
@@ -41,7 +43,7 @@ CSS = render.FACES + EXTRA_FACES + f"""
 *{{box-sizing:border-box;margin:0;padding:0}}
 html,body{{width:1080px;height:1350px}}
 body{{background:var(--paper);background-image:{PAPER};color:var(--ink);font-family:var(--f),Inter,sans-serif;-webkit-font-smoothing:antialiased}}
-.s{{position:relative;width:1080px;height:1350px;padding:80px 90px 90px;display:flex;flex-direction:column}}
+.s{{position:relative;width:1080px;height:1350px;padding:80px 90px 128px;display:flex;flex-direction:column}}
 .s:before{{content:"";position:absolute;inset:34px;border:2px solid rgba(23,21,20,.12);pointer-events:none}}
 .top{{display:flex;align-items:center;justify-content:space-between;font-family:Inter;position:relative}}
 .brand{{display:flex;align-items:center;gap:12px;font-weight:800;font-size:32px}}
@@ -91,6 +93,13 @@ li:before{{content:"✓";position:absolute;left:0;top:14px;font-family:Caveat;fo
 .cta strong{{display:block;font-family:var(--serif),serif;font-weight:900;font-size:54px;line-height:1.15}}
 .cta em{{font-style:normal;font-family:Inter;font-weight:800;font-size:36px;color:var(--coral);display:block;margin-top:10px}}
 .end .sticker{{width:320px;height:410px}}
+:lang(hi) .hl,:lang(mr) .hl{{background:linear-gradient(transparent 38%,var(--hl) 38%,var(--hl) 80%,transparent 80%)}}
+:lang(hi) .kick,:lang(mr) .kick,:lang(hi) .clip small,:lang(mr) .clip small,:lang(hi) .end h3,:lang(mr) .end h3{{letter-spacing:0;font-size:24px}}
+.foot{{position:absolute;left:90px;bottom:56px;display:flex;align-items:center;gap:12px;font-family:Inter,var(--f);font-size:22px;color:#6d655c}}
+.foot svg{{width:30px;height:30px}}
+.foot b{{font-weight:800;color:var(--ink)}} .foot b i{{font-style:normal;color:var(--coral)}}
+.foot em{{font-style:normal;font-weight:700;color:var(--coral)}}
+.foot .dot{{width:5px;height:5px;border-radius:50%;background:#b8ad9f}}
 """
 
 
@@ -103,10 +112,15 @@ def plain(text):
     return text.replace("**", "")
 
 
+def footer(lang):
+    return (f"<div class='foot'>{render.LOGO}<b>Adalat<i>IQ</i></b><span class='dot'></span>"
+            f"<span>{E(TAGLINE.get(lang, TAGLINE['en']))}</span><span class='dot'></span><em>adalatiq.com</em></div>")
+
+
 def page(inner, lang, cls=""):
     f = render.UI[lang]["font"]
     return (f"<!doctype html><html lang='{lang}'><head><meta charset='utf-8'><style>{CSS}</style></head>"
-            f"<body style='--f:{f};--serif:{SERIF.get(lang, f)}'><div class='s {cls}'>{inner}</div></body></html>")
+            f"<body style='--f:{f};--serif:{SERIF.get(lang, f)}'><div class='s {cls}'>{inner}{footer(lang)}</div></body></html>")
 
 
 def top(i, n, lang):
@@ -137,7 +151,7 @@ def build(spec):
                                               f"<div class='t'>{mark(ev['text'])}</div></div>" for ev in s["timeline"]) + "</div>"
         if s.get("note"):
             c += f"<div class='note'>↳ {E(s['note'])}</div>"
-        pages.append(page(top(k + 1, n, lang) + f"<div class='fit'>{c}</div>" + clip(s["ref"]), lang))
+        pages.append(page(top(k + 1, n, lang) + f"<div class='fit'>{c}</div>" + clip(s["ref"], LAW.get(lang, LAW["en"])), lang))
     srcs = "".join(f"<div class='src'>{E(x)}</div>" for x in spec["sources"])
     pages.append(page(
         top(n, n, lang) +

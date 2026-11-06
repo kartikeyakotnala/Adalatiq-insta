@@ -14,7 +14,7 @@ Automated legal-awareness carousels for AdalatIQ's Instagram.
 - `queue/` – approved posts waiting for their time (`YYYY-MM-DD-HHMM-<id>-<lang>`, time in IST)
 - `published/` – posts already live, each with `result.json` holding the Instagram link
 - `topics.md` – the question bank; `WEEKLY_BUILD.md` – the rules Claude follows
-- `scripts/render.py` – turns `post.json` into slides; `scripts/publish.py` – posts via Instagram's official API
+- `scripts/render_explainer.py` – turns `post.json` into slides in the default explainer style (`scripts/render.py` is the older plain style); `scripts/publish.py` – posts via Instagram's official API
 
 **Handy controls**
 - Test the token without posting: Actions → Publish to Instagram → Run workflow → `check`.

@@ -60,6 +60,13 @@ Section numbers and helpline numbers stay as digits.
   "caption": "…"
 }
 ```
+Explainer extras (use them; they're what makes the style work):
+- Wrap the 1–3 most important words of the hook, each title and occasionally a body in `**double asterisks**`
+  to draw the coral highlighter. Never highlight more than one phrase per line.
+- For date-based or step-by-step answers, use a timeline slide instead of a body:
+  `{"title": "Two dates that **matter.**", "timeline": [{"date": "20 Dec 2004", "text": "..."}], "ref": "..."}` (2–4 items).
+- Optionally add `"note"`: a short handwritten aside (under 8 words). Notes and timeline items are claims too, so the
+  fact-checker must verify them.
 Rules: 3–7 answer slides; titles under ~8 words; bodies under ~35 words; lists 3–5 items.
 Caption template (in the post's language):
 ```
@@ -91,7 +98,7 @@ meaning matches the English version and the law. Fix or cut anything not VERIFIE
 Four posts per day of the coming week (Monday to Sunday). The folder name sets the posting order, so name them
 `0930` topic A English · `1330` topic A Hindi · `1830` topic B English · `2130` topic B Hindi for each date. Folder name: `queue/YYYY-MM-DD-HHMM-<id>-<lang>/post.json`.
 ```
-python3 scripts/render.py queue/<each new folder>
+python3 scripts/render_explainer.py queue/<each new folder>   # default style: explainer (paper, serif, highlighter)
 # Reels are PAUSED (owner wants to approve the music first). Do not run animate_reel.py until POST_REELS is
 # set to "true" in .github/workflows/publish.yml.
 # python3 scripts/animate_reel.py queue/<each new folder>

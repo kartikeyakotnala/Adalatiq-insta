@@ -1,0 +1,28 @@
+name: Google voice samples
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Generate a sample for every Indian-English female voice
+        env:
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+        run: python3 scripts/google_tts.py samples
+      - name: Save samples to the voice-samples branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B voice-samples
+          git add voice-samples
+          git commit -m "Google en-IN female voice samples" || exit 0
+          git push -f origin voice-samples

@@ -50,7 +50,7 @@ language codes, e.g. `- [x] Question — 003 (en, ta)`.
 - [ ] Do I need a written rent agreement?
 - [ ] How do I check if a property has a legal dispute before buying?
 - [ ] What is a mutation of property and why does it matter?
-- [ ] Do daughters have an equal share in ancestral property?
+- [x] Do daughters have an equal share in ancestral property? — 007 (en)
 - [ ] My relative died without a will. Who inherits?
 - [ ] How do I make a valid will?
 - [ ] What is a succession certificate and when do I need one?

@@ -1,0 +1,25 @@
+{
+  "lang": "en",
+  "scenes": [
+    {"kind": "hook", "kicker": "THE QUESTION", "head": "Can your brothers deny you a share in **joint family property?**",
+     "say": "Can your brothers deny you a share in your joint family property? Here's what the law says.", "pose": "think"},
+    {"kind": "text", "kicker": "THE RULE", "head": "Daughters are **coparceners by birth.**",
+     "sub": "Just like sons, in a Mitakshara Hindu joint family.", "ref": "Hindu Succession Act 1956 · Sec 6(1)(a)",
+     "say": "In a Mitakshara Hindu joint family, a daughter is a coparcener by birth, just like a son.", "pose": "point"},
+    {"kind": "text", "kicker": "WHAT SHE GETS", "head": "Same rights. **Equal share.**",
+     "sub": "And the same liabilities as a son.", "ref": "Sec 6(1)(b), (c), 6(3)",
+     "say": "She has the same rights, the same liabilities, and an equal share.", "pose": "confident"},
+    {"kind": "text", "kicker": "THE BIG RULING", "head": "Father died before 2005? **It still applies.**",
+     "ref": "Supreme Court · Vineeta Sharma v Rakesh Sharma, 2020",
+     "say": "And the Supreme Court says this applies even if her father died before 2005.", "pose": "point"},
+    {"kind": "timeline", "kicker": "THE CATCH", "head": "Two dates that **matter.**",
+     "events": [{"date": "20 Dec 2004", "text": "Partitions, sales, gifts or wills made **before this** still stand."},
+                {"date": "9 Sep 2005", "text": "Daughters' rights can be **claimed from here.**"}],
+     "say": "But partitions, sales, gifts or wills made before December twentieth, two thousand four, still stand.", "pose": "point"},
+    {"kind": "text", "kicker": "ALSO NOTE", "head": "Self-acquired property is **not a birthright.**",
+     "sub": "A father can will it. Without a will, children inherit equally, along with his widow and mother.",
+     "ref": "Hindu Succession Act 1956 · Sec 8, 10, 30",
+     "say": "And remember, a father's self-acquired property isn't a birthright. He can leave it by will.", "pose": "confident"},
+    {"kind": "end", "head": "Know your **rights.**", "say": "Know your rights. Follow AdalatIQ for more.", "pose": "wave"}
+  ]
+}

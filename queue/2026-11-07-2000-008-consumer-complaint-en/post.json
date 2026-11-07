@@ -1,0 +1,59 @@
+{
+  "id": "008-consumer-complaint",
+  "lang": "en",
+  "hook": "I bought a **faulty product** and the company won't fix it.",
+  "hook_q": "How do I file a consumer complaint?",
+  "slides": [
+    {
+      "title": "You can **file online.**",
+      "body": "The Act allows complaints to be filed electronically. On the government's e-Daakhil portal (edaakhil.nic.in) you can file and pay the fee online. It works for the National Commission and all States/UTs.",
+      "ref": "Consumer Protection Act 2019 · Sec 35(1) · PIB"
+    },
+    {
+      "title": "File **where you live.**",
+      "body": "You can file in the District Commission where you live or work, not only where the seller is based.",
+      "ref": "Consumer Protection Act 2019 · Sec 34(2)(d)"
+    },
+    {
+      "title": "Which commission? It depends on **what you paid.**",
+      "list": [
+        "Up to ₹50 lakh: District Commission",
+        "₹50 lakh to ₹2 crore: State Commission",
+        "Above ₹2 crore: National Commission"
+      ],
+      "ref": "CP Jurisdiction Rules 2021 · Rules 3, 4, 5"
+    },
+    {
+      "title": "Paid up to ₹5 lakh? **No filing fee.**",
+      "body": "Complaints where the amount paid for the goods or service is up to ₹5 lakh have no fee.",
+      "ref": "CDRC Rules 2020 · Rule 7(2), as amended 2023"
+    },
+    {
+      "title": "Don't miss **the deadline.**",
+      "timeline": [
+        {
+          "date": "Day 0",
+          "text": "The **cause of action** arises (e.g., the defect appears or the company refuses to fix it). The 2-year clock starts here."
+        },
+        {
+          "date": "2 years",
+          "text": "Last date to file. After that, you must show **sufficient cause** for the delay."
+        }
+      ],
+      "ref": "Consumer Protection Act 2019 · Sec 69"
+    },
+    {
+      "title": "Not for **resale or business** purchases.",
+      "body": "If you bought goods for resale or a commercial purpose, or hired services for a commercial purpose, you're not a \"consumer\" under the Act. Goods bought and used by you exclusively to earn your livelihood through self-employment are an exception.",
+      "note": "check this before you file",
+      "ref": "Consumer Protection Act 2019 · Sec 2(7)"
+    }
+  ],
+  "sources": [
+    "Consumer Protection Act, 2019 – Sections 2(7), 34, 35, 69",
+    "Consumer Protection (Jurisdiction...) Rules, 2021 – Rules 3 to 5",
+    "CDRC Rules, 2020 – Rule 7, as amended Aug 2023 (e-Gazette)",
+    "PIB: e-Daakhil (2021, 2024)"
+  ],
+  "caption": "Got a faulty product or bad service? Here's how to file a consumer complaint. 👇\n\n1️⃣ File online on e-Daakhil (edaakhil.nic.in), available across all States/UTs\n2️⃣ At the District or State Commission, you can file where you live or work\n3️⃣ Up to ₹50 lakh: District Commission. ₹50 lakh to ₹2 crore: State. Above ₹2 crore: National\n4️⃣ No filing fee if you paid up to ₹5 lakh\n5️⃣ File within 2 years from when the cause of action arises\n\nSource: Consumer Protection Act, 2019 (Sec 2(7), 34, 35, 69); Jurisdiction Rules 2021; CDRC Rules 2020 (as amended 2023); PIB\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#ConsumerRights #eDaakhil #JagoGrahakJago #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

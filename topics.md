@@ -36,7 +36,7 @@ language codes, e.g. `- [x] Question — 003 (en, ta)`.
 
 ## Consumer rights
 - [ ] A shop refused to refund a defective product. What can I do?
-- [ ] How do I file a consumer complaint online?
+- [x] How do I file a consumer complaint online? — 008 (en)
 - [x] Can a shop charge more than the MRP? — 005 (en, hi)
 - [ ] My online order never arrived. What are my rights?
 - [ ] A builder delayed my flat possession. What can I do?

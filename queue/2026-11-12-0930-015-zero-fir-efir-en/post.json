@@ -1,0 +1,53 @@
+{
+  "id": "015-zero-fir-efir",
+  "lang": "en",
+  "hook": "The crime happened in another city. Can I still **file an FIR** here?",
+  "hook_q": "What is a Zero FIR and how do I file an e-FIR?",
+  "slides": [
+    {
+      "title": "Yes. File at **any police station.**",
+      "body": "Information about a cognizable offence may be given to an officer in charge of a police station, irrespective of the area where the offence was committed. MHA calls this Zero FIR.",
+      "ref": "BNSS 2023 · Sec 173(1) · MHA"
+    },
+    {
+      "title": "Go in person, or **report electronically.**",
+      "body": "You can give the information orally or by electronic communication, without having to visit the police station.",
+      "ref": "BNSS 2023 · Sec 173(1) · MHA"
+    },
+    {
+      "title": "Reported electronically? **Sign within 3 days.**",
+      "timeline": [
+        {
+          "date": "Day 0",
+          "text": "You send the information by **electronic communication.**"
+        },
+        {
+          "date": "Within 3 days",
+          "text": "You sign it. Only then is it **taken on record** by the officer in charge."
+        }
+      ],
+      "ref": "BNSS 2023 · Sec 173(1)(ii)"
+    },
+    {
+      "title": "Told orally? It's **read back to you.**",
+      "body": "Oral information must be written down by the officer or under their direction, read over to you, and signed by you.",
+      "ref": "BNSS 2023 · Sec 173(1)(i)"
+    },
+    {
+      "title": "Your copy is **free.**",
+      "body": "A copy of the information as recorded must be given at once, free of cost, to the informant or the victim.",
+      "ref": "BNSS 2023 · Sec 173(2)"
+    },
+    {
+      "title": "How to report online **depends on your State.**",
+      "body": "Online options differ from State to State, so check your State police website. For cyber financial fraud, there's the National Cybercrime Reporting Portal and helpline 1930.",
+      "ref": "State police · PIB (MHA, I4C)"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Section 173(1), (2)",
+    "PIB (MHA): E-FIR under BNSS, 11 Aug 2026; Key features of the new criminal laws, 20 Aug 2025; e-Zero FIR, 19 May 2025",
+    "MHA: Rajya Sabha Unstarred Q. 1182, 10 Dec 2025 (mha.gov.in)"
+  ],
+  "caption": "Crime happened somewhere else? You can still go to the nearest police station. 👇\n\n1️⃣ Information about a cognizable offence can be given to any police station, wherever the offence happened (Zero FIR)\n2️⃣ You can give it orally or by electronic communication\n3️⃣ Reported electronically? Sign it within 3 days so it is taken on record\n4️⃣ You get a copy of the FIR free of cost\n5️⃣ How to report online depends on your State's police. For cyber financial fraud, use the National Cybercrime Reporting Portal or call 1930\n\nSource: Bharatiya Nagarik Suraksha Sanhita, 2023 – Section 173; PIB/MHA\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#ZeroFIR #eFIR #KnowYourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

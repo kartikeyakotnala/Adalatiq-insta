@@ -1,0 +1,48 @@
+{
+  "id": "021-lok-adalat",
+  "lang": "en",
+  "hook": "My case has dragged on for years. Is there a **faster way to settle**?",
+  "hook_q": "What is a Lok Adalat?",
+  "slides": [
+    {
+      "title": "A forum to **settle**, not fight.",
+      "body": "A Lok Adalat helps the parties reach a compromise or settlement. It can take up cases pending in court, and disputes not yet filed in any court.",
+      "note": "not for non-compoundable offences",
+      "ref": "Legal Services Authorities Act 1987 · Sec 19(5), 20(3)"
+    },
+    {
+      "title": "How a pending case **gets there.**",
+      "list": [
+        "Both parties agree to it",
+        "One party applies, and the court sees a chance of settlement",
+        "The court finds the case suitable for a Lok Adalat"
+      ],
+      "ref": "Legal Services Authorities Act 1987 · Sec 20(1)"
+    },
+    {
+      "title": "**No court fee.** Even a refund.",
+      "body": "No court fee is payable when a matter is filed in a Lok Adalat. If a case referred from court is settled there, the court fee you paid is refunded.",
+      "ref": "LSA Act 1987 · Sec 21(1) proviso · NALSA"
+    },
+    {
+      "title": "The award is **final.**",
+      "body": "A Lok Adalat award is treated as a decree of a civil court. It is final and binding on all parties, and no appeal lies to any court against it.",
+      "ref": "Legal Services Authorities Act 1987 · Sec 21(1), 21(2)"
+    },
+    {
+      "title": "No settlement? **Back to court.**",
+      "body": "If no compromise is reached, the record goes back to the court, which continues the case from the stage it had reached before the reference.",
+      "ref": "Legal Services Authorities Act 1987 · Sec 20(5), 20(7)"
+    },
+    {
+      "title": "Utility problem? **Permanent Lok Adalat.**",
+      "body": "For services like transport, post, telephone, power, water, sanitation, hospitals and insurance, you can apply before going to court (subject to a value limit). If talks fail, it can decide the dispute, unless it relates to an offence.",
+      "ref": "LSA Act 1987 · Sec 22A(b), 22C(1), 22C(8)"
+    }
+  ],
+  "sources": [
+    "Legal Services Authorities Act, 1987 – Sections 19, 20, 21, 22A, 22C, 22E",
+    "National Legal Services Authority (nalsa.gov.in) – Lok Adalats"
+  ],
+  "caption": "Stuck in a long court case? A Lok Adalat may help you settle it. 👇\n\n1️⃣ It helps parties reach a compromise, for pending cases and disputes not yet filed in court\n2️⃣ No court fee is payable, and if a case referred from court is settled, the court fee is refunded\n3️⃣ The award is treated as a civil court decree. It's final and binding, with no appeal\n4️⃣ No settlement? The case goes back to the court and continues from where it was\n5️⃣ It can't deal with offences that are not compoundable\n6️⃣ National Lok Adalats are held on a single day in courts across the country\n\nSource: Legal Services Authorities Act, 1987 (Sec 19, 20, 21, 22A, 22C); NALSA\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#LokAdalat #NALSA #LegalAid #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

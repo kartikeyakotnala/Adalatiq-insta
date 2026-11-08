@@ -1,0 +1,49 @@
+{
+  "id": "012-bailable-vs-non-bailable",
+  "lang": "en",
+  "hook": "The police said the offence is **non-bailable.**",
+  "hook_q": "What's the difference between bailable and non-bailable?",
+  "slides": [
+    {
+      "title": "The law's **Schedule** decides.",
+      "body": "A bailable offence is one shown as bailable in the BNSS First Schedule, or made bailable by another law. Every other offence is non-bailable.",
+      "ref": "BNSS 2023 · Sec 2(1)(c)"
+    },
+    {
+      "title": "Bailable? Bail is **your right.**",
+      "body": "In bailable offences, bail is the right of the accused. The police can also grant bail at the time of arrest or detention.",
+      "ref": "BNSS 2023 · Sec 478 · Uttarakhand Judicial & Legal Academy"
+    },
+    {
+      "title": "Police must **tell you.**",
+      "body": "If police arrest you without a warrant and you're not accused of a non-bailable offence, they must tell you that you're entitled to bail and can arrange sureties.",
+      "ref": "BNSS 2023 · Sec 47(2)"
+    },
+    {
+      "title": "Non-bailable? Bail is **not automatic.**",
+      "body": "Bail isn't a matter of right. It is at the discretion of the court or police officer, depending on the facts of the case. It is not ruled out.",
+      "ref": "BNSS 2023 · Sec 480 · Uttarakhand Judicial & Legal Academy"
+    },
+    {
+      "title": "Some examples from **the Schedule:**",
+      "list": [
+        "Bailable: voluntarily causing hurt (BNS 115(2))",
+        "Bailable: rash driving on a public way (BNS 281)",
+        "Non-bailable: murder (BNS 103(1))",
+        "Non-bailable: rape (BNS 64(1))"
+      ],
+      "ref": "BNSS 2023 · First Schedule, Part I"
+    },
+    {
+      "title": "Check **the First Schedule.**",
+      "body": "For each BNS offence, the First Schedule has a column saying \"Bailable\" or \"Non-bailable\". It's the quickest way to know which one applies.",
+      "ref": "BNSS 2023 · First Schedule, Part I"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 2(1)(c), 47(2) (indiacode.nic.in; NCRB, ncrb.mha.gov.in)",
+    "BNSS 2023 – First Schedule (NCRB, ncrb.mha.gov.in)",
+    "Uttarakhand Judicial & Legal Academy – Handbook on Procedure Related to Criminal Courts (on Sec 478, 480)"
+  ],
+  "caption": "Bailable or non-bailable? Here's the difference. 👇\n\n1️⃣ Bailable means the BNSS First Schedule (or another law) says so. All other offences are non-bailable\n2️⃣ In bailable offences, bail is the right of the accused, and police can grant it too\n3️⃣ Arrested without a warrant for a bailable offence? Police must tell you that you're entitled to bail\n4️⃣ Non-bailable doesn't mean no bail. It's at the discretion of the court or police officer\n5️⃣ Examples: hurt and rash driving are bailable. Murder and rape are non-bailable\n\nSource: Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 2(1)(c), 47(2), 478, 480, First Schedule\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#Bail #KnowYourRights #BNSS #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

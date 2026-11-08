@@ -1,0 +1,44 @@
+{
+  "id": "016-cyber-fraud-report",
+  "lang": "en",
+  "hook": "I got scammed online and **money left my account.**",
+  "hook_q": "How do I report a cyber fraud?",
+  "slides": [
+    {
+      "title": "Call **1930** or go online.",
+      "body": "1930 is the government's toll-free helpline for help lodging online cyber complaints. You can also report any type of cyber crime on the National Cyber Crime Reporting Portal: **cybercrime.gov.in**.",
+      "ref": "MHA · I4C · PIB (Feb 2026)"
+    },
+    {
+      "title": "Lost money? Report **immediately.**",
+      "body": "The government's Citizen Financial Cyber Fraud Reporting and Management System was set up for immediate reporting of financial frauds and to stop fraudsters siphoning off the money.",
+      "ref": "I4C · CFCFRMS · PIB (Feb 2026)"
+    },
+    {
+      "title": "Tell **your bank** at the earliest.",
+      "body": "Report the unauthorised electronic transaction to your bank as soon as possible. Under RBI rules, loss after you report it is borne by the bank, even if you had shared your payment details.",
+      "ref": "RBI Commercial Banks – Responsible Business Conduct Directions 2025 · Para 66, 68(1)"
+    },
+    {
+      "title": "Bank at fault? **Zero liability.**",
+      "body": "If the fraud happened because of the bank's negligence or deficiency, you have zero liability, whether or not you reported it. And it is the bank that must prove any liability is yours.",
+      "ref": "RBI Commercial Banks – Responsible Business Conduct Directions 2025 · Para 67(1), 75"
+    },
+    {
+      "title": "Only a suspicious call or SMS? Use **Chakshu.**",
+      "list": [
+        "Suspected fraud call, SMS or WhatsApp? Report on Chakshu",
+        "Chakshu is on sancharsaathi.gov.in",
+        "Chakshu is not for money already lost",
+        "For financial fraud, call 1930"
+      ],
+      "ref": "DoT · Sanchar Saathi"
+    }
+  ],
+  "sources": [
+    "MHA / I4C: National Cyber Crime Reporting Portal, Helpline 1930, CFCFRMS (PIB, 11 Feb 2026)",
+    "RBI (Commercial Banks – Responsible Business Conduct) Directions, 2025 – Chapter IV Section D, Paras 66, 67, 68, 75 (rbi.org.in)",
+    "DoT: Sanchar Saathi – Chakshu (sancharsaathi.gov.in)"
+  ],
+  "caption": "Lost money to an online scam? Here's how to report it. 👇\n\n1️⃣ Call the toll-free helpline 1930 or report on cybercrime.gov.in\n2️⃣ Report financial fraud immediately: the system exists to stop fraudsters siphoning off funds\n3️⃣ Tell your bank at the earliest. Under RBI rules, loss after you report is borne by the bank\n4️⃣ Bank's negligence or deficiency? Zero liability, and the bank must prove any liability is yours\n5️⃣ Only got a suspicious call, SMS or WhatsApp? Report it on Chakshu (sancharsaathi.gov.in). For money lost, use 1930\n\nSource: MHA / I4C (PIB); RBI (Commercial Banks – Responsible Business Conduct) Directions, 2025, Section D; DoT Sanchar Saathi\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#CyberFraud #Helpline1930 #OnlineScam #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

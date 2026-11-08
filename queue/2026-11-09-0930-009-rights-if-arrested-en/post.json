@@ -1,0 +1,58 @@
+{
+  "id": "009-rights-if-arrested",
+  "lang": "en",
+  "hook": "What happens if the police **arrest** me?",
+  "hook_q": "What are my rights if I am arrested?",
+  "slides": [
+    {
+      "title": "You must be **told why.**",
+      "body": "If you're arrested without a warrant, police must at once tell you the full details of the offence, or the other grounds, for your arrest.",
+      "ref": "BNSS 2023 · Sec 47(1)"
+    },
+    {
+      "title": "Bailable offence? You must be told **about bail.**",
+      "body": "If you're arrested without a warrant and not accused of a non-bailable offence, police must tell you that you are entitled to be released on bail and can arrange sureties.",
+      "ref": "BNSS 2023 · Sec 47(2)"
+    },
+    {
+      "title": "Someone you name **gets told.**",
+      "body": "Police must at once inform a relative, friend or person you name about the arrest and where you're held. They must tell you of this right once you reach the police station.",
+      "ref": "BNSS 2023 · Sec 48(1), 48(2)"
+    },
+    {
+      "title": "You can **meet a lawyer.**",
+      "body": "If police arrest and question you, you can meet an advocate of your choice during the questioning, though not for all of it.",
+      "ref": "BNSS 2023 · Sec 38"
+    },
+    {
+      "title": "A **medical check** soon after arrest.",
+      "body": "A government medical officer (or, if none is available, a registered medical practitioner) must examine you soon after the arrest. A copy of the report goes to you or your nominee.",
+      "ref": "BNSS 2023 · Sec 53(1), 53(3)"
+    },
+    {
+      "title": "To a Magistrate within **24 hours.**",
+      "timeline": [
+        {
+          "date": "Arrested without warrant",
+          "text": "Police must take or send you, **without unnecessary delay**, before a Magistrate or the officer in charge of a police station."
+        },
+        {
+          "date": "24 hours",
+          "text": "Without a Magistrate's special order, you can't be held longer than this. Travel time to the court is not counted."
+        }
+      ],
+      "ref": "BNSS 2023 · Sec 57, 58"
+    },
+    {
+      "title": "In custody? **Free legal aid.**",
+      "body": "A person in custody who has to defend a case is entitled to free legal services. NALSA's helpline is 15100.",
+      "ref": "Legal Services Authorities Act 1987 · Sec 12(g) · NALSA"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 38, 47, 48, 53, 57, 58 (indiacode.nic.in; NCRB, ncrb.mha.gov.in)",
+    "Legal Services Authorities Act, 1987 – Section 12 (nalsa.gov.in)",
+    "NALSA Helpline 15100 (nalsa.gov.in)"
+  ],
+  "caption": "Arrested? These are the rights the law gives you. 👇\n\n1️⃣ Arrested without a warrant? Police must tell you the full grounds of arrest at once\n2️⃣ Not accused of a non-bailable offence? Police must also tell you you're entitled to bail\n3️⃣ A relative, friend or person you name must be told about the arrest and where you're held\n4️⃣ You can meet an advocate of your choice during questioning (not for all of it)\n5️⃣ A medical check soon after arrest, with a copy of the report\n6️⃣ You must be taken before a Magistrate. No more than 24 hours in police custody without a Magistrate's order (travel time excluded)\n\nSource: Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 38, 47, 48, 53, 57, 58; Legal Services Authorities Act, 1987 – Section 12; NALSA\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#KnowYourRights #Arrest #BNSS #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

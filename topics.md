@@ -10,24 +10,24 @@ language codes, e.g. `- [x] Question — 003 (en, ta)`.
 ## Police and criminal
 - [x] Police refused to register my FIR. What can I do? — 001 (en, hi)
 - [x] Can the police arrest me without a warrant? — 003 (en, hi)
-- [ ] What are my rights if I am arrested?
-- [ ] Can a woman be arrested at night?
-- [ ] How long can police keep me before taking me to a magistrate?
-- [ ] What is the difference between bailable and non-bailable offences?
-- [ ] How do I apply for anticipatory bail?
-- [ ] Do I have to go to the police station if police call me for questioning?
-- [ ] Can police take my phone and check it?
-- [ ] What is a Zero FIR and how do I file an e-FIR?
-- [ ] How do I report a cyber fraud or online scam?
-- [ ] Someone is threatening me online. What can I do?
-- [ ] Someone shared my private photos online. What can I do?
-- [ ] What happens if I witness a road accident and help the victim?
-- [ ] Is it a crime to not return borrowed money?
+- [x] What are my rights if I am arrested? — 009 (en)
+- [x] Can a woman be arrested at night? — 010 (en)
+- [x] How long can police keep me before taking me to a magistrate? — 011 (en)
+- [x] What is the difference between bailable and non-bailable offences? — 012 (en)
+- [x] How do I apply for anticipatory bail? — 013 (en)
+- [x] Do I have to go to the police station if police call me for questioning? — 014 (en)
+- [ ] Can police take my phone and check it? — skipped 2026-11-08: official text doesn't settle unlocking/searching a phone; needs a human call before use
+- [x] What is a Zero FIR and how do I file an e-FIR? — 015 (en)
+- [x] How do I report a cyber fraud or online scam? — 016 (en)
+- [x] Someone is threatening me online. What can I do? — 017 (en)
+- [x] Someone shared my private photos online. What can I do? — 018 (en)
+- [x] What happens if I witness a road accident and help the victim? — 019 (en)
+- [x] Is it a crime to not return borrowed money? — 020 (en)
 
 ## Free legal help and courts
 - [x] I can't afford a lawyer. Can I get one for free? — 002 (en, hi)
-- [ ] What is a Lok Adalat and how can it settle my case?
-- [ ] How do I check the status of my court case online?
+- [x] What is a Lok Adalat and how can it settle my case? — 021 (en)
+- [x] How do I check the status of my court case online? — 022 (en)
 - [ ] Can I argue my own case without a lawyer?
 - [ ] What is a legal notice and do I need to reply to one?
 - [ ] How long do I have to file a case? (limitation periods)

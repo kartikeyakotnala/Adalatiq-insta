@@ -1,0 +1,50 @@
+{
+  "id": "017-online-threats",
+  "lang": "en",
+  "hook": "Someone keeps **threatening me** online.",
+  "hook_q": "What can I do?",
+  "slides": [
+    {
+      "title": "Threats can be **a crime.**",
+      "body": "Threatening someone \"by any means\" with injury to their person, reputation or property, meaning to alarm them or make them do what they aren't legally bound to, is criminal intimidation. Threats against someone close count too.",
+      "ref": "BNS 2023 · Sec 351(1)"
+    },
+    {
+      "title": "What the law **can impose.**",
+      "list": [
+        "Criminal intimidation: up to 2 years, or fine, or both",
+        "Threat of death or grievous hurt: up to 7 years",
+        "Threat to impute unchastity to a woman: up to 7 years",
+        "Each can also be fine alone, or jail plus fine"
+      ],
+      "ref": "BNS 2023 · Sec 351(2), 351(3)"
+    },
+    {
+      "title": "Monitoring a woman online? **Stalking.**",
+      "body": "A man who monitors a woman's use of the internet, email or any other electronic communication commits stalking. First conviction: up to 3 years and fine. Repeat conviction: up to 5 years and fine.",
+      "ref": "BNS 2023 · Sec 78"
+    },
+    {
+      "title": "**Save** everything.",
+      "body": "The government's Cyber Dost guide says to save all communications with a stalker as evidence, end communication, and use the platform's \"report and block\" option.",
+      "ref": "I4C (MHA) · Cyber Dost"
+    },
+    {
+      "title": "Report it **online.**",
+      "body": "The National Cyber Crime Reporting Portal, cybercrime.gov.in, takes reports of all types of cyber crime, with special focus on crimes against women and children. Helpline 1930 helps you lodge a complaint.",
+      "ref": "MHA · I4C · PIB (Feb 2026)"
+    },
+    {
+      "title": "Police complaint by **e-communication.**",
+      "body": "Information about a cognizable offence can be given to a police station orally or by electronic communication, wherever the offence happened. An electronic complaint is taken on record once you sign it within 3 days.",
+      "ref": "BNSS 2023 · Sec 173(1)"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nyaya Sanhita, 2023 – Sections 78, 351 (indiacode.nic.in; Sec 351 as quoted by the Supreme Court in 2026 INSC 587)",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Section 173(1)",
+    "I4C, MHA: Cyber Dost awareness document",
+    "MHA / I4C: National Cyber Crime Reporting Portal and Helpline 1930 (PIB, 11 Feb 2026)"
+  ],
+  "caption": "Being threatened online? Here's what the law says. 👇\n\n1️⃣ Threatening someone by any means with injury to person, reputation or property can be criminal intimidation\n2️⃣ Punishment: up to 2 years, or fine, or both. Threats to kill or cause grievous hurt: up to 7 years\n3️⃣ A man monitoring a woman's internet, email or electronic communication commits stalking\n4️⃣ Save all communications as evidence, then report and block\n5️⃣ Report on cybercrime.gov.in or call 1930\n6️⃣ Information about a cognizable offence can be given to police by electronic communication; sign it within 3 days\n\nSource: Bharatiya Nyaya Sanhita, 2023 (Sec 78, 351); Bharatiya Nagarik Suraksha Sanhita, 2023 (Sec 173); I4C, MHA\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#CyberSafety #OnlineHarassment #KnowYourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

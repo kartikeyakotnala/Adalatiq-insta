@@ -1,0 +1,56 @@
+{
+  "id": "011-magistrate-24-hours",
+  "lang": "en",
+  "hook": "The police are holding my brother and **won't let him go.**",
+  "hook_q": "How long can police keep someone before a Magistrate?",
+  "slides": [
+    {
+      "title": "The limit is **24 hours.**",
+      "body": "Police can't keep a person arrested without a warrant in custody longer than is reasonable, and never beyond 24 hours without a Magistrate's special order.",
+      "ref": "BNSS 2023 · Sec 58"
+    },
+    {
+      "title": "Travel time **isn't counted.**",
+      "body": "The 24 hours don't include the time needed for the journey from the place of arrest to the Magistrate's court.",
+      "ref": "BNSS 2023 · Sec 58"
+    },
+    {
+      "title": "No **unnecessary delay.**",
+      "body": "Police must take or send the arrested person, without unnecessary delay, before a Magistrate having jurisdiction, or the officer in charge of a police station.",
+      "ref": "BNSS 2023 · Sec 57"
+    },
+    {
+      "title": "Need more time? **Go to a Magistrate.**",
+      "body": "Probe can't finish in 24 hours, and there are grounds to believe the accusation is well-founded? The officer in charge or investigating officer (sub-inspector or above) must send a copy of the diary entries to the nearest Magistrate and forward the accused.",
+      "ref": "BNSS 2023 · Sec 187(1)"
+    },
+    {
+      "title": "First remand: up to **15 days.**",
+      "body": "The Magistrate can authorise custody for up to 15 days, in whole or in parts, within the first 40 days (60 days for offences punishable with death, life or 10+ years). Longer needs adequate grounds.",
+      "ref": "BNSS 2023 · Sec 187(2), 187(3)"
+    },
+    {
+      "title": "The **outer limit.**",
+      "timeline": [
+        {
+          "date": "90 days",
+          "text": "Maximum detention if the offence is punishable with **death, life** or 10 years or more."
+        },
+        {
+          "date": "60 days",
+          "text": "Maximum for any other offence."
+        },
+        {
+          "date": "After that",
+          "text": "If the probe isn't finished, the accused shall be released on bail if ready to furnish it."
+        }
+      ],
+      "ref": "BNSS 2023 · Sec 187(3)"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 57, 58 (NCRB, ncrb.mha.gov.in)",
+    "BNSS 2023 – Section 187, as reproduced in Delhi High Court, Neeraj Kumar v. State NCT of Delhi, Bail Appln. 190/2026 (delhihighcourt.nic.in)"
+  ],
+  "caption": "How long can the police keep you before a Magistrate? 👇\n\n1️⃣ Without a Magistrate's special order, no more than 24 hours\n2️⃣ Travel time from the place of arrest to the court isn't counted\n3️⃣ Police must take you before a Magistrate without unnecessary delay\n4️⃣ The Magistrate can first order custody for up to 15 days (in whole or in parts); longer detention needs adequate grounds\n5️⃣ Total detention during investigation: 90 days if the offence is punishable with death, life or 10+ years, 60 days for others. After that, bail if you're ready to furnish it\n\nSource: Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 57, 58, 187\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#KnowYourRights #Arrest #BNSS #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

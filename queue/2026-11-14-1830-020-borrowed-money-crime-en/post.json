@@ -1,0 +1,48 @@
+{
+  "id": "020-borrowed-money-crime",
+  "lang": "en",
+  "hook": "I lent money to a friend and they **won't pay it back.**",
+  "hook_q": "Is not returning borrowed money a crime?",
+  "slides": [
+    {
+      "title": "Usually, it's a **civil** matter.",
+      "body": "The Supreme Court has said that mere breach of contract cannot lead to a criminal case for cheating, unless fraudulent or dishonest intention is shown right from the beginning.",
+      "ref": "Supreme Court · Delhi Race Club, 2024 INSC 626"
+    },
+    {
+      "title": "Cheating needs a **false promise.**",
+      "body": "A promise becomes a deception only if it was made without any intention of keeping it. A dishonest intention can't be presumed just because the promise wasn't kept.",
+      "ref": "Supreme Court · 2026 INSC 846 (on BNS Sec 318)"
+    },
+    {
+      "title": "Your remedy: a **civil suit.**",
+      "body": "You can file a civil suit to recover the amount. The Supreme Court has said the criminal process is not a tool to force someone to pay.",
+      "ref": "Supreme Court · 2024 INSC 626 · 2026 INSC 846"
+    },
+    {
+      "title": "Don't wait **too long.**",
+      "timeline": [
+        {
+          "date": "Loan is made",
+          "text": "For a suit for money lent, the **limitation** clock usually starts when the loan is made."
+        },
+        {
+          "date": "3 years",
+          "text": "The period to file. A suit filed after the prescribed period **shall be dismissed.**"
+        }
+      ],
+      "ref": "Limitation Act 1963 · Sec 3 · Schedule Art 19, 21"
+    },
+    {
+      "title": "Signed note or part-payment? **Fresh period.**",
+      "body": "If, before time runs out, the borrower signs a written acknowledgment of the debt, or makes a payment towards it (acknowledged in writing), a fresh limitation period starts from then.",
+      "ref": "Limitation Act 1963 · Sec 18, 19"
+    }
+  ],
+  "sources": [
+    "Supreme Court: Delhi Race Club (1940) Ltd. v. State of U.P., 2024 INSC 626 (sci.gov.in)",
+    "Supreme Court: Parag Kishore Satoskar v. State of Jharkhand, 2026 INSC 846 (sci.gov.in)",
+    "Limitation Act, 1963 – Sections 3, 18, 19; Schedule Articles 19, 21 (sclsc.gov.in)"
+  ],
+  "caption": "Lent money and not getting it back? Here's what the law says. 👇\n\n1️⃣ Not repaying is usually a civil matter, not cheating\n2️⃣ It can be cheating only if there was a fraudulent or dishonest intention right from the beginning\n3️⃣ Your remedy is a civil suit to recover the money. The criminal process can't be used just to force payment\n4️⃣ For a suit for money lent, you usually get 3 years from when the loan is made\n5️⃣ A signed acknowledgment or a part-payment (acknowledged in writing) before time runs out starts a fresh period\n\nSource: Supreme Court (2024 INSC 626; 2026 INSC 846); Limitation Act, 1963 (Sec 3, 18, 19; Schedule Art 19, 21)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#MoneyRecovery #Loan #CivilLaw #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

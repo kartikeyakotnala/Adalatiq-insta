@@ -131,17 +131,21 @@ def publish(ig_id, folder):
     repo = os.environ["GITHUB_REPOSITORY"]
     sha = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
     slides = sorted(folder.glob("slide-*.jpg"))
-    if not 2 <= len(slides) <= 10:
-        sys.exit(f"{folder.name} has {len(slides)} slides; a carousel needs 2-10")
+    if not 1 <= len(slides) <= 10:
+        sys.exit(f"{folder.name} has {len(slides)} slides; a post needs 1 (single image) or 2-10 (carousel)")
     caption = (folder / "caption.txt").read_text(encoding="utf-8")
     base = f"https://raw.githubusercontent.com/{repo}/{sha}/queue/{urllib.parse.quote(folder.name)}"
-    children = []
-    for s in slides:
-        c = api("POST", f"{ig_id}/media", image_url=f"{base}/{s.name}", is_carousel_item="true")["id"]
-        wait_ready(c)
-        children.append(c)
-    carousel = api("POST", f"{ig_id}/media", media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
-    wait_ready(carousel)
+    if len(slides) == 1:                      # single-image post (e.g. a festival greeting)
+        carousel = api("POST", f"{ig_id}/media", image_url=f"{base}/{slides[0].name}", caption=caption)["id"]
+        wait_ready(carousel)
+    else:
+        children = []
+        for s in slides:
+            c = api("POST", f"{ig_id}/media", image_url=f"{base}/{s.name}", is_carousel_item="true")["id"]
+            wait_ready(c)
+            children.append(c)
+        carousel = api("POST", f"{ig_id}/media", media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
+        wait_ready(carousel)
     media_id = api("POST", f"{ig_id}/media_publish", creation_id=carousel)["id"]
     link = api("GET", media_id, fields="permalink").get("permalink")
     print(f"Published {folder.name}: {link}")

@@ -1,0 +1,49 @@
+{
+  "id": "031-builder-delay",
+  "lang": "en",
+  "hook": "I paid for my flat. The builder **still hasn't handed it over.**",
+  "hook_q": "Flat possession delayed. What can I do?",
+  "slides": [
+    {
+      "title": "RERA gives you **two choices.**",
+      "body": "If the builder fails to give possession as per the agreement for sale, you can either withdraw from the project or stay on and wait for the flat.",
+      "ref": "RERA Act 2016 · Sec 18(1)"
+    },
+    {
+      "title": "Withdraw? Get a **refund with interest.**",
+      "body": "If you withdraw, the builder must, on demand, return the amount it received for the flat, with interest at the prescribed rate, plus compensation as provided under the Act.",
+      "ref": "RERA Act 2016 · Sec 18(1), 19(4)"
+    },
+    {
+      "title": "Staying on? **Interest every month.**",
+      "body": "If you don't withdraw, the builder must pay you interest for every month of delay, until it hands over possession.",
+      "note": "rate depends on your State",
+      "ref": "RERA Act 2016 · Sec 18(1) proviso"
+    },
+    {
+      "title": "Complain to your **State's RERA.**",
+      "body": "Any aggrieved person can complain to the Real Estate Regulatory Authority or its adjudicating officer. Authorities are set up by the State Government (Centre or UT for UTs), whose rules set form and fee.",
+      "ref": "RERA Act 2016 · Sec 2(g), 20(1), 31, 84"
+    },
+    {
+      "title": "Compensation is decided by **a judge.**",
+      "list": [
+        "Claims go to an adjudicating officer",
+        "The officer is or has been a District Judge",
+        "Looks at your loss and the builder's unfair gain",
+        "Also weighs repeated defaults"
+      ],
+      "ref": "RERA Act 2016 · Sec 71(1), 72"
+    },
+    {
+      "title": "Unhappy with the order? **Appeal.**",
+      "body": "You can appeal to the Real Estate Appellate Tribunal within 60 days. A late appeal may be allowed if there was sufficient cause.",
+      "ref": "RERA Act 2016 · Sec 44(1), 44(2)"
+    }
+  ],
+  "sources": [
+    "Real Estate (Regulation and Development) Act, 2016 – Sections 2(g), 18, 19(4), 20, 31, 44, 71, 72, 84",
+    "Legislative Department, Ministry of Law & Justice (legislative.gov.in); India Code (indiacode.nic.in)"
+  ],
+  "caption": "Builder delayed your flat? RERA gives you clear rights. 👇\n\n1️⃣ Delay in possession as per the agreement? You can withdraw or stay on\n2️⃣ Withdraw: the builder must refund what it received, with interest, plus compensation\n3️⃣ Stay on: the builder must pay interest for every month of delay till possession\n4️⃣ The interest rate is set by rules, so it depends on your State\n5️⃣ Complain to your State's Real Estate Regulatory Authority or its adjudicating officer\n6️⃣ Unhappy with the order? Appeal to the Appellate Tribunal within 60 days\n\nSource: Real Estate (Regulation and Development) Act, 2016 (Sec 18, 19, 31, 44, 71, 72)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#RERA #HomeBuyers #RealEstate #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

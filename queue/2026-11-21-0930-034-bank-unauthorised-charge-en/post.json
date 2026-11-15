@@ -1,0 +1,67 @@
+{
+  "id": "034-bank-unauthorised-charge",
+  "lang": "en",
+  "hook": "My bank cut a charge I **never agreed to.**",
+  "hook_q": "Where do I complain?",
+  "slides": [
+    {
+      "title": "Step one: **your bank.**",
+      "body": "You must first complain to the bank itself. The RBI Ombudsman comes in only after the bank has had its chance to reply.",
+      "ref": "RB-IOS 2026 · RBI FAQ Q17"
+    },
+    {
+      "title": "The **new RBI Ombudsman** scheme.",
+      "body": "The Reserve Bank - Integrated Ombudsman Scheme, 2026 is in force from 1 July 2026. It handles complaints of deficiency in service by banks and other entities it covers.",
+      "note": "older complaints follow the 2021 Scheme",
+      "ref": "RB-IOS 2026 · RBI FAQ Q1, Q3"
+    },
+    {
+      "title": "Watch the **deadlines.**",
+      "timeline": [
+        {
+          "date": "Day 0",
+          "text": "You complain to your bank"
+        },
+        {
+          "date": "30 days",
+          "text": "No reply, or you're not satisfied with it"
+        },
+        {
+          "date": "Next 90 days",
+          "text": "File with the RBI Ombudsman"
+        }
+      ],
+      "note": "some card/UPI rules allow longer",
+      "ref": "RB-IOS 2026 · RBI FAQ Q17"
+    },
+    {
+      "title": "How to **file.**",
+      "list": [
+        "Online: cms.rbi.org.in",
+        "Email: crpc@rbi.org.in",
+        "Post: signed complaint form to CRPC, RBI, Central Vista, Sector 17, Chandigarh 160017"
+      ],
+      "note": "toll-free 14448 guides, can't file",
+      "ref": "RB-IOS 2026 · RBI FAQ Q9, Q10, Q11"
+    },
+    {
+      "title": "It's **free.**",
+      "body": "There is no charge or fee for filing or resolving complaints. You don't need any third-party agency.",
+      "ref": "RB-IOS 2026 · RBI FAQ Q21"
+    },
+    {
+      "title": "What the Ombudsman **can award.**",
+      "list": [
+        "Up to Rs 30 lakh for consequential loss",
+        "Up to Rs 3 lakh for lost time, expenses and harassment",
+        "Unhappy with the award? Appeal within 30 days"
+      ],
+      "ref": "RB-IOS 2026 · RBI FAQ Q22, Q23, Q31, Q32"
+    }
+  ],
+  "sources": [
+    "Reserve Bank - Integrated Ombudsman Scheme, 2026 (in force from 1 July 2026)",
+    "Reserve Bank of India – FAQs on RB-IOS 2026 (rbi.org.in); Press Release 2025-2026/1936, 16 Jan 2026"
+  ],
+  "caption": "Your bank charged you for something you didn't agree to? Here's where to complain. 👇\n\n1️⃣ First, complain to your bank\n2️⃣ No reply in 30 days, or not satisfied? Go to the RBI Ombudsman\n3️⃣ File within 90 days after that, on cms.rbi.org.in or at crpc@rbi.org.in\n4️⃣ It's free. There is no fee to file or resolve a complaint\n5️⃣ The Ombudsman can award up to Rs 30 lakh for consequential loss, plus up to Rs 3 lakh for time, expenses and harassment\n6️⃣ The new RBI Integrated Ombudsman Scheme, 2026 is in force from 1 July 2026\n\nSource: Reserve Bank - Integrated Ombudsman Scheme, 2026; RBI FAQs\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#RBI #BankingOmbudsman #ConsumerRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

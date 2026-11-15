@@ -28,31 +28,31 @@ language codes, e.g. `- [x] Question — 003 (en, ta)`.
 - [x] I can't afford a lawyer. Can I get one for free? — 002 (en, hi)
 - [x] What is a Lok Adalat and how can it settle my case? — 021 (en)
 - [x] How do I check the status of my court case online? — 022 (en)
-- [ ] Can I argue my own case without a lawyer?
-- [ ] What is a legal notice and do I need to reply to one?
-- [ ] How long do I have to file a case? (limitation periods)
-- [ ] What is an affidavit and when do I need one?
-- [ ] What is victim compensation and how do I apply?
+- [x] Can I argue my own case without a lawyer? — 024 (en)
+- [x] What is a legal notice and do I need to reply to one? — 025 (en)
+- [x] How long do I have to file a case? (limitation periods) — 026 (en)
+- [x] What is an affidavit and when do I need one? — 027 (en)
+- [x] What is victim compensation and how do I apply? — 028 (en)
 
 ## Consumer rights
-- [ ] A shop refused to refund a defective product. What can I do?
+- [x] A shop refused to refund a defective product. What can I do? — 029 (en)
 - [x] How do I file a consumer complaint online? — 008 (en)
 - [x] Can a shop charge more than the MRP? — 005 (en, hi)
-- [ ] My online order never arrived. What are my rights?
-- [ ] A builder delayed my flat possession. What can I do?
-- [ ] My insurance claim was rejected. What can I do?
-- [ ] Can a restaurant force me to pay a service charge?
-- [ ] My bank charged me for something I didn't agree to. Where do I complain?
+- [x] My online order never arrived. What are my rights? — 030 (en)
+- [x] A builder delayed my flat possession. What can I do? — 031 (en)
+- [x] My insurance claim was rejected. What can I do? — 032 (en)
+- [x] Can a restaurant force me to pay a service charge? — 033 (en)
+- [x] My bank charged me for something I didn't agree to. Where do I complain? — 034 (en)
 
 ## Renting and property
-- [ ] Can my landlord keep my security deposit?
-- [ ] Can my landlord evict me without notice?
-- [ ] Do I need a written rent agreement?
-- [ ] How do I check if a property has a legal dispute before buying?
-- [ ] What is a mutation of property and why does it matter?
+- [ ] Can my landlord keep my security deposit? — skipped 2026-11-15: deposit caps and refund rules are State rent-law specific
+- [ ] Can my landlord evict me without notice? — skipped 2026-11-15: eviction grounds/notice are State rent-law specific
+- [x] Do I need a written rent agreement? — 035 (en)
+- [ ] How do I check if a property has a legal dispute before buying? — skipped 2026-11-15: land-record and encumbrance systems are State-specific
+- [ ] What is a mutation of property and why does it matter? — skipped 2026-11-15: mutation is under State land-revenue laws
 - [x] Do daughters have an equal share in ancestral property? — 007 (en)
-- [ ] My relative died without a will. Who inherits?
-- [ ] How do I make a valid will?
+- [x] My relative died without a will. Who inherits? — 036 (en)
+- [x] How do I make a valid will? — 037 (en)
 - [ ] What is a succession certificate and when do I need one?
 - [ ] Someone has illegally occupied my land. What can I do?
 

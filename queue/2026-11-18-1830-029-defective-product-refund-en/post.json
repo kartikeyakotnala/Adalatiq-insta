@@ -1,0 +1,63 @@
+{
+  "id": "029-defective-product-refund",
+  "lang": "en",
+  "hook": "The shop says **\"no refund\"** on my faulty product.",
+  "hook_q": "A shop refused to refund a defective product. What can I do?",
+  "slides": [
+    {
+      "title": "What counts as a **defect?**",
+      "body": "Any fault, imperfection or shortcoming in quality, quantity, potency, purity or standard that the law or a contract requires, or that the trader claimed.",
+      "ref": "Consumer Protection Act 2019 · Sec 2(10)"
+    },
+    {
+      "title": "Refusing a refund can be **unfair.**",
+      "body": "Refusing to take back defective goods and refund the price within the period stated in the bill, or within 30 days if none is stated, is an unfair trade practice.",
+      "ref": "Consumer Protection Act 2019 · Sec 2(47)(viii)"
+    },
+    {
+      "title": "Always **ask for a bill.**",
+      "body": "Not issuing a bill, cash memo or receipt for goods sold is itself an unfair trade practice. Any return period stated on it is what the refund rule uses.",
+      "ref": "Consumer Protection Act 2019 · Sec 2(47)(vii), (viii)"
+    },
+    {
+      "title": "First, try the **National Consumer Helpline.**",
+      "body": "Call 1915 or WhatsApp 8800001915 to register your grievance at the pre-litigation stage. The helpline works in 17 languages.",
+      "ref": "Dept of Consumer Affairs · PIB (Jan 2026)"
+    },
+    {
+      "title": "Still stuck? **File a complaint.**",
+      "body": "You can complain when goods you bought have a defect, or a trader used an unfair trade practice. Complaints can be filed online on e-Jagriti, which now includes e-Daakhil.",
+      "ref": "Consumer Protection Act 2019 · Sec 2(6) · PIB"
+    },
+    {
+      "title": "What the Commission **can order.**",
+      "list": [
+        "Remove the defect",
+        "Replace with new, defect-free goods",
+        "Return the price, with interest",
+        "Pay compensation for loss caused by the seller's negligence"
+      ],
+      "ref": "Consumer Protection Act 2019 · Sec 39(1)(a)–(d)"
+    },
+    {
+      "title": "How long it **should take.**",
+      "timeline": [
+        {
+          "date": "3 months",
+          "text": "Target to decide, from notice to the seller, if **no testing** is needed."
+        },
+        {
+          "date": "5 months",
+          "text": "Target if the goods need **analysis or testing**."
+        }
+      ],
+      "ref": "Consumer Protection Act 2019 · Sec 38(7)"
+    }
+  ],
+  "sources": [
+    "Consumer Protection Act, 2019 – Sections 2(6), 2(10), 2(47), 38(7), 39(1)",
+    "Department of Consumer Affairs – National Consumer Helpline (PIB, Jan 2026)",
+    "PIB: e-Jagriti (16 Nov 2025)"
+  ],
+  "caption": "Shop refusing to refund a faulty product? Here's what the law says. 👇\n\n1️⃣ A defect is any fault or shortcoming in quality, quantity, purity or standard\n2️⃣ Refusing to take back defective goods and refund within the period in the bill (or 30 days if none) is an unfair trade practice\n3️⃣ Not giving a bill or cash memo is also an unfair trade practice\n4️⃣ Try the National Consumer Helpline first: call 1915 or WhatsApp 8800001915\n5️⃣ Still stuck? File a consumer complaint, online on e-Jagriti\n6️⃣ The Commission can order removal of the defect, replacement, a refund with interest, or compensation\n\nSource: Consumer Protection Act, 2019 (Sec 2(6), 2(10), 2(47), 38(7), 39); Dept of Consumer Affairs; PIB\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#ConsumerRights #RefundRights #JagoGrahakJago #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

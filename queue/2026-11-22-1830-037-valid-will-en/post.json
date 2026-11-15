@@ -1,0 +1,63 @@
+{
+  "id": "037-valid-will",
+  "lang": "en",
+  "hook": "I want to **avoid a family fight** after I'm gone.",
+  "hook_q": "How do I make a valid will?",
+  "slides": [
+    {
+      "title": "Who can **make** a will?",
+      "body": "Anyone of sound mind who is not a minor. Being deaf, dumb or blind is no bar if you know what you're doing. Not knowing, due to illness, intoxication or any other cause, is.",
+      "ref": "Indian Succession Act 1925 · Sec 59, Expl 2, 4"
+    },
+    {
+      "title": "Sign it, then **two witnesses.**",
+      "timeline": [
+        {
+          "date": "Step 1",
+          "text": "You **sign** or put your mark, or someone signs in your presence and at your direction."
+        },
+        {
+          "date": "Step 2",
+          "text": "At least **two witnesses** see you sign, or get your personal acknowledgment of it."
+        },
+        {
+          "date": "Step 3",
+          "text": "Each witness **signs** in your presence, not necessarily together."
+        }
+      ],
+      "ref": "Indian Succession Act 1925 · Sec 63(a), (c)"
+    },
+    {
+      "title": "**No legal jargon** needed.",
+      "body": "A will doesn't need technical words or legal terms, as long as your intentions can be understood. No particular form of attestation is needed either.",
+      "ref": "Indian Succession Act 1925 · Sec 74, Sec 63(c)"
+    },
+    {
+      "title": "Registration is **optional.**",
+      "body": "The Registration Act lists wills among documents that may be registered, so it's your choice. A will can be presented for registration, or deposited, at any time.",
+      "ref": "Registration Act 1908 · Sec 18(e), Sec 27"
+    },
+    {
+      "title": "Made under pressure? **Void.**",
+      "body": "A will, or any part of it, made because of fraud, coercion, or pressure that takes away your free agency, is void.",
+      "ref": "Indian Succession Act 1925 · Sec 61"
+    },
+    {
+      "title": "You can **change your mind.**",
+      "body": "You can revoke or change a will at any time while you're still competent to make one: by a new will or codicil, a writing executed like a will, or by destroying it to revoke it.",
+      "ref": "Indian Succession Act 1925 · Sec 62, Sec 70"
+    },
+    {
+      "title": "Muslim? **Different rules.**",
+      "body": "These Indian Succession Act rules on wills do not apply to wills of Muslims. For Hindus, Buddhists, Sikhs and Jains, the rules above apply, but marriage does not revoke their will.",
+      "ref": "Indian Succession Act 1925 · Sec 57, 58(1), Schedule III · Uttarakhand UCC 2024",
+      "note": "Uttarakhand: State's Uniform Civil Code applies"
+    }
+  ],
+  "sources": [
+    "Indian Succession Act, 1925 – Sections 2(h), 57, 58, 59, 61, 62, 63, 70, 74 and Schedule III",
+    "Registration Act, 1908 – Sections 18(e), 27",
+    "Uniform Civil Code, Uttarakhand, 2024 (in force 27 Jan 2025, PIB)"
+  ],
+  "caption": "Want your wishes followed after you're gone? Here's how a valid will is made. 👇\n\n1️⃣ Anyone of sound mind who is not a minor can make a will\n2️⃣ Sign it (or put your mark), and have at least two witnesses sign in your presence\n3️⃣ No legal jargon is needed, and no particular form of attestation\n4️⃣ Registering a will is optional, and can be done at any time\n5️⃣ A will made through fraud or coercion is void\n6️⃣ You can revoke or change it at any time\n⚠️ These rules don't apply to wills of Muslims. In Uttarakhand, the State's Uniform Civil Code, 2024 now governs wills of residents (except Scheduled Tribes)\n\nSource: Indian Succession Act, 1925 (Sec 57, 58, 59, 61, 62, 63, 70, 74); Registration Act, 1908 (Sec 18, 27)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#Will #EstatePlanning #IndianSuccessionAct #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

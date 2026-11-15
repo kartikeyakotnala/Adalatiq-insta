@@ -1,0 +1,50 @@
+{
+  "id": "035-written-rent-agreement",
+  "lang": "en",
+  "hook": "My landlord says a **verbal deal** is enough. Is it?",
+  "hook_q": "Do I need a written rent agreement?",
+  "slides": [
+    {
+      "title": "Over **one year?** Register it.",
+      "body": "A lease from year to year, for any term over one year, or reserving a yearly rent can be made only by a registered instrument.",
+      "ref": "Transfer of Property Act 1882 · Sec 107; Registration Act 1908 · Sec 17(1)(d)"
+    },
+    {
+      "title": "Shorter leases: **oral can work.**",
+      "body": "All other leases may be made either by a registered instrument or by an oral agreement accompanied by delivery of possession.",
+      "ref": "Transfer of Property Act 1882 · Sec 107",
+      "note": "State rent laws may add rules"
+    },
+    {
+      "title": "Registered deed? **Both** sign.",
+      "body": "Where a lease is made by a registered instrument, it must be executed by both the lessor (landlord) and the lessee (tenant).",
+      "ref": "Transfer of Property Act 1882 · Sec 107"
+    },
+    {
+      "title": "Not registered? It **may not count.**",
+      "body": "A lease that had to be registered but wasn't does not affect the property and can't be used as evidence of the deal. It may still prove a collateral transaction.",
+      "ref": "Registration Act 1908 · Sec 49 and proviso"
+    },
+    {
+      "title": "Stamp duty and rent laws: **your State.**",
+      "list": [
+        "States set stamp duty rates on leases",
+        "Landlord and tenant relations are on the State List",
+        "So check your State's stamp and rent laws"
+      ],
+      "ref": "Constitution · Seventh Schedule, List II Entries 18, 63; List I Entry 91"
+    },
+    {
+      "title": "Model Tenancy Act? **Only a model.**",
+      "body": "In 2021 the Centre circulated a Model Tenancy Act to States and UTs, to adopt by enacting fresh laws or amending their rental laws. Check what your State has done.",
+      "ref": "PIB, 2 Jun 2021 (Cabinet) & 25 Jul 2022 (MoHUA)"
+    }
+  ],
+  "sources": [
+    "Transfer of Property Act, 1882 – Sections 105, 107",
+    "Registration Act, 1908 – Sections 17(1)(d), 49",
+    "Constitution of India – Seventh Schedule, List I Entry 91, List II Entries 18, 63",
+    "Press Information Bureau (pib.gov.in) – Model Tenancy Act, 2 June 2021 and 25 July 2022"
+  ],
+  "caption": "Renting a home on a handshake? Here's when the law needs it in writing. 👇\n\n1️⃣ A lease for more than one year, year to year, or with a yearly rent can be made only by a registered instrument\n2️⃣ Other leases can be oral, if possession is handed over, or by a registered instrument (your State's rent or registration law may add rules)\n3️⃣ A registered lease must be signed by both landlord and tenant\n4️⃣ A lease that had to be registered but wasn't can't affect the property or be used as evidence of the deal\n5️⃣ Stamp duty and rent-control rules depend on your State\n6️⃣ The Model Tenancy Act, 2021 is a model for States, not a law everywhere\n\nSource: Transfer of Property Act, 1882 (Sec 105, 107); Registration Act, 1908 (Sec 17, 49); Constitution, Seventh Schedule; PIB\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#RentAgreement #TenantRights #PropertyLaw #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

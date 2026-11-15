@@ -1,0 +1,61 @@
+{
+  "id": "036-died-without-will",
+  "lang": "en",
+  "hook": "My relative **died without a will.** Who gets the property?",
+  "hook_q": "Who inherits?",
+  "slides": [
+    {
+      "title": "First: **which law** applies?",
+      "list": [
+        "Hindus, Buddhists, Jains, Sikhs: Hindu Succession Act",
+        "Muslims: Muslim Personal Law, except farm land",
+        "Christians, Parsis: generally Indian Succession Act",
+        "Scheduled Tribes: HSA only if the Centre notifies"
+      ],
+      "ref": "HSA 1956 · Sec 2; Shariat Act 1937 · Sec 2; ISA 1925 · Sec 29; Uttarakhand UCC 2024",
+      "note": "Uttarakhand: its own Uniform Civil Code"
+    },
+    {
+      "title": "A man dies: **Class I** heirs first.",
+      "body": "Under the Hindu Succession Act, his property goes first to Class I heirs. They include his sons, daughters, widow and mother, and children of a son or daughter who died before him.",
+      "ref": "Hindu Succession Act 1956 · Sec 8(a), Schedule Class I"
+    },
+    {
+      "title": "Class I heirs **share together.**",
+      "body": "They all inherit at once, excluding other heirs. His widow (or all widows together) takes one share; each surviving son and daughter, and his mother, takes one share.",
+      "ref": "Hindu Succession Act 1956 · Sec 9, Sec 10 Rules 1–2"
+    },
+    {
+      "title": "No Class I heir? **Next in line.**",
+      "ref": "Hindu Succession Act 1956 · Sec 8, Sec 9",
+      "list": [
+        "1st: Class I heirs",
+        "2nd: Class II heirs (earlier entries first)",
+        "3rd: agnates of the deceased",
+        "Last: cognates of the deceased"
+      ]
+    },
+    {
+      "title": "A woman dies: **a different order.**",
+      "list": [
+        "1st: sons, daughters (incl. children of a pre-deceased child) and husband",
+        "2nd: husband's heirs",
+        "3rd: mother and father",
+        "Then father's heirs, and lastly mother's heirs"
+      ],
+      "ref": "Hindu Succession Act 1956 · Sec 15(1)"
+    },
+    {
+      "title": "Inherited property? **A special rule.**",
+      "body": "If she leaves no son or daughter, property she inherited from her father or mother goes to her father's heirs; property from her husband or father-in-law goes to her husband's heirs.",
+      "ref": "Hindu Succession Act 1956 · Sec 15(2)"
+    }
+  ],
+  "sources": [
+    "Hindu Succession Act, 1956 (as amended in 2005) – Sections 2, 8, 9, 10, 15 and Schedule",
+    "Muslim Personal Law (Shariat) Application Act, 1937 – Section 2",
+    "Indian Succession Act, 1925 – Section 29",
+    "Uniform Civil Code, Uttarakhand, 2024 (in force 27 Jan 2025, PIB) and UCC Rules 2025 (ucc.uk.gov.in)"
+  ],
+  "caption": "Someone in the family died without a will? Here's who inherits. 👇\n\n1️⃣ First check which law applies: Hindus, Buddhists, Jains and Sikhs follow the Hindu Succession Act, 1956; Muslims follow Muslim Personal Law; Christians and Parsis generally follow the Indian Succession Act, 1925. In Uttarakhand, the State's Uniform Civil Code, 2024 now applies to residents (except Scheduled Tribes)\n2️⃣ When a Hindu man dies, Class I heirs inherit first: sons, daughters, widow, mother and others listed\n3️⃣ They inherit together; the widow (all widows together), each son, each daughter and the mother get one share each\n4️⃣ No Class I heir? Then Class II heirs, then agnates, then cognates\n5️⃣ When a Hindu woman dies, her children and husband come first, then her husband's heirs, then her parents\n\nSource: Hindu Succession Act, 1956 (Sec 2, 8, 9, 10, 15, Schedule); Shariat Act, 1937 (Sec 2); Indian Succession Act, 1925 (Sec 29)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#Inheritance #LegalHeirs #HinduSuccessionAct #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

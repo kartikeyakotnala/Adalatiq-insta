@@ -1,0 +1,64 @@
+{
+  "id": "028-victim-compensation",
+  "lang": "en",
+  "hook": "I was hurt in a crime. **Who pays** for my recovery?",
+  "hook_q": "What is victim compensation and how do I apply?",
+  "slides": [
+    {
+      "title": "Every State has a **compensation scheme.**",
+      "body": "Each State Government, with the Centre, must run a scheme that funds compensation for victims, or their dependants, who suffered loss or injury from a crime and need rehabilitation.",
+      "ref": "BNSS 2023 · Sec 396(1)"
+    },
+    {
+      "title": "Who **decides the amount?**",
+      "body": "The District or State Legal Services Authority (DLSA/SLSA) decides how much is paid, under your State's scheme. So the amount depends on your State.",
+      "ref": "BNSS 2023 · Sec 396(1), 396(2)"
+    },
+    {
+      "title": "Three **ways in.**",
+      "list": [
+        "After trial, the court finds the compensation it ordered isn't enough and recommends more",
+        "The case ends in acquittal or discharge, and the court recommends compensation",
+        "Offender not traced or identified, but victim identified, and no trial: you or your dependants apply to the SLSA/DLSA"
+      ],
+      "ref": "BNSS 2023 · Sec 396(3), 396(4)"
+    },
+    {
+      "title": "A **two-month** deadline.",
+      "timeline": [
+        {
+          "date": "Day 0",
+          "text": "The court's recommendation, or your application, reaches the **SLSA or DLSA**."
+        },
+        {
+          "date": "2 months",
+          "text": "The Authority must finish its enquiry and **award adequate compensation**."
+        }
+      ],
+      "ref": "BNSS 2023 · Sec 396(5)"
+    },
+    {
+      "title": "Urgent help **can't wait.**",
+      "body": "The SLSA/DLSA can order immediate free first aid or medical benefits, or other interim relief, on a certificate from the police (officer in charge of the station or above) or the area Magistrate.",
+      "ref": "BNSS 2023 · Sec 396(6)"
+    },
+    {
+      "title": "Hospitals must treat **free of cost.**",
+      "body": "Every hospital, public or private, must immediately give free first aid or medical treatment to victims of rape and related offences, acid attack, and certain POCSO offences, and inform the police.",
+      "ref": "BNSS 2023 · Sec 397"
+    },
+    {
+      "title": "Women victims: **NALSA's scheme.**",
+      "body": "NALSA's scheme for women victims of crimes like rape and acid attack lets the victim, her dependants or the local SHO apply to the SLSA or DLSA.",
+      "note": "NALSA helpline: 15100",
+      "ref": "NALSA Compensation Scheme for Women Victims 2018 · Cl 2(1)(o), (p), 5, Schedule"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 395, 396, 397",
+    "Bharatiya Nyaya Sanhita, 2023 – Sections 64–71, 124 (headings)",
+    "NALSA's Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes – 2018",
+    "National Legal Services Authority (nalsa.gov.in) – FAQs"
+  ],
+  "caption": "Hurt in a crime? You may be able to get compensation from your State's victim compensation scheme. 👇\n\n1️⃣ Every State, with the Centre, must run a scheme to compensate crime victims or their dependants who need rehabilitation\n2️⃣ The DLSA or SLSA decides the amount, so it depends on your State's scheme\n3️⃣ The court can recommend compensation, even if the case ends in acquittal or discharge\n4️⃣ Offender not traced or identified, but the victim is identified, and no trial? You can apply directly to the SLSA or DLSA\n5️⃣ The enquiry must be completed within 2 months, and urgent free medical help or interim relief can be ordered\n6️⃣ It is in addition to fines paid to the victim under certain BNS sections (rape, gang rape, acid attack)\n\nSource: Bharatiya Nagarik Suraksha Sanhita, 2023 (Sec 396, 397); NALSA Compensation Scheme for Women Victims, 2018\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#VictimCompensation #NALSA #BNSS #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

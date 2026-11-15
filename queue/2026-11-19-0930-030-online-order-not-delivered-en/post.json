@@ -1,0 +1,64 @@
+{
+  "id": "030-online-order-not-delivered",
+  "lang": "en",
+  "hook": "I paid online, but my **order never arrived.**",
+  "hook_q": "My online order never arrived. What are my rights?",
+  "slides": [
+    {
+      "title": "Online buyers are **consumers too.**",
+      "body": "Buying online counts as buying goods under the Consumer Protection Act. The E-Commerce Rules cover all goods and services sold online, on marketplace and inventory platforms.",
+      "note": "amended rules apply from 1 Jan 2027",
+      "ref": "CPA 2019 · Sec 2(7) Expl (b) · E-Commerce Rules 2020 · Rule 2(1)"
+    },
+    {
+      "title": "Late delivery? **No refusing a refund.**",
+      "body": "A marketplace seller, or a platform selling its own stock, can't refuse to take back goods or refund what you paid if delivery is late from the stated schedule.",
+      "note": "except delays due to force majeure",
+      "ref": "E-Commerce Rules 2020 · Rule 6(3), 7(4)"
+    },
+    {
+      "title": "Complain to the **grievance officer.**",
+      "timeline": [
+        {
+          "date": "Day 0",
+          "text": "Complain to the platform's grievance officer. Their **name and contact** must be shown on the platform."
+        },
+        {
+          "date": "48 hours",
+          "text": "The officer must **acknowledge** your complaint."
+        },
+        {
+          "date": "1 month",
+          "text": "The complaint must be **redressed**."
+        }
+      ],
+      "ref": "E-Commerce Rules 2020 · Rule 4(4), 4(5)"
+    },
+    {
+      "title": "Get a **ticket number.**",
+      "body": "Marketplaces must give a ticket number for each complaint so you can track its status, and must show their return, refund, delivery and shipment information.",
+      "ref": "E-Commerce Rules 2020 · Rule 5(3)(b), (c)"
+    },
+    {
+      "title": "Accepted refunds must **be paid.**",
+      "body": "Platforms must pay accepted refunds within a reasonable time, as prescribed by the RBI or any other competent authority, or as applicable law requires.",
+      "ref": "E-Commerce Rules 2020 · Rule 4(10)"
+    },
+    {
+      "title": "No reply? **Call 1915.**",
+      "body": "The National Consumer Helpline handles grievances at the pre-litigation stage. Call 1915 or WhatsApp 8800001915. Platforms must try to partner with it.",
+      "ref": "E-Commerce Rules 2020 · Rule 4(7) · PIB (Jan 2026)"
+    },
+    {
+      "title": "Last step: **Consumer Commission.**",
+      "body": "You can file a complaint over an unfair trade practice or a deficient service, including online on e-Jagriti.",
+      "ref": "Consumer Protection Act 2019 · Sec 2(6) · PIB"
+    }
+  ],
+  "sources": [
+    "Consumer Protection Act, 2019 – Sections 2(6), 2(7)",
+    "Consumer Protection (E-Commerce) Rules, 2020 – Rules 2, 4, 5, 6, 7 (consumeraffairs.gov.in)",
+    "PIB: E-Commerce (Amendment) Rules 2026 (10 Sep 2026); NCH and e-Jagriti (2025–26)"
+  ],
+  "caption": "Paid online but your order never came? Here's what the rules say. 👇\n\n1️⃣ Online purchases are covered by the Consumer Protection Act and the E-Commerce Rules, 2020\n2️⃣ A seller or platform can't refuse a refund if delivery is late from the stated schedule (except force majeure)\n3️⃣ Complain to the platform's grievance officer: acknowledgement within 48 hours, redressal within 1 month\n4️⃣ Marketplaces must give you a ticket number to track your complaint\n5️⃣ No luck? Call the National Consumer Helpline on 1915 or WhatsApp 8800001915\n6️⃣ Still unresolved? File a consumer complaint, online on e-Jagriti\n\nSource: Consumer Protection (E-Commerce) Rules, 2020 (Rules 2, 4, 5, 6, 7); Consumer Protection Act, 2019 (Sec 2(6), 2(7)); PIB\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#OnlineShopping #ConsumerRights #ECommerce #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

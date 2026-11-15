@@ -1,0 +1,49 @@
+{
+  "id": "033-restaurant-service-charge",
+  "lang": "en",
+  "hook": "The bill had a **service charge** I never agreed to.",
+  "hook_q": "Can a restaurant force me to pay it?",
+  "slides": [
+    {
+      "title": "Short answer: **no.**",
+      "body": "No hotel or restaurant can force you to pay a service charge. It must tell you clearly that service charge is voluntary, optional and at your discretion.",
+      "ref": "CCPA Guidelines, 4 July 2022 · Para 7(iii)"
+    },
+    {
+      "title": "What restaurants **cannot do.**",
+      "list": [
+        "Add it to the bill automatically or by default",
+        "Collect it under any other name",
+        "Refuse entry or service if you don't pay it",
+        "Add it to the food bill and charge GST on the total"
+      ],
+      "ref": "CCPA Guidelines, 4 July 2022 · Para 7(i), (ii), (iv), (v)"
+    },
+    {
+      "title": "Issued under the **Consumer Protection Act.**",
+      "body": "The Central Consumer Protection Authority issued these guidelines under its power to prevent unfair trade practices.",
+      "ref": "Consumer Protection Act 2019 · Sec 18(2)(l)"
+    },
+    {
+      "title": "Upheld by the **Delhi High Court.**",
+      "body": "On 28 March 2025, a single judge of the Delhi High Court held that service charge is a voluntary payment and cannot be compulsory, and upheld the CCPA guidelines.",
+      "ref": "Delhi HC · W.P.(C) 10683/2022 · Paras 174, 175"
+    },
+    {
+      "title": "Charged anyway? **Here's what to do.**",
+      "list": [
+        "Ask the restaurant to remove it from the bill",
+        "Call the National Consumer Helpline: 1915",
+        "File with the Consumer Commission on e-jagriti.gov.in",
+        "Complain to the District Collector or com-ccpa@nic.in"
+      ],
+      "ref": "CCPA Guidelines, 4 July 2022 · Para 9"
+    }
+  ],
+  "sources": [
+    "CCPA Guidelines to prevent unfair trade practices and protection of consumer interest with regard to levy of service charge in hotels and restaurants, 4 July 2022 (consumeraffairs.nic.in)",
+    "Consumer Protection Act, 2019 – Section 18(2)(l)",
+    "Delhi High Court – National Restaurant Association of India v. Union of India, W.P.(C) 10683/2022, 28 March 2025 (delhihighcourt.nic.in)"
+  ],
+  "caption": "Service charge on your restaurant bill? You don't have to pay it. 👇\n\n1️⃣ No restaurant can force you to pay a service charge. It is voluntary and optional\n2️⃣ It can't be added to the bill automatically or by default\n3️⃣ It can't be collected under any other name\n4️⃣ You can't be refused entry or service for not paying it\n5️⃣ In March 2025, the Delhi High Court upheld the CCPA guidelines\n6️⃣ Charged anyway? Ask for it to be removed, or call the National Consumer Helpline on 1915\n\nSource: CCPA Guidelines on service charge, 4 July 2022; Consumer Protection Act, 2019 (Sec 18(2)(l))\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#ServiceCharge #ConsumerRights #CCPA #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

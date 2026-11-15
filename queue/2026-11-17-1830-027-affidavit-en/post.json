@@ -1,0 +1,56 @@
+{
+  "id": "027-affidavit",
+  "lang": "en",
+  "hook": "They asked me to **submit an affidavit.** What is that?",
+  "hook_q": "What is an affidavit and when do I need one?",
+  "slides": [
+    {
+      "title": "A **sworn statement** of facts.",
+      "body": "An affidavit is a statement of facts that you swear or affirm before an authorised person, who administers the oath. The person making it is called the deponent.",
+      "ref": "CPC 1908 · Sec 139 · BNSS 2023 · Sec 333(1)"
+    },
+    {
+      "title": "Who can **swear you in?**",
+      "list": [
+        "A court, Judge or Magistrate",
+        "A notary",
+        "A Commissioner of Oaths appointed by a High Court, Sessions Court or another empowered court"
+      ],
+      "ref": "CPC 1908 · Sec 139 · BNSS 2023 · Sec 333(1) · Notaries Act 1952 · Sec 8(1)(e)"
+    },
+    {
+      "title": "Stick to **what you know.**",
+      "body": "Confine it to facts you can prove from your own knowledge. If you also state what you believe, keep it separate and give the grounds for that belief.",
+      "note": "civil: belief only on interlocutory applications",
+      "ref": "BNSS 2023 · Sec 333(2) · CPC 1908 · Order XIX Rule 3"
+    },
+    {
+      "title": "When courts **use affidavits.**",
+      "list": [
+        "Examination-in-chief of a witness in civil cases",
+        "Proving particular facts, if the court orders",
+        "Evidence on an application",
+        "Formal evidence in criminal cases"
+      ],
+      "ref": "CPC 1908 · Order XVIII Rule 4, Order XIX Rules 1, 2 · BNSS 2023 · Sec 332(1)"
+    },
+    {
+      "title": "You can be **cross-examined.**",
+      "body": "When evidence is given by affidavit on an application, the court may, at either party's request, order the deponent to attend for cross-examination.",
+      "ref": "Code of Civil Procedure 1908 · Order XIX Rule 2"
+    },
+    {
+      "title": "Government form? **Self-certification** may do.",
+      "body": "The Centre asked all Union Ministries, Departments and State Governments to provide for self-certification of documents in place of affidavits. Originals are produced at the final stage.",
+      "note": "not where a law requires one",
+      "ref": "Prime Minister's Office (pmindia.gov.in)"
+    }
+  ],
+  "sources": [
+    "Code of Civil Procedure, 1908 – Section 139; Order XVIII Rule 4; Order XIX Rules 1–3",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 332, 333",
+    "Notaries Act, 1952 – Section 8",
+    "Prime Minister's Office (pmindia.gov.in) – self-certification in place of affidavits"
+  ],
+  "caption": "Asked to submit an affidavit? Here's what it is. 👇\n\n1️⃣ An affidavit is a statement of facts you swear or affirm before an authorised person\n2️⃣ The oath can be given by a court or Magistrate, a notary, or a Commissioner of Oaths appointed by a court\n3️⃣ Stick to facts you know yourself. State any belief separately, with its grounds\n4️⃣ In civil cases, a witness's examination-in-chief is on affidavit\n5️⃣ The court can call the deponent for cross-examination\n6️⃣ The Centre has asked Ministries and State Governments to allow self-certification in place of affidavits\n\nSource: CPC, 1908 (Sec 139; Order XVIII Rule 4; Order XIX); BNSS, 2023 (Sec 332, 333); Notaries Act, 1952 (Sec 8); PMO\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#Affidavit #Notary #KnowYourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

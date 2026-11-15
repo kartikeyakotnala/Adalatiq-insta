@@ -1,0 +1,47 @@
+{
+  "id": "024-argue-own-case",
+  "lang": "en",
+  "hook": "I can't afford a lawyer. Can I **argue my own case**?",
+  "hook_q": "Can I argue my own case without a lawyer?",
+  "slides": [
+    {
+      "title": "Yes, you can **appear in person.**",
+      "body": "In a civil case, any appearance, application or act in court may be made by you in person, by your recognised agent, or by a pleader.",
+      "note": "court can ask you to come personally",
+      "ref": "Code of Civil Procedure 1908 · Order III Rule 1"
+    },
+    {
+      "title": "Only **advocates** practise law.",
+      "body": "Advocates are the only class of persons entitled to practise law. But a court may permit a person who is not an advocate to appear before it in a particular case.",
+      "ref": "Advocates Act 1961 · Sec 29, 32, 33"
+    },
+    {
+      "title": "Accused? You have a **right to a lawyer.**",
+      "body": "Anyone accused of an offence before a criminal court may, as of right, be defended by an advocate of their choice.",
+      "ref": "BNSS 2023 · Sec 340"
+    },
+    {
+      "title": "Can't pay? **State-paid advocate.**",
+      "body": "In a trial or appeal, if the accused has no advocate and the court finds they lack the means to hire one, the court must assign an advocate at the State's expense.",
+      "ref": "BNSS 2023 · Sec 341(1)"
+    },
+    {
+      "title": "Free legal services: **who qualifies.**",
+      "list": [
+        "Women and children",
+        "Members of Scheduled Castes and Scheduled Tribes",
+        "Persons in custody",
+        "Industrial workmen",
+        "People below an income limit (depends on your State)"
+      ],
+      "ref": "Legal Services Authorities Act 1987 · Sec 12"
+    }
+  ],
+  "sources": [
+    "Code of Civil Procedure, 1908 – Order III Rule 1",
+    "Advocates Act, 1961 – Sections 29, 32, 33",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 340, 341",
+    "Legal Services Authorities Act, 1987 – Section 12"
+  ],
+  "caption": "Can't afford a lawyer? Here's what the law says about arguing your own case. 👇\n\n1️⃣ In a civil case, you can appear and act in court in person\n2️⃣ The court can still direct you to appear personally\n3️⃣ Only advocates practise law, but a court may permit a non-advocate in a particular case\n4️⃣ An accused person has the right to be defended by an advocate of their choice\n5️⃣ If an accused can't afford one, the court must assign an advocate at the State's expense\n6️⃣ Free legal services are available to women, children, SC/ST members, persons in custody and others\n\nSource: CPC, 1908 (Order III Rule 1); Advocates Act, 1961 (Sec 29, 32, 33); BNSS, 2023 (Sec 340, 341); Legal Services Authorities Act, 1987 (Sec 12)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#PartyInPerson #LegalAid #KnowYourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

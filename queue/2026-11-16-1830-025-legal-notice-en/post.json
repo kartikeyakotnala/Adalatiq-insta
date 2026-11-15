@@ -1,0 +1,53 @@
+{
+  "id": "025-legal-notice",
+  "lang": "en",
+  "hook": "I just got a **legal notice.** Do I have to reply?",
+  "hook_q": "What is a legal notice, and must I reply?",
+  "slides": [
+    {
+      "title": "First, check **which law** it cites.",
+      "body": "Some laws require a written notice before a case can be filed, and they set fixed deadlines. What happens next depends on the law behind the notice.",
+      "ref": "CPC 1908 · Sec 80 · NI Act 1881 · Sec 138"
+    },
+    {
+      "title": "Suing the **government?** Notice first.",
+      "body": "No suit can be filed against the Government, or a public officer over an official act, until two months after a written notice is delivered.",
+      "note": "urgent case? court may allow skipping it",
+      "ref": "Code of Civil Procedure 1908 · Sec 80(1), 80(2)"
+    },
+    {
+      "title": "What that notice **must state.**",
+      "list": [
+        "The cause of action",
+        "Your name, description and address",
+        "The relief you claim"
+      ],
+      "ref": "Code of Civil Procedure 1908 · Sec 80(1)"
+    },
+    {
+      "title": "Bounced cheque: the **notice clock.**",
+      "timeline": [
+        {"date": "Within 30 days", "text": "of the bank's information that the cheque bounced, the payee sends a written demand"},
+        {"date": "Next 15 days", "text": "from receiving the notice, the drawer can pay the amount"},
+        {"date": "Within 1 month", "text": "after those 15 days pass unpaid, the payee can file a complaint"}
+      ],
+      "ref": "NI Act 1881 · Sec 138 proviso (b), (c) · Sec 142(1)(b)"
+    },
+    {
+      "title": "Ignore a cheque notice? **Risky.**",
+      "body": "If the drawer does not pay within 15 days of receiving the notice, it can be an offence: jail up to two years, or a fine up to twice the cheque amount, or both.",
+      "ref": "Negotiable Instruments Act 1881 · Sec 138"
+    },
+    {
+      "title": "Police notice? **Comply** with it.",
+      "body": "When arrest isn't required, police issue a notice to appear. If you comply, you shall not be arrested for that offence unless police record reasons. Not complying can lead to arrest.",
+      "ref": "BNSS 2023 · Sec 35(3), 35(4), 35(5), 35(6)"
+    }
+  ],
+  "sources": [
+    "Code of Civil Procedure, 1908 – Section 80",
+    "Negotiable Instruments Act, 1881 – Sections 138, 142",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Section 35"
+  ],
+  "caption": "Got a legal notice? What it means depends on the law behind it. 👇\n\n1️⃣ Before suing the Government or a public officer over an official act, a written notice and a two-month wait are required\n2️⃣ That notice must state the cause of action, your details and the relief claimed\n3️⃣ Bounced cheque: the payee must send a written demand within 30 days of hearing from the bank\n4️⃣ The drawer then has 15 days to pay. If not, it can be an offence with up to 2 years' jail, a fine up to twice the cheque amount, or both\n5️⃣ A police notice to appear must be complied with. Not complying can lead to arrest\n6️⃣ Whether and how to reply depends on the notice, so get legal advice quickly\n\nSource: CPC, 1908 (Sec 80); Negotiable Instruments Act, 1881 (Sec 138, 142); BNSS, 2023 (Sec 35)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#LegalNotice #ChequeBounce #KnowYourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

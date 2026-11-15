@@ -1,0 +1,50 @@
+{
+  "id": "026-limitation-periods",
+  "lang": "en",
+  "hook": "I waited too long to go to court. **Is it too late?**",
+  "hook_q": "How long do I have to file a case?",
+  "slides": [
+    {
+      "title": "Miss the deadline, **case dismissed.**",
+      "body": "A suit, appeal or application filed after the prescribed period shall be dismissed, even if the other side never raises limitation as a defence.",
+      "note": "exceptions in Sec 4 to 24",
+      "ref": "Limitation Act 1963 · Sec 3(1)"
+    },
+    {
+      "title": "Common **time limits.**",
+      "list": [
+        "Money lent: 3 years from the loan",
+        "Breach of contract (general rule): 3 years from the breach",
+        "Possession of immovable property based on title: 12 years",
+        "Executing most civil court decrees: 12 years",
+        "Consumer complaint: 2 years from the cause of action"
+      ],
+      "ref": "Limitation Act 1963 · Schedule Art 19, 55, 65, 136 · Consumer Protection Act 2019 · Sec 69(1)"
+    },
+    {
+      "title": "Civil appeal? **90 or 30 days.**",
+      "body": "An appeal under the CPC to a High Court must be filed within 90 days of the decree or order. An appeal to any other court: within 30 days.",
+      "ref": "Limitation Act 1963 · Schedule Art 116"
+    },
+    {
+      "title": "The **first day** doesn't count.",
+      "body": "In counting the period, the day from which it runs is excluded. If the last day falls on a day the court is closed, you can file when it reopens.",
+      "ref": "Limitation Act 1963 · Sec 12(1), Sec 4"
+    },
+    {
+      "title": "A **written acknowledgment** restarts the clock.",
+      "body": "If, before the period runs out, the other side acknowledges the liability in writing and signs it, a fresh limitation period starts from the date it was signed.",
+      "ref": "Limitation Act 1963 · Sec 18(1)"
+    },
+    {
+      "title": "Late? Show **sufficient cause.**",
+      "body": "A court may admit a late appeal or application (except execution applications under Order XXI CPC) if you show sufficient cause. Consumer Commissions can also accept late complaints for sufficient cause.",
+      "ref": "Limitation Act 1963 · Sec 5 · Consumer Protection Act 2019 · Sec 69(2)"
+    }
+  ],
+  "sources": [
+    "Limitation Act, 1963 – Sections 3, 4, 5, 12, 18; Schedule Articles 19, 55, 65, 116, 136",
+    "Consumer Protection Act, 2019 – Section 69"
+  ],
+  "caption": "Thinking of going to court? Check the deadline first. 👇\n\n1️⃣ A case filed after the limitation period shall be dismissed, even if the other side doesn't object\n2️⃣ Money lent or breach of contract: 3 years. Possession of immovable property based on title: 12 years\n3️⃣ Consumer complaint: 2 years from the cause of action\n4️⃣ Civil appeal: 90 days to a High Court, 30 days to any other court\n5️⃣ A signed written acknowledgment of liability, made in time, starts a fresh period\n6️⃣ Late appeals and applications may be admitted if you show sufficient cause\n\nSource: Limitation Act, 1963 (Sec 3, 4, 5, 12, 18; Schedule Art 19, 55, 65, 116, 136); Consumer Protection Act, 2019 (Sec 69)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#LimitationAct #CivilCase #KnowYourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

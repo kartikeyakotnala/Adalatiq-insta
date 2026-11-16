@@ -45,6 +45,54 @@ def rangoli(cx, cy, r):
     return "".join(out)
 
 
+def soop(x, y, s=1.0):
+    """Bamboo winnowing basket (soop) with thekua, banana, coconut and a diya."""
+    weave = "".join(f'<path d="M{-150+k*20} -6 Q{-150+k*20} 40 {-120+k*16} 70" stroke="#9A6A2E" stroke-width="3" fill="none" opacity=".6"/>' for k in range(16))
+    return (f'<g transform="translate({x} {y}) scale({s})">'
+            f'<path d="M-170 -10 Q0 -40 170 -10 L120 70 Q0 95 -120 70Z" fill="#D9A55A"/>{weave}'
+            f'<path d="M-170 -10 Q0 -40 170 -10" stroke="#8C5A22" stroke-width="10" fill="none" stroke-linecap="round"/>'
+            f'<circle cx="-70" cy="-38" r="34" fill="#7A4A1E"/><path d="M-96 -46 q26 -14 52 0" stroke="#5A3412" stroke-width="5" fill="none"/>'
+            f'<path d="M-10 -30 Q30 -110 90 -96 Q40 -80 20 -24Z" fill="#F2C94C" stroke="#C99A1E" stroke-width="4"/>'
+            f'<ellipse cx="110" cy="-30" rx="34" ry="16" fill="#C9772E"/><ellipse cx="110" cy="-34" rx="22" ry="7" fill="#E8A55A"/>'
+            f'<ellipse cx="-12" cy="-26" rx="26" ry="12" fill="#C9772E"/><path d="M-26 -28 h28" stroke="#E8A55A" stroke-width="3"/>'
+            f'<ellipse cx="45" cy="-42" rx="16" ry="16" fill="#E8523A"/></g>')
+
+
+def sugarcane(x, y, h, lean):
+    joints = "".join(f'<rect x="-9" y="{-k*70}" width="18" height="5" fill="#2E1A22"/>' for k in range(1, int(h/70)))
+    leaves = (f'<path d="M0 {-h} Q-90 {-h-60} -150 {-h+20} Q-70 {-h-30} 0 {-h+10}Z" fill="#3E7A3A"/>'
+              f'<path d="M0 {-h} Q80 {-h-90} 140 {-h-10} Q60 {-h-50} 0 {-h+10}Z" fill="#4E8F45"/>'
+              f'<path d="M0 {-h+40} Q-60 {-h-20} -110 {-h+90} Q-40 {-h+20} 0 {-h+50}Z" fill="#356B33"/>')
+    return (f'<g transform="translate({x} {y}) rotate({lean})">'
+            f'<rect x="-9" y="{-h}" width="18" height="{h}" rx="8" fill="#5B2E3C"/>{joints}{leaves}</g>')
+
+
+def chhath_svg():
+    rnd = random.Random(15)
+    ripples = "".join(f'<path d="M{x} {y} q{w/2} -6 {w} 0" stroke="#FFB86B" stroke-width="{rnd.uniform(2,4):.1f}" fill="none" '
+                      f'opacity="{rnd.uniform(.25,.7):.2f}" stroke-linecap="round"/>'
+                      for x, y, w in [(rnd.randint(140, 520), rnd.randint(1010, 1180), rnd.randint(40, 160)) for _ in range(26)])
+    reflect = "".join(f'<rect x="{330 - w/2:.0f}" y="{1000 + k*22}" width="{w:.0f}" height="5" rx="2.5" fill="#FFC861" opacity="{.45 - k*.05:.2f}"/>'
+                      for k, w in enumerate([260, 220, 200, 150, 130, 90, 70, 40]))
+    stars = "".join(f'<circle cx="{rnd.randint(0,1080)}" cy="{rnd.randint(40,420)}" r="{rnd.uniform(1.5,3.5):.1f}" fill="#FFE7C2" opacity="{rnd.uniform(.3,.8):.2f}"/>' for _ in range(40))
+    floats = "".join(diya(x, y, s) for x, y, s in [(560, 1080, .45), (700, 1130, .4), (470, 1150, .5)])
+    birds = "".join(f'<path d="M{x} {y} q12 -12 24 0 q12 -12 24 0" stroke="#2A1420" stroke-width="4" fill="none"/>' for x, y in [(560, 820), (620, 790), (600, 850)])
+    return (f'<svg class="art" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">'
+            f'<defs><radialGradient id="glow"><stop offset="0" stop-color="#FFC861" stop-opacity=".75"/>'
+            f'<stop offset="1" stop-color="#FFC861" stop-opacity="0"/></radialGradient>'
+            f'<radialGradient id="sunhalo"><stop offset="0" stop-color="#FFB547" stop-opacity=".8"/><stop offset=".5" stop-color="#E8523A" stop-opacity=".35"/>'
+            f'<stop offset="1" stop-color="#E8523A" stop-opacity="0"/></radialGradient>'
+            f'<linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE29A"/><stop offset="1" stop-color="#FF8A3D"/></linearGradient>'
+            f'<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5A2232"/><stop offset="1" stop-color="#1E1020"/></linearGradient>'
+            f'<clipPath id="above"><rect x="0" y="0" width="1080" height="1000"/></clipPath></defs>'
+            f'{stars}<circle cx="330" cy="1000" r="420" fill="url(#sunhalo)"/>'
+            f'<circle cx="330" cy="1000" r="150" fill="url(#sun)" clip-path="url(#above)"/>{birds}'
+            f'<path d="M0 985 Q200 965 420 980 T1080 972 L1080 1000 L0 1000Z" fill="#3A1A2A" opacity=".9"/>'
+            f'<rect x="0" y="1000" width="1080" height="350" fill="url(#water)"/>{reflect}{ripples}{floats}'
+            f'{sugarcane(62, 1240, 330, -4)}{sugarcane(108, 1248, 290, 5)}'
+            f'{soop(270, 1170, .75)}</svg>')
+
+
 def scene_svg():
     rnd = random.Random(8)
     bokeh = "".join(f'<circle cx="{rnd.randint(0,1080)}" cy="{rnd.randint(0,900)}" r="{rnd.randint(8,34)}" '
@@ -84,10 +132,14 @@ h1 .hl{{color:#F2B544;font-style:italic}}
 """
 
 
+CHHATH_CSS = """body{background:linear-gradient(180deg,#1A0F24 0%,#3B1830 38%,#8A3330 62%,#D9623A 74%,#2A1420 74.2%)}
+h1{font-size:132px} .msg{max-width:640px}"""
+
+
 def build(g):
     title = re.sub(r"\*\*(.+?)\*\*", r"<span class='hl'>\1</span>", E(g["title"]))
-    return (f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>"
-            f"<div class='tex'></div>{scene_svg()}<div class='frame'></div>"
+    return (f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}{CHHATH_CSS if g.get('kind') == 'chhath' else ''}</style></head><body>"
+            f"<div class='tex'></div>{chhath_svg() if g.get('kind') == 'chhath' else scene_svg()}<div class='frame'></div>"
             f"<div class='top'><div class='brand'>{render.LOGO}<span>Adalat<b>IQ</b></span></div>"
             f"<div class='kick'>{E(g.get('kicker', ''))}</div></div>"
             f"<div class='txt'><h1>{title}</h1><div class='msg'>{E(g['message'])}</div>"

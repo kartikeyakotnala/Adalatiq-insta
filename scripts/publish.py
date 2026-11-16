@@ -164,7 +164,7 @@ def publish(ig_id, folder):
     (target / "reel.mp4").unlink(missing_ok=True)   # keep the repository small; the Reel lives on Instagram
 
 
-def run_is_stale(max_minutes=30):
+def run_is_stale(max_minutes=20):
     """A run GitHub left stuck in its queue may start hours later, after a retry already
     posted. Such a late run must not post again, so it exits if it was requested too long ago."""
     run_id, repo = os.environ.get("GITHUB_RUN_ID"), os.environ.get("GITHUB_REPOSITORY")

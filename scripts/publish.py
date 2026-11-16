@@ -164,6 +164,28 @@ def publish(ig_id, folder):
     (target / "reel.mp4").unlink(missing_ok=True)   # keep the repository small; the Reel lives on Instagram
 
 
+def run_is_stale(max_minutes=30):
+    """A run GitHub left stuck in its queue may start hours later, after a retry already
+    posted. Such a late run must not post again, so it exits if it was requested too long ago."""
+    run_id, repo = os.environ.get("GITHUB_RUN_ID"), os.environ.get("GITHUB_REPOSITORY")
+    if not run_id or not repo:
+        return False
+    try:
+        req = urllib.request.Request(f"https://api.github.com/repos/{repo}/actions/runs/{run_id}",
+                                     headers={"Accept": "application/vnd.github+json"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            created = json.load(r)["created_at"]
+    except Exception as e:
+        print(f"Could not read this run's start time ({e}); posting anyway.")
+        return False
+    age = datetime.now(timezone.utc) - datetime.fromisoformat(created.replace("Z", "+00:00"))
+    if age > timedelta(minutes=max_minutes):
+        print(f"This run was requested {int(age.total_seconds() // 60)} min ago and only started now. "
+              "Skipping so a retry is not posted twice. Request a new post instead.")
+        return True
+    return False
+
+
 def main():
     if not TOKEN:
         sys.exit("IG_TOKEN secret is missing. Add it under Settings -> Secrets and variables -> Actions.")
@@ -178,6 +200,8 @@ def main():
         print(f"Queued posts: {len(queued)}" + ("".join(f"\n  - {q}" for q in queued)))
         return
     if mode == "batch":
+        if run_is_stale():
+            return
         count = int(os.environ.get("COUNT") or 4)
         folders = pick_batch(count)
         if not folders:

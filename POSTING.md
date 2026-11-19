@@ -5,6 +5,10 @@ For a one-off post made in a chat: research and fact-check it as in WEEKLY_BUILD
 
 Posting is on request. Nothing posts on a timer.
 
+**Shorthand:** when the owner says **"mpu"**, it means "make a post and upload": post the next
+fact-checked item from `queue/` (count=1). Check its row in the latest `reports/week-*.md` first.
+If GitHub leaves the run queued for over 20 minutes, the run skips itself; send a fresh request.
+
 **For Claude (when the owner asks to post):**
 1. Attach the repo `kartikeyakotnala/Adalatiq-insta` if needed (add_repo).
 2. Start the job ("today's posts" = the next 2 in `queue/` by folder name; posts are English only).

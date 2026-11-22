@@ -1,0 +1,74 @@
+{
+  "id": "053-fired-without-notice",
+  "lang": "en",
+  "hook": "Can my employer **fire me without notice?**",
+  "hook_q": "Is notice required?",
+  "slides": [
+    {
+      "title": "First: are you a **'worker'?**",
+      "list": [
+        "Covers people in an industry doing manual, clerical, technical work",
+        "Not: staff mainly in managerial or administrative roles",
+        "Not: supervisors earning over ₹18,000 a month",
+        "Not: armed forces, police or prison staff"
+      ],
+      "ref": "Industrial Relations Code 2020 · Sec 2(zr)",
+      "note": "Not a 'worker'? These rules don't apply"
+    },
+    {
+      "title": "Retrenched? **One month's notice.**",
+      "body": "After at least one year of continuous service, you can't be retrenched until you get **one month's written notice** with reasons, or a month's wages instead.",
+      "ref": "Industrial Relations Code 2020 · Sec 70(a)"
+    },
+    {
+      "title": "Plus **compensation.**",
+      "list": [
+        "15 days' average pay per completed year of service",
+        "A part-year over six months also counts",
+        "Employer must also serve notice on the government",
+        "15 days' last wages to a re-skilling fund"
+      ],
+      "ref": "Industrial Relations Code 2020 · Sec 70(b), (c), Sec 83"
+    },
+    {
+      "title": "Not every exit is **'retrenchment'.**",
+      "list": [
+        "Punishment after disciplinary action",
+        "Voluntary retirement or superannuation",
+        "Non-renewal or end of a fixed-term contract",
+        "Termination for continued ill-health"
+      ],
+      "ref": "Industrial Relations Code 2020 · Sec 2(zh)"
+    },
+    {
+      "title": "300+ workers? **Permission needed.**",
+      "body": "In a factory, mine or plantation with 300 or more workers (or a higher number notified by the appropriate Government), retrenchment needs **three months' notice** and prior government permission. Otherwise it is deemed illegal.",
+      "ref": "Industrial Relations Code 2020 · Sec 77(1), (3), Sec 79(1), (7)"
+    },
+    {
+      "title": "Want to challenge it? **Two years.**",
+      "timeline": [
+        {
+          "date": "Step 1",
+          "text": "Apply to the government's **conciliation officer.**"
+        },
+        {
+          "date": "45 days",
+          "text": "No result after 45 days? You can apply **directly to the Tribunal.**"
+        },
+        {
+          "date": "2 years",
+          "text": "Apply to the Tribunal within **two years** of the termination."
+        }
+      ],
+      "ref": "Industrial Relations Code 2020 · Sec 4(9), (10), (11), Sec 104(1A)"
+    }
+  ],
+  "sources": [
+    "Industrial Relations Code, 2020 – Sections 2(zh), 2(zr), 4(9)–(11), 70, 77, 79, 83, 104 (in force from 21 Nov 2025, PIB)",
+    "Industrial Relations Code (Amendment) Act, 2026 (Act 1 of 2026) – Section 104",
+    "Industrial Relations (Central) Rules, 2026 – 8 May 2026 (labour.gov.in)",
+    "Ministry of Labour & Employment – FAQs on Labour Codes & Central Rules, as on 25.10.2026 (labour.gov.in)"
+  ],
+  "caption": "Lost your job without notice? Here's what the Industrial Relations Code says. 👇\n\n1️⃣ These rules protect a 'worker'. Staff mainly in managerial or administrative roles, and supervisors earning over ₹18,000 a month, are not 'workers'\n2️⃣ A worker with one year's continuous service can't be retrenched without one month's written notice with reasons, or a month's wages instead\n3️⃣ Retrenchment compensation is 15 days' average pay for every completed year of service\n4️⃣ Dismissal as a disciplinary punishment, voluntary retirement, superannuation and end of a fixed-term contract are not 'retrenchment'\n5️⃣ A factory, mine or plantation with 300+ workers needs three months' notice and prior government permission\n6️⃣ To challenge a termination, apply to the conciliation officer; after 45 days you can go to the Tribunal, within two years\n⚠️ The IR Code is in force from 21 Nov 2025 and replaced the Industrial Disputes Act, 1947\n\nSource: Industrial Relations Code, 2020 (Sec 2, 4, 70, 77, 79, 83, 104)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#JobLoss #Retrenchment #LabourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

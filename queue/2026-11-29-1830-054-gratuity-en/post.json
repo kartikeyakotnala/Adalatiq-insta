@@ -1,0 +1,60 @@
+{
+  "id": "054-gratuity",
+  "lang": "en",
+  "hook": "I'm leaving my job. **Do I get gratuity?**",
+  "hook_q": "How is gratuity calculated?",
+  "slides": [
+    {
+      "title": "Does your workplace **qualify?**",
+      "body": "The gratuity rules cover every shop or establishment with **10 or more employees** on any day in the last 12 months, plus factories, mines, plantations, ports and railway companies.",
+      "ref": "Code on Social Security 2020 · First Schedule (Chapter V)"
+    },
+    {
+      "title": "The **five-year** rule.",
+      "body": "Gratuity is payable when your job ends after **at least 5 years'** continuous service: on superannuation, retirement, resignation, death or disablement, or end of a fixed-term contract.",
+      "ref": "Code on Social Security 2020 · Sec 53(1)"
+    },
+    {
+      "title": "Five years **not always needed.**",
+      "list": [
+        "Death: paid to nominee or heirs",
+        "Disablement due to accident or disease",
+        "Fixed-term employee: eligible after 1 year",
+        "Working journalists: 3 years, not 5"
+      ],
+      "ref": "SS Code 2020 · Sec 53(1) provisos; IR Code 2020 · Sec 2(o)",
+      "note": "Fixed-term: paid pro rata"
+    },
+    {
+      "title": "The **formula.**",
+      "body": "**15 days' wages** at your last drawn rate, for every completed year of service or part over six months. Monthly paid? 15 days' wages = monthly wages ÷ 26 × 15.",
+      "ref": "Code on Social Security 2020 · Sec 53(2), Explanation 3"
+    },
+    {
+      "title": "Quick **example.**",
+      "body": "Last monthly wages ₹52,000, 10 years' service: 52,000 ÷ 26 × 15 = ₹30,000 per year. × 10 years = **₹3,00,000.**",
+      "ref": "Code on Social Security 2020 · Sec 53(2)"
+    },
+    {
+      "title": "Maximum: **₹20 lakh.**",
+      "body": "The Code caps gratuity at an amount the Centre notifies, currently ₹20 lakh. Your employer can still give you **better terms.**",
+      "ref": "SS Code 2020 · Sec 53(3), (5); Labour Ministry FAQs (25.10.2026)"
+    },
+    {
+      "title": "Paid within **30 days.**",
+      "list": [
+        "Apply to your employer **in writing.**",
+        "It must be paid within **30 days** of becoming payable.",
+        "Paid late? **Simple interest** from the due date.",
+        "Dispute? Apply to the **competent authority.**"
+      ],
+      "ref": "Code on Social Security 2020 · Sec 56(1), (3), (4), (5)"
+    }
+  ],
+  "sources": [
+    "Code on Social Security, 2020 – Sections 53, 54, 56, 164 and First Schedule (in force from 21 Nov 2025, PIB)",
+    "Industrial Relations Code, 2020 – Section 2(o)",
+    "Ministry of Labour & Employment – FAQs on Labour Codes & Central Rules, as on 25.10.2026 (labour.gov.in)"
+  ],
+  "caption": "Leaving your job after years of service? Here's how gratuity works. 👇\n\n1️⃣ Covers shops and establishments with 10+ employees, plus factories, mines, plantations, ports and railway companies\n2️⃣ Usually needs 5 years' continuous service; not needed on death or disablement\n3️⃣ Fixed-term employees become eligible after 1 year\n4️⃣ Formula: 15 days' wages (monthly wages ÷ 26 × 15) for every completed year, or part over six months\n5️⃣ Maximum is currently ₹20 lakh, as notified by the Centre\n6️⃣ Employer must pay within 30 days of it becoming payable, or pay simple interest\n⚠️ The Code on Social Security, 2020 is in force from 21 Nov 2025 and replaced the Payment of Gratuity Act, 1972\n\nSource: Code on Social Security, 2020 (Sec 53, 56, First Schedule); Industrial Relations Code, 2020 (Sec 2(o))\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#Gratuity #SocialSecurityCode #EmployeeRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

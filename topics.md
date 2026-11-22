@@ -53,25 +53,25 @@ language codes, e.g. `- [x] Question — 003 (en, ta)`.
 - [x] Do daughters have an equal share in ancestral property? — 007 (en)
 - [x] My relative died without a will. Who inherits? — 036 (en)
 - [x] How do I make a valid will? — 037 (en)
-- [ ] What is a succession certificate and when do I need one?
-- [ ] Someone has illegally occupied my land. What can I do?
+- [x] What is a succession certificate and when do I need one? — 040 (en)
+- [x] Someone has illegally occupied my land. What can I do? — 041 (en)
 
 ## Family and marriage
-- [ ] How do I register my marriage?
-- [ ] What is the process for mutual consent divorce?
-- [ ] Can a wife claim maintenance from her husband?
-- [ ] Can parents claim maintenance from their children?
-- [ ] Who gets custody of children after divorce?
-- [ ] Is dowry illegal even if it is given "willingly"?
-- [ ] What is domestic violence under the law, and how do I get protection?
-- [ ] Can I adopt a child as a single parent?
-- [ ] Is a live-in relationship legal in India?
-- [ ] How do I change my name legally?
+- [x] How do I register my marriage? — 042 (en)
+- [x] What is the process for mutual consent divorce? — 043 (en)
+- [x] Can a wife claim maintenance from her husband? — 044 (en)
+- [x] Can parents claim maintenance from their children? — 045 (en)
+- [x] Who gets custody of children after divorce? — 046 (en)
+- [x] Is dowry illegal even if it is given "willingly"? — 047 (en)
+- [x] What is domestic violence under the law, and how do I get protection? — 048 (en)
+- [x] Can I adopt a child as a single parent? — 049 (en)
+- [x] Is a live-in relationship legal in India? — 050 (en)
+- [ ] How do I change my name legally? — drafted as 051 on 2026-11-22 but held: deptpub.gov.in uploaded a revised adult name-change guideline (30 Oct 2026) that couldn't be opened to check
 
 ## Work and money
-- [ ] My employer hasn't paid my salary. What can I do?
-- [ ] Can my employer fire me without notice?
-- [ ] Am I entitled to gratuity, and how is it calculated?
+- [x] My employer hasn't paid my salary. What can I do? — 052 (en)
+- [x] Can my employer fire me without notice? — 053 (en)
+- [x] Am I entitled to gratuity, and how is it calculated? — 054 (en)
 - [ ] How do I withdraw my PF and what if my employer didn't deposit it?
 - [ ] What is the minimum wage and who sets it?
 - [ ] What maternity benefits do working women get?

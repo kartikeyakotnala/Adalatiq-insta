@@ -1,0 +1,65 @@
+{
+  "id": "041-land-illegally-occupied",
+  "lang": "en",
+  "hook": "Someone has **grabbed my land.** What can I do?",
+  "hook_q": "How do I get my land back?",
+  "slides": [
+    {
+      "title": "Act fast: the **6-month** suit.",
+      "body": "Dispossessed without your consent, and not by due process of law? You can sue to recover possession, even if they set up some other title in that suit.",
+      "ref": "Specific Relief Act 1963 · Sec 6(1)"
+    },
+    {
+      "title": "This quick suit has **limits.**",
+      "list": [
+        "File within 6 months of dispossession",
+        "Not available against the Government",
+        "No appeal or review of the decision",
+        "You can still sue later on title"
+      ],
+      "ref": "Specific Relief Act 1963 · Sec 6(2), 6(3), 6(4)"
+    },
+    {
+      "title": "Missed it? Sue **on title.**",
+      "body": "A person entitled to possession of specific immovable property, like land, can recover it by a civil suit under the Code of Civil Procedure. A suit for possession based on title generally has 12 years.",
+      "ref": "Specific Relief Act 1963 · Sec 5; Limitation Act 1963 · Art 65"
+    },
+    {
+      "title": "12 years: **don't wait.**",
+      "timeline": [
+        {
+          "date": "Art 64",
+          "text": "Suit on earlier possession: **12 years** from the date of dispossession."
+        },
+        {
+          "date": "Art 65",
+          "text": "Suit on title: **12 years** from when their possession becomes adverse to you."
+        },
+        {
+          "date": "After that",
+          "text": "Your right to the property is **extinguished.**"
+        }
+      ],
+      "ref": "Limitation Act 1963 · Sec 27, Schedule Art 64, 65"
+    },
+    {
+      "title": "Trespass is **a crime.**",
+      "body": "Entering or staying on property in another's possession to commit an offence, or intimidate, insult or annoy, is criminal trespass: up to 3 months' jail, ₹5,000 fine, or both. In a home: up to 1 year.",
+      "ref": "Bharatiya Nyaya Sanhita 2023 · Sec 329(1), (3), (4)"
+    },
+    {
+      "title": "Tell the **police.**",
+      "body": "You can give information about the offence to the officer in charge of a police station, orally or by electronic communication.",
+      "ref": "Bharatiya Nagarik Suraksha Sanhita 2023 · Sec 173(1)",
+      "note": "Gujarat: special land-grabbing law too"
+    }
+  ],
+  "sources": [
+    "Specific Relief Act, 1963 (as amended by Act 18 of 2018) – Sections 5, 6",
+    "Limitation Act, 1963 – Section 27; Schedule Articles 64, 65",
+    "Bharatiya Nyaya Sanhita, 2023 – Section 329",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Section 173",
+    "Gujarat Land Grabbing (Prohibition) Act, 2020 (indiacode.nic.in)"
+  ],
+  "caption": "Someone has taken over your land? Here's what the law lets you do. 👇\n\n1️⃣ Thrown out without consent and without due process? Sue to get possession back within 6 months of dispossession\n2️⃣ That quick suit can't be filed against the Government, and there's no appeal, but you can still sue on title later\n3️⃣ A suit for possession based on title generally has 12 years\n4️⃣ Once the limitation period ends, your right to the property is extinguished, so don't wait\n5️⃣ Criminal trespass is punishable with up to 3 months' jail, a ₹5,000 fine, or both (up to 1 year for a home)\n6️⃣ You can give the information to the police station's officer in charge\n⚠️ Check your State's laws too: Gujarat, for example, has a Land Grabbing (Prohibition) Act, 2020\n\nSource: Specific Relief Act, 1963 (Sec 5, 6); Limitation Act, 1963 (Sec 27, Art 64, 65); Bharatiya Nyaya Sanhita, 2023 (Sec 329); BNSS, 2023 (Sec 173)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#LandDispute #PropertyRights #Trespass #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

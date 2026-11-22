@@ -1,0 +1,71 @@
+{
+  "id": "044-wife-maintenance",
+  "lang": "en",
+  "hook": "My husband has **stopped supporting me.** What can I do?",
+  "hook_q": "Can a wife claim maintenance?",
+  "slides": [
+    {
+      "title": "Yes, if he **neglects** you.",
+      "body": "If a husband with sufficient means neglects or refuses to maintain a wife who can't maintain herself, a Magistrate can order a monthly allowance. A divorced wife who hasn't remarried counts too.",
+      "ref": "BNSS 2023 · Sec 144(1)(a), Explanation"
+    },
+    {
+      "title": "Money **while the case runs.**",
+      "timeline": [
+        {"date": "During the case", "text": "The Magistrate can order **interim maintenance** plus the expenses of the case."},
+        {"date": "Within 60 days", "text": "The interim plea is decided, as far as possible, from service of notice."},
+        {"date": "Final order", "text": "Payable from the order date or, if ordered, from the **application date.**"}
+      ],
+      "ref": "BNSS 2023 · Sec 144(1) provisos, Sec 144(2)"
+    },
+    {
+      "title": "Where can you **file?**",
+      "list": [
+        "Where he is",
+        "Where he or you reside",
+        "Where he last lived with you"
+      ],
+      "ref": "BNSS 2023 · Sec 145(1); Legal Services Authorities Act 1987 · Sec 12(c)",
+      "note": "Women get free legal aid"
+    },
+    {
+      "title": "He doesn't pay? **Jail possible.**",
+      "body": "The Magistrate can issue a warrant, and for each month's unpaid allowance, jail him for up to one month or until he pays. Apply within **one year** of the amount falling due.",
+      "ref": "BNSS 2023 · Sec 144(3) and proviso"
+    },
+    {
+      "title": "When a wife **can't** claim.",
+      "list": [
+        "She is living in adultery",
+        "She refuses to live with him without sufficient reason",
+        "They live apart by mutual consent"
+      ],
+      "ref": "BNSS 2023 · Sec 144(4), Sec 144(3) Explanation",
+      "note": "His second marriage: just ground to refuse"
+    },
+    {
+      "title": "Hindu wife? **More options.**",
+      "list": [
+        "During a divorce case: interim maintenance and case expenses",
+        "At or after the decree: permanent alimony",
+        "A Hindu wife can claim maintenance for life"
+      ],
+      "ref": "Hindu Marriage Act 1955 · Sec 24, 25; Hindu Adoptions and Maintenance Act 1956 · Sec 18(1)",
+      "note": "Uttarakhand: State's Uniform Civil Code applies"
+    },
+    {
+      "title": "Facing **domestic violence?**",
+      "body": "Under the DV Act, a Magistrate can order monetary relief, including maintenance for you and your children, as a lump sum or monthly payments. It must be adequate, fair and reasonable.",
+      "ref": "Protection of Women from Domestic Violence Act 2005 · Sec 20(1)(d), 20(2), 20(3)"
+    }
+  ],
+  "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Sections 144, 145",
+    "Hindu Marriage Act, 1955 – Sections 24, 25",
+    "Hindu Adoptions and Maintenance Act, 1956 – Section 18 (JHALSA maintenance FAQ)",
+    "Protection of Women from Domestic Violence Act, 2005 – Section 20",
+    "Legal Services Authorities Act, 1987 – Section 12(c) (nalsa.gov.in)",
+    "Uniform Civil Code, Uttarakhand, 2024 (newsonair.gov.in)"
+  ],
+  "caption": "Husband not supporting you? The law gives a wife a right to maintenance. 👇\n\n1️⃣ If a husband with sufficient means neglects or refuses to maintain a wife who can't maintain herself, a Magistrate can order a monthly allowance (BNSS Sec 144)\n2️⃣ A divorced wife who hasn't remarried can claim too\n3️⃣ Interim maintenance and case expenses can be ordered while the case is pending\n4️⃣ If he doesn't pay, he can be jailed for up to a month for each unpaid month; apply within one year\n5️⃣ Hindu wives can also claim under the Hindu Marriage Act and Hindu Adoptions and Maintenance Act; DV Act victims can get monetary relief\n6️⃣ Women are entitled to free legal aid from Legal Services Authorities\n⚠️ In Uttarakhand, the State's Uniform Civil Code, 2024 now governs marriage and divorce of residents (except Scheduled Tribes)\n\nSource: Bharatiya Nagarik Suraksha Sanhita, 2023 (Sec 144, 145); Hindu Marriage Act, 1955 (Sec 24, 25); Hindu Adoptions and Maintenance Act, 1956 (Sec 18); Protection of Women from Domestic Violence Act, 2005 (Sec 20); Legal Services Authorities Act, 1987 (Sec 12)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#Maintenance #WomensRights #BNSS #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

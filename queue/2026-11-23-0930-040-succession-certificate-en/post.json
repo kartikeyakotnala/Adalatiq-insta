@@ -1,0 +1,61 @@
+{
+  "id": "040-succession-certificate",
+  "lang": "en",
+  "hook": "My father died. How do I **collect his dues** and shares?",
+  "hook_q": "What is a succession certificate?",
+  "slides": [
+    {
+      "title": "It covers **debts and securities.**",
+      "body": "A District Judge grants it for the debts and securities you list, such as money owed to the person who died. It can let you receive interest or dividends, or transfer the securities.",
+      "ref": "Indian Succession Act 1925 · Sec 370, 372(1)(f), 374"
+    },
+    {
+      "title": "What counts as a **'security'?**",
+      "list": [
+        "Government promissory notes, stock or debentures",
+        "Shares, stock or debentures of a company",
+        "Debentures issued by a local authority",
+        "Others the State Government notifies"
+      ],
+      "ref": "Indian Succession Act 1925 · Sec 370 (meaning of 'security')"
+    },
+    {
+      "title": "When do you **need** one?",
+      "body": "A court won't order a debtor of the deceased to pay you, as an heir, unless you produce a succession certificate, probate or letters of administration covering that debt.",
+      "ref": "Indian Succession Act 1925 · Sec 214(1)"
+    },
+    {
+      "title": "Payers are **protected.**",
+      "body": "Anyone who pays the certificate holder in good faith for the listed debts and securities gets full indemnity. But the certificate doesn't finally settle ownership: the same question can still be tried in a suit.",
+      "ref": "Indian Succession Act 1925 · Sec 381, Sec 387"
+    },
+    {
+      "title": "Where and **what to file.**",
+      "body": "Petition the District Judge where the deceased ordinarily lived (no fixed home: where any of their property is). Include the time of death, near relatives, your right to claim, and the debts and securities.",
+      "ref": "Indian Succession Act 1925 · Sec 371, Sec 372(1)",
+      "note": "Court fee depends on your State"
+    },
+    {
+      "title": "How the **case runs.**",
+      "list": [
+        "File a signed, verified petition; **deposit** the court fee.",
+        "The Judge fixes a hearing; notice is **posted** at the court-house.",
+        "Decided **summarily**; a bond or security may be required.",
+        "A District Judge's order can be **appealed** to the High Court."
+      ],
+      "ref": "Indian Succession Act 1925 · Sec 372, 373, 375, 379, 384, 388(2)"
+    },
+    {
+      "title": "Not the same as **probate.**",
+      "body": "Probate is a court-certified copy of a will, with a grant of administration of the estate. An administrator runs an estate when there is no executor. A succession certificate covers only the listed debts and securities.",
+      "ref": "Indian Succession Act 1925 · Sec 2(a), 2(f), 374",
+      "note": "Uttarakhand: check the State's Uniform Civil Code"
+    }
+  ],
+  "sources": [
+    "Indian Succession Act, 1925 (as amended by the Repealing and Amending Act, 2025) – Sections 2(a), 2(f), 212, 214, 370–375, 379, 381, 384, 387, 388 (indiacode.nic.in)",
+    "Constitution of India, Seventh Schedule, List II Entry 3 – court fees (Law Commission of India, 189th Report)",
+    "Uniform Civil Code, Uttarakhand, 2024 (in force, newsonair.gov.in) and UCC Rules 2025 (ucc.uk.gov.in)"
+  ],
+  "caption": "Need to collect a deceased relative's dues, shares or debentures? Here's what a succession certificate does. 👇\n\n1️⃣ A District Judge grants it for the debts and securities you list, like money owed to the deceased, government securities, and company shares or debentures\n2️⃣ A court won't make the deceased's debtor pay you without a succession certificate, probate or letters of administration\n3️⃣ Anyone who pays the certificate holder in good faith is fully protected\n4️⃣ Apply to the District Judge where the deceased ordinarily lived; the court fee depends on your State\n5️⃣ The Judge decides summarily, may ask for a bond, and an appeal from the District Judge lies to the High Court\n⚠️ It doesn't finally settle who owns the property. In Uttarakhand, the State's Uniform Civil Code, 2024 governs succession for residents (except Scheduled Tribes), so check how it applies\n\nSource: Indian Succession Act, 1925 (Sec 2, 214, 370–375, 379, 381, 384, 387)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#SuccessionCertificate #Inheritance #IndianSuccessionAct #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

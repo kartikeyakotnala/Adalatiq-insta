@@ -1,0 +1,74 @@
+{
+  "id": "043-mutual-consent-divorce",
+  "lang": "en",
+  "hook": "We both **want to part** peacefully.",
+  "hook_q": "How does mutual consent divorce work?",
+  "slides": [
+    {
+      "title": "Three things you **must show.**",
+      "list": [
+        "You've lived separately for one year or more",
+        "You have not been able to live together",
+        "You both agree the marriage should end"
+      ],
+      "ref": "Hindu Marriage Act 1955 · Sec 13B(1)"
+    },
+    {
+      "title": "File **together** in district court.",
+      "body": "Both spouses file one joint petition in the district court where you married, where you last lived together, or where the wife now lives.",
+      "ref": "Hindu Marriage Act 1955 · Sec 13B(1), Sec 19"
+    },
+    {
+      "title": "Two motions, **one wait.**",
+      "timeline": [
+        {
+          "date": "Motion 1",
+          "text": "You **jointly** present the divorce petition."
+        },
+        {
+          "date": "6–18 months",
+          "text": "If the petition isn't withdrawn, you make a **second joint motion.**"
+        },
+        {
+          "date": "Decree",
+          "text": "After hearing you and any inquiry, the court can **dissolve the marriage** from the decree's date."
+        }
+      ],
+      "ref": "Hindu Marriage Act 1955 · Sec 13B(2)"
+    },
+    {
+      "title": "Consent must be **genuine.**",
+      "body": "The court must be satisfied that consent was not obtained by force, fraud or undue influence.",
+      "ref": "Hindu Marriage Act 1955 · Sec 23(1)(bb)"
+    },
+    {
+      "title": "Can the 6 months be **waived?**",
+      "list": [
+        "Yes, the court may waive it, considering:",
+        "1 year's separation + 6 months over before first motion",
+        "Mediation has failed",
+        "Genuine settlement, incl. alimony and child custody",
+        "Waiting would only prolong your agony"
+      ],
+      "ref": "Supreme Court · Amardeep Singh v Harveen Kaur (2017), quoted in Shilpa Sailesh (2023)",
+      "note": "Ask one week after first motion"
+    },
+    {
+      "title": "Special Marriage Act? **Same timeline.**",
+      "body": "For marriages under the Special Marriage Act, the joint petition also needs one year's separation, and the second motion comes 6 to 18 months after filing.",
+      "ref": "Special Marriage Act 1954 · Sec 28"
+    },
+    {
+      "title": "Uttarakhand? **Different law.**",
+      "body": "The Hindu Marriage Act covers Hindus, Buddhists, Jains and Sikhs (not Scheduled Tribes unless notified). For Uttarakhand residents (except Scheduled Tribes), the State's Uniform Civil Code now applies instead.",
+      "ref": "Hindu Marriage Act 1955 · Sec 2; UCC Rules, Uttarakhand, 2025 · Rules 1(3), 2"
+    }
+  ],
+  "sources": [
+    "Hindu Marriage Act, 1955 – Sections 2, 13B, 19, 23(1)(bb)",
+    "Special Marriage Act, 1954 – Section 28",
+    "Supreme Court of India – Shilpa Sailesh v. Varun Sreenivasan, [2023] 5 S.C.R. 165 (1 May 2023), quoting Amardeep Singh v. Harveen Kaur (2017) (digiscr.sci.gov.in)",
+    "Uniform Civil Code Rules, Uttarakhand, 2025 – Rules 1(3), 2 (ucc.uk.gov.in)"
+  ],
+  "caption": "Both of you want to end the marriage? Here's how mutual consent divorce works. 👇\n\n1️⃣ You must have lived separately for one year or more, and both agree the marriage should end\n2️⃣ File one joint petition in the district court\n3️⃣ Make a second joint motion 6 to 18 months later, if the petition isn't withdrawn\n4️⃣ The court must be satisfied your consent wasn't obtained by force, fraud or undue influence\n5️⃣ The Supreme Court has held the 6-month wait can be waived by the court in suitable cases\n6️⃣ The Special Marriage Act has the same one-year and 6–18 month timeline\n⚠️ In Uttarakhand, the State's Uniform Civil Code, 2024 now applies to residents (except Scheduled Tribes)\n\nSource: Hindu Marriage Act, 1955 (Sec 13B, 19, 23); Special Marriage Act, 1954 (Sec 28); Supreme Court, Shilpa Sailesh v. Varun Sreenivasan (2023)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#MutualConsentDivorce #Divorce #HinduMarriageAct #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

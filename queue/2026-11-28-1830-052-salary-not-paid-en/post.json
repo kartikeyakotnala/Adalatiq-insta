@@ -1,0 +1,60 @@
+{
+  "id": "052-salary-not-paid",
+  "lang": "en",
+  "hook": "My employer **hasn't paid my salary.** What can I do?",
+  "hook_q": "Can I claim unpaid wages?",
+  "slides": [
+    {
+      "title": "Wages have a **legal deadline.**",
+      "list": [
+        "Daily: at the **end of the shift.**",
+        "Weekly: last working day before the weekly holiday.",
+        "Fortnightly: before the end of the 2nd day after the fortnight.",
+        "Monthly: before the **7th day** of the next month ends."
+      ],
+      "ref": "Code on Wages 2019 · Sec 17(1)"
+    },
+    {
+      "title": "Left the job? **Two working days.**",
+      "body": "If you are removed, dismissed, retrenched or you resign, your wages must be paid within **two working days.**",
+      "ref": "Code on Wages 2019 · Sec 17(2)"
+    },
+    {
+      "title": "Deductions have **limits.**",
+      "body": "Your employer can deduct only what the Code allows, like fines, absence, advances or tax. All deductions together cannot cross **50% of your wages.**",
+      "ref": "Code on Wages 2019 · Sec 18(1), (2), (3)"
+    },
+    {
+      "title": "File a **claim** with the authority.",
+      "list": [
+        "You can apply yourself",
+        "Or your registered trade union",
+        "Or the Inspector-cum-Facilitator",
+        "One application can cover several co-workers"
+      ],
+      "ref": "Code on Wages 2019 · Sec 45(1), (4), (5)",
+      "note": "Which office? Depends on Centre or State."
+    },
+    {
+      "title": "Time limit: **three years.**",
+      "body": "Apply within three years from the date the claim arose. Late? The authority may still hear it if you show **sufficient cause** for the delay.",
+      "ref": "Code on Wages 2019 · Sec 45(6)"
+    },
+    {
+      "title": "What the authority **can do.**",
+      "list": [
+        "Order your unpaid wages",
+        "Add compensation up to 10 times the claim",
+        "Still unpaid? Recovery as land revenue arrears",
+        "Appeal lies within 90 days of the order"
+      ],
+      "ref": "Code on Wages 2019 · Sec 45(2), (3), Sec 49(1)"
+    }
+  ],
+  "sources": [
+    "Code on Wages, 2019 – Sections 2(k), 17, 18, 45, 49, 69 (in force from 21 Nov 2025, PIB)",
+    "Code on Wages (Central) Rules, 2026 – G.S.R. 343(E), 8 May 2026 (labour.gov.in)",
+    "Ministry of Labour & Employment – FAQs on Labour Codes & Central Rules, as on 25.10.2026 (labour.gov.in)"
+  ],
+  "caption": "Salary not paid on time? Here's what the law says and what you can do. 👇\n\n1️⃣ Monthly wages must be paid before the 7th day of the next month ends\n2️⃣ Removed, dismissed, retrenched or resigned? Wages are due within two working days\n3️⃣ Total deductions cannot cross 50% of your wages\n4️⃣ You, your registered union or the Inspector-cum-Facilitator can file a claim before the authority under the Code; which office handles it depends on whether the Centre or your State is the appropriate Government\n5️⃣ File within three years; a late claim may be heard for sufficient cause\n6️⃣ The authority can order compensation up to 10 times the claim\n⚠️ The Code on Wages, 2019 is in force from 21 Nov 2025 and replaced the Payment of Wages Act, 1936\n\nSource: Code on Wages, 2019 (Sec 17, 18, 45, 49, 69)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#UnpaidSalary #CodeOnWages #LabourRights #UPSC #Constitution #Exam #Job #AdalatIQ"
+}

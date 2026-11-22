@@ -1,0 +1,68 @@
+{
+  "id": "045-parents-maintenance",
+  "lang": "en",
+  "hook": "Our children **won't look after us.** Is there a law?",
+  "hook_q": "Can parents claim maintenance?",
+  "slides": [
+    {
+      "title": "Yes, children **must** maintain parents.",
+      "body": "A parent or grandparent who can't maintain themselves from their own earnings or property can claim maintenance from adult children or grandchildren, so they can lead a normal life.",
+      "ref": "Senior Citizens Act 2007 · Sec 2(a), 4(1)(i), 4(3)",
+      "note": "Parents needn't be senior citizens"
+    },
+    {
+      "title": "What **maintenance** covers.",
+      "list": [
+        "Food",
+        "Clothing",
+        "Residence",
+        "Medical attendance and treatment"
+      ],
+      "ref": "Senior Citizens Act 2007 · Sec 2(b)"
+    },
+    {
+      "title": "No children? **Relatives** too.",
+      "body": "A childless senior citizen (60 or above) can claim from an adult relative with sufficient means who holds their property, or who would inherit it.",
+      "ref": "Senior Citizens Act 2007 · Sec 2(h), 4(1)(ii), 4(4)"
+    },
+    {
+      "title": "Apply to the **Maintenance Tribunal.**",
+      "timeline": [
+        {
+          "date": "Apply",
+          "text": "You apply, or if you can't, someone you authorise."
+        },
+        {
+          "date": "Meanwhile",
+          "text": "The Tribunal can order an **interim** monthly allowance."
+        },
+        {
+          "date": "90 days",
+          "text": "Decided within 90 days of notice; extendable once, by up to 30 days."
+        }
+      ],
+      "ref": "Senior Citizens Act 2007 · Sec 5(1), 5(2), 5(4), 7, 17"
+    },
+    {
+      "title": "How much? Up to **₹10,000** a month.",
+      "body": "Your State sets the maximum monthly allowance, but it cannot exceed ₹10,000. If it isn't paid, the Tribunal can jail the defaulter up to one month per unpaid month, or until payment.",
+      "ref": "Senior Citizens Act 2007 · Sec 9(2), Sec 5"
+    },
+    {
+      "title": "Gave away property? It **can be undone.**",
+      "body": "If you gifted or transferred property after this Act, on condition they provide your basic needs, and they don't, the Tribunal can declare the transfer **void** at your option.",
+      "ref": "Senior Citizens Act 2007 · Sec 23(1)"
+    },
+    {
+      "title": "Abandoning an elder is a **crime.**",
+      "body": "If someone who has the care or protection of a senior citizen leaves them anywhere, intending to wholly abandon them, it can mean up to 3 months' jail, a fine up to ₹5,000, or both. It's cognizable and bailable.",
+      "ref": "Senior Citizens Act 2007 · Sec 24, 25(1)"
+    }
+  ],
+  "sources": [
+    "Maintenance and Welfare of Parents and Senior Citizens Act, 2007 – Sections 2, 4, 5, 6, 7, 9, 12, 16, 17, 23, 24, 25",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 – Section 144(1)(d)",
+    "India Code (indiacode.nic.in)"
+  ],
+  "caption": "Children refusing to support their elderly parents? The law is on the parents' side. 👇\n\n1️⃣ Parents and grandparents who can't maintain themselves can claim maintenance from adult children and grandchildren\n2️⃣ Maintenance covers food, clothing, residence and medical treatment\n3️⃣ Apply to the Maintenance Tribunal; it should decide within 90 days of notice, and can order interim maintenance meanwhile\n4️⃣ The State sets the maximum, which cannot exceed ₹10,000 a month\n5️⃣ Property given on condition of care can be declared void if the care stops\n6️⃣ Abandoning a senior citizen in your care can mean up to 3 months' jail, a ₹5,000 fine, or both\n⚠️ Parents can also claim under BNSS Sec 144, but not under both laws. Appeal against a Tribunal order within 60 days\n\nSource: Maintenance and Welfare of Parents and Senior Citizens Act, 2007 (Sec 2, 4, 5, 9, 12, 16, 23, 24); Bharatiya Nagarik Suraksha Sanhita, 2023 (Sec 144)\n\nThis post is AI-assisted and for general awareness only. It is not legal advice. For your situation, speak to a lawyer.\n\n👉 Like & follow @adalatiq for daily legal facts and know-your-rights tips\n\nStuck with a legal problem? Ask AdalatIQ free → adalatiq.com\n\n#SeniorCitizens #ParentsRights #Maintenance #UPSC #Constitution #Exam #Job #AdalatIQ"
+}
